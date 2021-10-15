@@ -1,0 +1,130 @@
+@import url("./paytableCss.css");
+
+/**
+ * Generic section
+ */
+
+.tk-paytable-genericTextFont {
+	font-family: 'Verlag';
+	color: white;
+}
+
+.tk-paytable-genericSectionContainerElement {
+	display: flex;
+	flex-wrap: wrap;
+	position: relative;
+	justify-content: space-between;
+	margin: 0 auto auto auto;
+	width: 80%;
+	left: 5%;
+	padding-right: 10%;
+}
+
+.tk-paytable-genericSectionRow {
+
+	display: table-row;
+	position: relative;
+}
+
+.tk-paytable-genericHeaderRow {
+	width: 100%;
+}
+
+.tk-paytable-genericSectionContent {
+	position: relative;
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: column;
+	justify-content: space-evenly;
+	width: 100%;
+}
+
+.tk-paytable-genericSectionDivider {
+	margin-top: 40px;
+	margin-bottom: 40px;
+	border-bottom: 2px solid #333333;
+	width: 100%;
+	position: relative;
+}
+
+/**
+ * Generic section Texts
+ */
+.tk-paytable-genericSectionHeaderText {
+	display: block;
+	position: relative;
+	white-space: nowrap;
+}
+
+.tk-paytable-genericSectionTextContainer {
+	position: relative;
+	display: block;
+}
+
+.tk-paytable-genericSectionTextLabel {
+	display: block;
+	position: relative;
+	white-space: pre-line;
+	margin: auto auto auto auto;
+	padding-bottom: 40px;
+}
+
+/**
+ * Generic section Images
+ */
+.tk-paytable-genericSectionImageContainer {
+	display: block;
+	position: relative;
+	margin: auto auto auto auto;
+}
+
+.tk-paytable-genericSectionImage {
+	display: block;
+	position: relative;
+	margin: auto auto auto auto;
+	max-width: 100%;
+	max-height: 100%;
+}
+
+/**
+ * Payout Symbol Section
+ */
+.tk-paytable-symbolSectionContainer {
+	position: relative;
+	display: flex;
+	flex-wrap: wrap;
+	width: 100%;
+}
+
+.tk-paytable-symbolContainer {
+	display: flex;
+	align-items: center;
+	justify-content: space-evenly;
+	margin: auto auto auto auto;
+	position: relative;
+
+}
+
+.tk-paytable-symbolImage {
+	position: relative;
+}
+
+.tk-paytable-symbolText {
+	position: relative;
+	display: table-cell;
+	text-align: left;
+	white-space: nowrap;
+	margin-left: 10px;
+}
+
+.tk-paytable-payoutTextHolder {
+	position: relative;
+	white-space: pre-line;
+}
+
+.tk-paytable-payoutText {
+	position: relative;
+	display: table-row;
+	white-space: pre-line;
+	text-align: center;
+}

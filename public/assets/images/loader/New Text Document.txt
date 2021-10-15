@@ -1,0 +1,3 @@
+https://d10seqx7f7ksi7.cloudfront.net/games/tk-astronaut/3.17.0/html/assets/images/loader/loaderLandscape.jpg
+https://d10seqx7f7ksi7.cloudfront.net/games/tk-astronaut/3.17.0/html/assets/images/loader/progressBar.png
+https://d10seqx7f7ksi7.cloudfront.net/games/tk-astronaut/3.17.0/html/assets/images/loader/progressBarHolder.png

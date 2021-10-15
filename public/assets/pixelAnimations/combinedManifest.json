@@ -1,0 +1,66 @@
+{
+"awesome.json": {
+"start": 0,
+"end": 87360,
+"frames": 28
+},
+"bigWin.json": {
+"start": 87360,
+"end": 555360,
+"frames": 150
+},
+"bonusGameIntro.json": {
+"start": 555360,
+"end": 755040,
+"frames": 64
+},
+"bonusGameOutro.json": {
+"start": 755040,
+"end": 1145040,
+"frames": 125
+},
+"great.json": {
+"start": 1145040,
+"end": 1219920,
+"frames": 24
+},
+"introSequence.json": {
+"start": 1219920,
+"end": 1435200,
+"frames": 69
+},
+"introSequenceWB.json": {
+"start": 1435200,
+"end": 1750320,
+"frames": 101
+},
+"megaWin.json": {
+"start": 1750320,
+"end": 2311920,
+"frames": 180
+},
+"mysteryGameIntro.json": {
+"start": 2311920,
+"end": 2580240,
+"frames": 86
+},
+"mysteryGameOutro.json": {
+"start": 2580240,
+"end": 2658240,
+"frames": 25
+},
+"nice.json": {
+"start": 2658240,
+"end": 2733120,
+"frames": 24
+},
+"package.json": {
+"start": 2733120,
+"end": null
+},
+"ultraWin.json": {
+"start": 2733120,
+"end": 3388320,
+"frames": 210
+}
+}

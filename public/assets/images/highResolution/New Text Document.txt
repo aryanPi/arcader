@@ -1,0 +1,8 @@
+https://d10seqx7f7ksi7.cloudfront.net/games/tk-astronaut/3.17.0/html/assets/images/highResolution/common.png
+https://d10seqx7f7ksi7.cloudfront.net/games/tk-astronaut/3.17.0/html/assets/images/highResolution/effects.jpg
+https://d10seqx7f7ksi7.cloudfront.net/games/tk-astronaut/3.17.0/html/assets/images/highResolution/expansionFrames.png
+https://d10seqx7f7ksi7.cloudfront.net/games/tk-astronaut/3.17.0/html/assets/images/highResolution/glows.jpg
+https://d10seqx7f7ksi7.cloudfront.net/games/tk-astronaut/3.17.0/html/assets/images/highResolution/pixelAnimations.png
+https://d10seqx7f7ksi7.cloudfront.net/games/tk-astronaut/3.17.0/html/assets/images/highResolution/pixels.png
+https://d10seqx7f7ksi7.cloudfront.net/games/tk-astronaut/3.17.0/html/assets/images/highResolution/symbolGlows.jpg
+https://d10seqx7f7ksi7.cloudfront.net/games/tk-astronaut/3.17.0/html/assets/images/highResolution/symbols.png

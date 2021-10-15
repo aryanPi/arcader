@@ -1,0 +1,3 @@
+https://d10seqx7f7ksi7.cloudfront.net/games/tk-astronaut/3.17.0/html/libs/greensock/TimelineMax.js
+https://d10seqx7f7ksi7.cloudfront.net/games/tk-astronaut/3.17.0/html/libs/greensock/TweenLite.js
+https://d10seqx7f7ksi7.cloudfront.net/games/tk-astronaut/3.17.0/html/libs/greensock/TweenMax.js

@@ -1,0 +1,28 @@
+.circleButtonBackgroundLandscapeDesktopControlPanel {
+  background: rgba(0, 0, 0, 1);
+  border-color: white;
+  border-width: 2px;
+  border-style: solid;
+}
+
+.actionBar {
+  background-color: #000000;
+  opacity: 1;
+}
+
+.actionBarDesktop {
+  background-color: #000000;
+  opacity: 0.8;
+  bottom: 0 !important;
+  top: auto !important;
+}
+
+.actionBarDesktopControlPanel {
+  background-color: #000000;
+  opacity: 1;
+}
+
+.winValue {
+  color: white;
+  font-family: "Verlag";
+}

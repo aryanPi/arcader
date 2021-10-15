@@ -1,0 +1,4063 @@
+{
+"spinTweaker": {
+"spinSpeedBPS": 700,
+"bounceDurationMs": 100,
+"stopDelaysMs": [
+400,
+500,
+450,
+400,
+300
+],
+"windUpDurationMs": 100,
+"windUpAmountBP": -1,
+"spinStartDurationMs": 200,
+"nearWinStopDelayMs": 1100,
+"stopDurationMs": 200,
+"stopDurationQuickStopMs": 1,
+"bounceAmountBP": 0.2,
+"spinLoopSndFadeInDurationMs": 200,
+"pauseAfterReelsStoppedMs": 1
+},
+"cameraShaker": {
+"movementDurations": [
+5,
+10,
+20,
+30,
+40,
+50
+],
+"applyFactorToDurations": false
+},
+"fireworks": {
+"positions": {
+"bigWin": [
+{
+"x": 0,
+"y": 0,
+"a": 45
+},
+{
+"x": 500,
+"y": 0,
+"a": -30
+},
+{
+"x": 700,
+"y": 0,
+"a": 10
+},
+{
+"x": 200,
+"y": 200,
+"a": 25
+},
+{
+"x": 250,
+"y": 350,
+"a": 0
+},
+{
+"x": 1100,
+"y": 200,
+"a": 10
+},
+{
+"x": 1150,
+"y": 350,
+"a": -40
+},
+{
+"x": 950,
+"y": 400,
+"a": 5
+}
+],
+"megaWin": [
+{
+"x": 0,
+"y": 0,
+"a": 45,
+"ta": 116
+},
+{
+"x": 500,
+"y": 0,
+"a": -30,
+"ta": 240
+},
+{
+"x": 700,
+"y": 0,
+"a": 10,
+"ta": 0
+},
+{
+"x": 200,
+"y": 200,
+"a": 25,
+"ta": 116
+},
+{
+"x": 250,
+"y": 350,
+"a": 0,
+"ta": 240
+},
+{
+"x": 1100,
+"y": 200,
+"a": 10,
+"ta": 0
+},
+{
+"x": 1150,
+"y": 350,
+"a": -40,
+"ta": 116
+},
+{
+"x": 950,
+"y": 400,
+"a": 5,
+"ta": 240
+}
+],
+"ultraWin": [
+{
+"x": 0,
+"y": 0,
+"a": 45
+},
+{
+"x": 500,
+"y": 0,
+"a": -30
+},
+{
+"x": 700,
+"y": 0,
+"a": 10
+},
+{
+"x": 200,
+"y": 200,
+"a": 25
+},
+{
+"x": 250,
+"y": 350,
+"a": 0
+},
+{
+"x": 1100,
+"y": 200,
+"a": 10
+},
+{
+"x": 1150,
+"y": 350,
+"a": -40
+},
+{
+"x": 950,
+"y": 400,
+"a": 5
+}
+],
+"common": [
+{
+"x": 0,
+"y": 0,
+"a": 45
+},
+{
+"x": 500,
+"y": 0,
+"a": -30
+},
+{
+"x": 700,
+"y": 0,
+"a": 10
+},
+{
+"x": 200,
+"y": 200,
+"a": 25
+},
+{
+"x": 250,
+"y": 350,
+"a": 0
+},
+{
+"x": 1100,
+"y": 200,
+"a": 10
+},
+{
+"x": 1150,
+"y": 350,
+"a": -40
+},
+{
+"x": 950,
+"y": 400,
+"a": 5
+}
+]
+},
+"delaysMs": {
+"bigWin": [
+300,
+250,
+450,
+200,
+400,
+200,
+200,
+400,
+300
+],
+"megaWin": [
+300,
+250,
+450,
+200,
+400,
+200,
+200,
+400,
+300
+],
+"ultraWin": [
+300,
+250,
+450,
+200,
+400,
+200,
+200,
+400,
+300
+],
+"common": [
+300,
+250,
+450,
+200,
+400,
+200,
+200,
+400,
+300
+]
+},
+"fadeOutDurationMs": 200
+},
+"expansionState": {
+"winAnimationDurationMs": 800
+},
+"idleAnimation": {
+"delay": 5000
+},
+"introState": {
+"pauseBeforeIntro": 330
+},
+"entireRoundState": {
+"newRoundCountUpFadeDelayMs": 500,
+"newRoundCountUpFadeDurationMs": 200
+},
+"mainGame": {
+"backgroundTint": 1612543,
+"extendedForegroundTint": 43263,
+"spinGlowAmount": 2
+},
+"mainGameSpinState": {
+"pauseBeforeSpinMs": 100,
+"spinGlowAmount": 2
+},
+"bonusGameSpinState": {
+"spinGlowAmount": 2,
+"minSpinTimeMs": 1500
+},
+"bonusGame": {
+"frameDisplayTimeMs": 1200,
+"pauseBeforeImpactMs": 1000,
+"pauseAfterImpactMs": 1000,
+"backgroundTint": 3329299,
+"frameWhiteAlphaYoyoTimeMs": 133,
+"extendedForegroundTint": 3342080,
+"impactShakeAmount": 4,
+"impactParticlesFadeOutTimeMs": 100
+},
+"mysteryDoor": {
+"unpickedRevealGlow": 0.7,
+"pickedRevealGlow": 1
+},
+"mysteryTexts": {
+"allWinsDurationMs": 4000,
+"takeYourPickDurationMs": 2000,
+"textCrossFadeDurationMs": 200,
+"arrowBobbingPx": 10,
+"bobbingDurationMs": 400,
+"showDurationMs": 200,
+"hideDurationMs": 500
+},
+"mysteryGame": {
+"pauseBeforeSpecialWinMs": 500,
+"pauseBeforeLastDoorRevealedMs": 2000,
+"pauseAfterSpecialWinMs": 500,
+"countUpDurationBaseMs": 300
+},
+"mysteryGameShuffler": {
+"pauseBeforeEachDoorRevealMs": 100,
+"shufflesTotal": 35,
+"openedShuffles": 14,
+"initialDelay": 200,
+"delayDecay": 10,
+"minDelay": 60,
+"pauseAfterShufflingMs": 100
+},
+"mysteryGameIntro": {
+"scatterWinAnimationDurationMs": 600,
+"backgroundGlowAmount": 3
+},
+"bonusIntroState": {
+"scatterWinAnimationDurationMs": 600,
+"delayBeforeFullscreenAnimStartMs": 2300,
+"delayBeforeBigHitMs": 2200,
+"backgroundGlowAmount": 3
+},
+"bonusOutroState": {
+"backgroundGlowAmount": 1,
+"finalCountUpMaxDurationMs": 1000,
+"finalCountUpBaseDurationMs": 600,
+"countUpScaleMinDurationMs": 400,
+"countUpScaleMaxDurationMs": 800,
+"pauseBeforeOutroMs": 500,
+"pauseBeforeSpecialWinMs": 200
+},
+"nearWin": {
+"frameAlphaTweenDurationMs": 133,
+"frameGlowMinAmount": 1,
+"frameGlowMaxAmount": 2,
+"symbolAttentionMinGlow": 0.8,
+"symbolAttentionMaxGlow": 1.6,
+"symbolAttentionTweenDurationMs": 200,
+"symbolLesserAttentionMinGlow": 0.8,
+"symbolLesserAttentionMaxGlow": 1.2
+},
+"winPresentationState": {
+"paylinePresentation": {
+"pauseBetweenPaylinePresentationsMs": 200,
+"pauseAfterLastPaylinePresentationMs": 100
+},
+"singleSpin": {
+"pauseBetweenPaylinePresentationsMs": 200,
+"pauseAfterLastPaylinePresentationMs": 100,
+"pauseBeforeWinPresMs": 100,
+"pauseBeforeWinPresIfQuickStoppedMs": 2
+},
+"autoSpin": {
+"pauseBeforeWinPresMs": 200
+},
+"awesomeEffects": {
+"stretchedStarsTweenDurationMs": 800
+},
+"bigWinEffects": {
+"backgroundGlowAmount": 2,
+"shakeAmount": 4,
+"pauseBeforeFireworksMs": 100,
+"stretchedStarsTweenDurationMs": 1000
+},
+"megaWinEffects": {
+"backgroundGlowAmount": 2.5,
+"shakeAmount": 6,
+"pauseBeforeFireworksMs": 100
+},
+"ultraWinEffects": {
+"backgroundGlowAmount": 3,
+"shakeAmount": 8,
+"pauseBeforeFireworksMs": 100
+},
+"abortion": {
+"stretchedStarsFadeOutDurationMs": 300
+}
+},
+"paylineButtons": {
+"delayBetweenHighlighs": 10
+},
+"paytableLayout": {
+"16:9": {
+"landscapeLayout": {
+"section1ContainerElement": {
+"width": "1280px",
+"height": "500px",
+"padding-left": "",
+"padding-right": "",
+"padding-top": ""
+},
+"section1HeaderTextLabelElement": {
+"font-size": "48px",
+"padding-bottom": "",
+"position": "absolute",
+"top": "25px",
+"left": "128px",
+"z-index": "1"
+},
+"section1TextLabelElement": {
+"font-size": "40px",
+"line-height": "43px",
+"padding-bottom": "",
+"width": "550px",
+"position": "absolute",
+"top": "116px",
+"left": "128px"
+},
+"section1ImageElement": {
+"width": "300px",
+"height": "300px",
+"position": "absolute",
+"top": "40px",
+"left": "730px",
+"padding-left": "",
+"padding-right": "",
+"padding-bottom": "",
+"z-index": "0"
+},
+"section1DividerElement": {
+"width": "1025px",
+"margin-left": "125px",
+"margin-right": "125px"
+},
+"section2ContainerElement": {
+"width": "1280px",
+"padding-left": "",
+"padding-right": "",
+"padding-top": "",
+"height": "450px"
+},
+"section2HeaderTextLabelElement": {
+"font-size": "48px",
+"padding-bottom": "",
+"position": "absolute",
+"top": "25px",
+"left": "128px"
+},
+"section2TextLabelElement": {
+"font-size": "40px",
+"line-height": "43px",
+"padding-bottom": "",
+"width": "490px",
+"position": "absolute",
+"top": "116px",
+"left": "128px"
+},
+"section2ImageElement": {
+"width": "300px",
+"height": "300px",
+"position": "absolute",
+"top": "40px",
+"left": "730px",
+"padding-left": "",
+"padding-right": "",
+"padding-bottom": ""
+},
+"section2DividerElement": {
+"width": "1025px",
+"margin-left": "125px",
+"margin-right": "125px"
+},
+"section3ContainerElement": {
+"width": "1280px",
+"padding-left": "",
+"padding-right": "",
+"padding-top": "",
+"height": {
+"def": "700px",
+"el": "700px",
+"bg": "700px",
+"ru": "700px",
+"ja": "700px"
+}
+},
+"section3HeaderTextLabelElement": {
+"font-size": "48px",
+"padding-bottom": "",
+"position": "absolute",
+"top": "25px",
+"left": "128px"
+},
+"section3Text1LabelElement": {
+"font-size": "30px",
+"line-height": "33px",
+"padding-bottom": "",
+"width": "550px",
+"position": "absolute",
+"top": "116px",
+"left": "128px"
+},
+"section3Text2LabelElement": {
+"font-size": "40px",
+"line-height": "43px",
+"padding-bottom": "",
+"width": "490px",
+"position": "absolute",
+"top": {
+"def": "400px",
+"el": "400px",
+"bg": "400px",
+"ru": "400px",
+"ja": "400px"
+},
+"left": "128px"
+},
+"section3ImageElement": {
+"width": "300px",
+"height": "300px",
+"position": "absolute",
+"top": "40px",
+"left": "730px",
+"padding-left": "",
+"padding-right": "",
+"padding-bottom": ""
+},
+"section3DividerElement": {
+"width": "1025px",
+"margin-left": "125px",
+"margin-right": "125px"
+},
+"section4ContainerElement": {
+"width": "1280px",
+"padding-left": "",
+"padding-right": "",
+"padding-top": "",
+"height": "450px"
+},
+"section4HeaderTextLabelElement": {
+"font-size": "48px",
+"padding-bottom": "",
+"position": "absolute",
+"top": "25px",
+"left": "128px"
+},
+"section4TextLabelElement": {
+"font-size": "40px",
+"line-height": "43px",
+"padding-bottom": "",
+"width": "490px",
+"position": "absolute",
+"top": "116px",
+"left": "128px"
+},
+"section4ImageElement": {
+"width": "512px",
+"height": "291px",
+"position": "absolute",
+"top": "40px",
+"left": "630px",
+"padding-left": "",
+"padding-right": "",
+"padding-bottom": ""
+},
+"section4DividerElement": {
+"width": "1025px",
+"margin-left": "125px",
+"margin-right": "125px"
+},
+"section5ContainerElement": {
+"width": "1280px",
+"padding-left": "",
+"padding-right": "",
+"padding-top": "",
+"height": "450px"
+},
+"section5HeaderTextLabelElement": {
+"font-size": "48px",
+"padding-bottom": "",
+"position": "absolute",
+"top": "25px",
+"left": "128px"
+},
+"section5TextLabelElement": {
+"font-size": "40px",
+"line-height": "43px",
+"padding-bottom": "",
+"width": "490px",
+"position": "absolute",
+"top": "116px",
+"left": "128px"
+},
+"section5ImageElement": {
+"width": "300px",
+"height": "300px",
+"position": "absolute",
+"top": "40px",
+"left": "730px",
+"padding-left": "",
+"padding-right": "",
+"padding-bottom": ""
+},
+"section5DividerElement": {
+"width": "1025px",
+"margin-left": "125px",
+"margin-right": "125px"
+},
+"section6ContainerElement": {
+"width": "1280px",
+"padding-left": "",
+"padding-right": "",
+"padding-top": "",
+"height": {
+"def": "700px",
+"el": "700px",
+"bg": "700px",
+"ru": "700px",
+"ja": "700px"
+}
+},
+"section6HeaderTextLabelElement": {
+"font-size": "48px",
+"padding-bottom": "",
+"position": "absolute",
+"top": "25px",
+"left": "128px"
+},
+"section6Text1LabelElement": {
+"font-size": "30px",
+"line-height": "33px",
+"padding-bottom": "",
+"width": "550px",
+"position": "absolute",
+"top": "116px",
+"left": "128px"
+},
+"section6Text2LabelElement": {
+"font-size": "40px",
+"line-height": "43px",
+"padding-bottom": "",
+"width": "490px",
+"position": "absolute",
+"top": {
+"def": "400px",
+"el": "400px",
+"bg": "400px",
+"ru": "400px",
+"ja": "400px"
+},
+"left": "128px"
+},
+"section6ImageElement": {
+"width": "300px",
+"height": "300px",
+"position": "absolute",
+"top": "40px",
+"left": "730px",
+"padding-left": "",
+"padding-right": "",
+"padding-bottom": ""
+},
+"section6DividerElement": {
+"width": "1025px",
+"margin-left": "125px",
+"margin-right": "125px"
+},
+"section7ContainerElement": {
+"width": "1280px",
+"padding-left": "",
+"padding-right": "",
+"padding-top": "",
+"height": "1050px"
+},
+"section7HeaderTextLabelElement": {
+"font-size": "48px",
+"padding-bottom": "",
+"position": "absolute",
+"top": "25px",
+"left": "128px"
+},
+"section7TextLabelElement": {
+"font-size": "40px",
+"line-height": "43px",
+"padding-bottom": "",
+"width": "490px",
+"position": "absolute",
+"top": "116px",
+"left": "128px"
+},
+"section7PreviewImageElement": {
+"width": "512px",
+"height": "291px",
+"position": "absolute",
+"top": "40px",
+"left": "630px",
+"padding-left": "",
+"padding-right": "",
+"padding-bottom": ""
+},
+"section7GridImageElement": {
+"width": "634px",
+"height": "593px",
+"position": "absolute",
+"top": "400px",
+"left": "321px",
+"padding-left": "",
+"padding-right": "",
+"padding-bottom": ""
+},
+"section7GridElement": [
+[
+{
+"font-size": "30px",
+"line-height": "33px",
+"padding-bottom": "",
+"width": "290px",
+"text-align": "center",
+"position": "absolute",
+"top": "550px",
+"left": "321px"
+},
+{
+"padding-bottom": "",
+"width": "110px",
+"height": "110px",
+"position": "absolute",
+"top": "495px",
+"left": "341px"
+},
+{
+"padding-bottom": "",
+"width": "110px",
+"height": "110px",
+"position": "absolute",
+"top": "595px",
+"left": "341px"
+},
+{
+"padding-bottom": "",
+"width": "110px",
+"height": "110px",
+"position": "absolute",
+"top": "695px",
+"left": "341px"
+},
+{
+"padding-bottom": "",
+"width": "110px",
+"height": "110px",
+"position": "absolute",
+"top": "795px",
+"left": "341px"
+},
+{
+"padding-bottom": "",
+"width": "110px",
+"height": "110px",
+"position": "absolute",
+"top": "895px",
+"left": "341px"
+}
+],
+[
+{
+"font-size": "40px",
+"line-height": "43px",
+"padding-bottom": "",
+"width": "160px",
+"text-align": "center",
+"position": "absolute",
+"top": "430px",
+"left": "479px"
+},
+{
+"font-size": "40px",
+"line-height": "43px",
+"padding-bottom": "",
+"width": "160px",
+"text-align": "center",
+"position": "absolute",
+"top": "525px",
+"left": "479px"
+},
+{
+"font-size": "40px",
+"line-height": "43px",
+"padding-bottom": "",
+"width": "160px",
+"text-align": "center",
+"position": "absolute",
+"top": "625px",
+"left": "479px"
+},
+{
+"font-size": "40px",
+"line-height": "43px",
+"padding-bottom": "",
+"width": "160px",
+"text-align": "center",
+"position": "absolute",
+"top": "725px",
+"left": "479px"
+},
+{
+"font-size": "40px",
+"line-height": "43px",
+"padding-bottom": "",
+"width": "160px",
+"text-align": "center",
+"position": "absolute",
+"top": "825px",
+"left": "479px"
+},
+{
+"font-size": "40px",
+"line-height": "43px",
+"padding-bottom": "",
+"width": "160px",
+"text-align": "center",
+"position": "absolute",
+"top": "925px",
+"left": "479px"
+}
+],
+[
+{
+"font-size": "40px",
+"line-height": "43px",
+"padding-bottom": "",
+"width": "160px",
+"text-align": "center",
+"position": "absolute",
+"top": "430px",
+"left": "648px"
+},
+{
+"font-size": "40px",
+"line-height": "43px",
+"padding-bottom": "",
+"width": "160px",
+"text-align": "center",
+"position": "absolute",
+"top": "525px",
+"left": "648px"
+},
+{
+"font-size": "40px",
+"line-height": "43px",
+"padding-bottom": "",
+"width": "160px",
+"text-align": "center",
+"position": "absolute",
+"top": "625px",
+"left": "648px"
+},
+{
+"font-size": "40px",
+"line-height": "43px",
+"padding-bottom": "",
+"width": "160px",
+"text-align": "center",
+"position": "absolute",
+"top": "725px",
+"left": "648px"
+},
+{
+"font-size": "40px",
+"line-height": "43px",
+"padding-bottom": "",
+"width": "160px",
+"text-align": "center",
+"position": "absolute",
+"top": "825px",
+"left": "648px"
+},
+{
+"font-size": "40px",
+"line-height": "43px",
+"padding-bottom": "",
+"width": "160px",
+"text-align": "center",
+"position": "absolute",
+"top": "925px",
+"left": "648px"
+}
+],
+[
+{
+"font-size": "40px",
+"line-height": "43px",
+"padding-bottom": "",
+"width": "160px",
+"text-align": "center",
+"position": "absolute",
+"top": "430px",
+"left": "815px"
+},
+{
+"font-size": "40px",
+"line-height": "43px",
+"padding-bottom": "",
+"width": "160px",
+"text-align": "center",
+"position": "absolute",
+"top": "525px",
+"left": "815px"
+},
+{
+"font-size": "40px",
+"line-height": "43px",
+"padding-bottom": "",
+"width": "160px",
+"text-align": "center",
+"position": "absolute",
+"top": "625px",
+"left": "815px"
+},
+{
+"font-size": "40px",
+"line-height": "43px",
+"padding-bottom": "",
+"width": "160px",
+"text-align": "center",
+"position": "absolute",
+"top": "725px",
+"left": "815px"
+},
+{
+"font-size": "40px",
+"line-height": "43px",
+"padding-bottom": "",
+"width": "160px",
+"text-align": "center",
+"position": "absolute",
+"top": "825px",
+"left": "815px"
+},
+{
+"font-size": "40px",
+"line-height": "43px",
+"padding-bottom": "",
+"width": "160px",
+"text-align": "center",
+"position": "absolute",
+"top": "925px",
+"left": "815px"
+}
+]
+],
+"section7DividerElement": {
+"width": "1025px",
+"margin-left": "125px",
+"margin-right": "125px"
+},
+"section8ContainerElement": {
+"width": "1280px",
+"padding-left": "",
+"padding-right": "",
+"padding-top": "",
+"height": "1750px"
+},
+"section8HeaderTextLabelElement": {
+"font-size": "48px",
+"padding-bottom": "",
+"position": "absolute",
+"top": "25px",
+"left": "128px"
+},
+"paytableSymbolsContainerElement": {
+"padding-left": "",
+"padding-right": "",
+"padding-bottom": "",
+"padding-top": "",
+"width": "1040px",
+"top": "125px",
+"left": "130px"
+},
+"section8TextLabelElement": {
+"font-size": {
+"def": "35px",
+"it": "30px",
+"ja": "30px",
+"th": "30px"
+},
+"line-height": "45px",
+"padding-bottom": "",
+"width": "1000px",
+"position": "absolute",
+"top": "1600px",
+"text-align": "center",
+"left": {
+"def": "150px"
+}
+},
+"section8DividerElement": {
+"width": "1025px",
+"margin-left": "125px",
+"margin-right": "125px"
+},
+"section9ImageElement": {
+"margin-top": "40px",
+"width": "1050px",
+"height": "500px",
+"padding-bottom": "67px",
+"top": "",
+"left": "",
+"position": "relative"
+},
+"section9ContainerElement": {
+"width": "1280px",
+"height": "800px",
+"padding-left": "123px",
+"padding-right": "140px",
+"padding-top": "14px"
+},
+"section9TitleLabelElement": {
+"font-size": "48px",
+"padding-bottom": "40px",
+"top": "",
+"left": "",
+"position": "relative"
+},
+"symbolElements": [
+[
+{
+"padding-left": "0px",
+"padding-right": "",
+"margin-bottom": "",
+"width": "340px",
+"height": "500px",
+"left": "0px"
+},
+{
+"font-size": "40px",
+"text-align": "center",
+"width": "300px",
+"margin-left": "20px",
+"margin-right": "20px"
+},
+{
+"width": "300px",
+"height": "300px",
+"margin-left": "20px",
+"margin-right": "20px"
+}
+]
+]
+},
+"portraitLayout": {
+"section1ContainerElement": {
+"width": "1280px",
+"padding-left": "",
+"padding-right": "",
+"padding-top": "",
+"height": "1000px"
+},
+"section1HeaderTextLabelElement": {
+"font-size": "84px",
+"padding-bottom": "",
+"position": "absolute",
+"top": "25px",
+"left": "128px",
+"z-index": "1"
+},
+"section1TextLabelElement": {
+"font-size": "72px",
+"line-height": "76px",
+"padding-bottom": "",
+"width": "1024px",
+"position": "absolute",
+"top": "164px",
+"left": "128px"
+},
+"section1ImageElement": {
+"width": "400px",
+"height": "400px",
+"position": "absolute",
+"top": "440px",
+"left": "440px",
+"padding-left": "",
+"padding-right": "",
+"padding-bottom": "",
+"z-index": "0"
+},
+"section1DividerElement": {
+"width": "1025px",
+"margin-left": "125px",
+"margin-right": "125px"
+},
+"section2ContainerElement": {
+"width": "1280px",
+"padding-left": "",
+"padding-right": "",
+"padding-top": "",
+"height": "1000px"
+},
+"section2HeaderTextLabelElement": {
+"font-size": "84px",
+"padding-bottom": "",
+"position": "absolute",
+"top": "25px",
+"left": "128px"
+},
+"section2TextLabelElement": {
+"font-size": "72px",
+"line-height": "76px",
+"padding-bottom": "",
+"width": "1025px",
+"position": "absolute",
+"top": "164px",
+"left": "128px"
+},
+"section2ImageElement": {
+"width": "400px",
+"height": "400px",
+"position": "absolute",
+"top": "440px",
+"left": "440px",
+"padding-left": "",
+"padding-right": "",
+"padding-bottom": ""
+},
+"section2DividerElement": {
+"width": "1025px",
+"margin-left": "125px",
+"margin-right": "125px"
+},
+"section3ContainerElement": {
+"width": "1280px",
+"padding-left": "",
+"padding-right": "",
+"padding-top": "",
+"height": {
+"def": "1400px",
+"el": "1500px",
+"bg": "1500px",
+"ru": "1500px",
+"ja": "1500px"
+}
+},
+"section3HeaderTextLabelElement": {
+"font-size": "84px",
+"padding-bottom": "",
+"position": "absolute",
+"top": "25px",
+"left": "128px"
+},
+"section3Text1LabelElement": {
+"font-size": "52px",
+"line-height": "56px",
+"padding-bottom": "",
+"width": "1025px",
+"position": "absolute",
+"top": "190px",
+"left": "128px"
+},
+"section3Text2LabelElement": {
+"font-size": "72px",
+"line-height": "76px",
+"padding-bottom": "",
+"width": "1025px",
+"position": "absolute",
+"top": {
+"def": "500px",
+"el": "700px",
+"bg": "700px",
+"ru": "700px",
+"ja": "700px"
+},
+"left": "128px"
+},
+"section3ImageElement": {
+"width": "400px",
+"height": "400px",
+"position": "absolute",
+"top": {
+"def": "850px",
+"el": "1050px",
+"bg": "1050px",
+"ru": "1050px",
+"ja": "1050px"
+},
+"left": "440px",
+"padding-left": "",
+"padding-right": "",
+"padding-bottom": ""
+},
+"section3DividerElement": {
+"width": "1025px",
+"margin-left": "125px",
+"margin-right": "125px"
+},
+"section4ContainerElement": {
+"width": "1280px",
+"padding-left": "",
+"padding-right": "",
+"padding-top": "",
+"height": {
+"def": "1300px",
+"el": "1300px",
+"bg": "1300px",
+"ru": "1300px",
+"ja": "1300px"
+}
+},
+"section4HeaderTextLabelElement": {
+"font-size": "84px",
+"padding-bottom": "",
+"position": "absolute",
+"top": "25px",
+"left": "128px"
+},
+"section4TextLabelElement": {
+"font-size": "72px",
+"line-height": "76px",
+"padding-bottom": "",
+"width": "1025px",
+"position": "absolute",
+"top": "190px",
+"left": "128px"
+},
+"section4ImageElement": {
+"width": "812px",
+"height": "456px",
+"position": "absolute",
+"top": {
+"def": "650px",
+"el": "700px",
+"bg": "700px",
+"ru": "700px",
+"ja": "700px"
+},
+"left": "220px",
+"padding-left": "",
+"padding-right": "",
+"padding-bottom": ""
+},
+"section4DividerElement": {
+"width": "1025px",
+"margin-left": "125px",
+"margin-right": "125px"
+},
+"section5ContainerElement": {
+"width": "1280px",
+"padding-left": "",
+"padding-right": "",
+"padding-top": "",
+"height": "1000px"
+},
+"section5HeaderTextLabelElement": {
+"font-size": "84px",
+"padding-bottom": "",
+"position": "absolute",
+"top": "25px",
+"left": "128px"
+},
+"section5TextLabelElement": {
+"font-size": "72px",
+"line-height": "76px",
+"padding-bottom": "",
+"width": "1025px",
+"position": "absolute",
+"top": "180px",
+"left": "128px"
+},
+"section5ImageElement": {
+"width": "400px",
+"height": "400px",
+"position": "absolute",
+"top": "440px",
+"left": "440px",
+"padding-left": "",
+"padding-right": "",
+"padding-bottom": ""
+},
+"section5DividerElement": {
+"width": "1025px",
+"margin-left": "125px",
+"margin-right": "125px"
+},
+"section6ContainerElement": {
+"width": "1280px",
+"padding-left": "",
+"padding-right": "",
+"padding-top": "",
+"height": {
+"def": "1300px",
+"el": "1600",
+"bg": "1600",
+"ru": "1600",
+"ja": "1600"
+}
+},
+"section6HeaderTextLabelElement": {
+"font-size": "84px",
+"padding-bottom": "",
+"position": "absolute",
+"top": "25px",
+"left": "128px"
+},
+"section6Text1LabelElement": {
+"font-size": "52px",
+"line-height": "56px",
+"padding-bottom": "",
+"width": "1025px",
+"position": "absolute",
+"top": "190px",
+"left": "128px"
+},
+"section6Text2LabelElement": {
+"font-size": "72px",
+"line-height": "76px",
+"padding-bottom": "",
+"width": "1025px",
+"position": "absolute",
+"top": {
+"def": "500px",
+"el": "700px",
+"bg": "700px",
+"ru": "700px",
+"ja": "700px"
+},
+"left": "128px"
+},
+"section6ImageElement": {
+"width": "400px",
+"height": "400px",
+"position": "absolute",
+"top": {
+"def": "760px",
+"el": "1100px",
+"bg": "1100px",
+"ru": "1100px",
+"ja": "1100px"
+},
+"left": "440px",
+"padding-left": "",
+"padding-right": "",
+"padding-bottom": ""
+},
+"section6DividerElement": {
+"width": "1025px",
+"margin-left": "125px",
+"margin-right": "125px"
+},
+"section7ContainerElement": {
+"width": "1280px",
+"padding-left": "",
+"padding-right": "",
+"padding-top": "",
+"height": "2200px"
+},
+"section7HeaderTextLabelElement": {
+"font-size": "84px",
+"padding-bottom": "",
+"position": "absolute",
+"top": "25px",
+"left": "128px"
+},
+"section7TextLabelElement": {
+"font-size": "72px",
+"line-height": "76px",
+"padding-bottom": "",
+"width": "1025px",
+"position": "absolute",
+"top": "190px",
+"left": "128px"
+},
+"section7PreviewImageElement": {
+"width": "812px",
+"height": "456px",
+"position": "absolute",
+"top": "540px",
+"left": "234px",
+"padding-left": "",
+"padding-right": "",
+"padding-bottom": ""
+},
+"section7GridImageElement": {
+"width": "950px",
+"height": "890px",
+"position": "absolute",
+"top": "1200px",
+"left": "165px",
+"padding-left": "",
+"padding-right": "",
+"padding-bottom": ""
+},
+"section7GridElement": [
+[
+{
+"font-size": "30px",
+"line-height": "33px",
+"padding-bottom": "",
+"width": "290px",
+"position": "absolute",
+"top": "1230px",
+"left": "500px"
+},
+{
+"padding-bottom": "",
+"width": "110px",
+"height": "110px",
+"position": "absolute",
+"top": "1370px",
+"left": "220px"
+},
+{
+"padding-bottom": "",
+"width": "110px",
+"height": "110px",
+"position": "absolute",
+"top": "1515px",
+"left": "220px"
+},
+{
+"padding-bottom": "",
+"width": "110px",
+"height": "110px",
+"position": "absolute",
+"top": "1670px",
+"left": "220px"
+},
+{
+"padding-bottom": "",
+"width": "110px",
+"height": "110px",
+"position": "absolute",
+"top": "1815px",
+"left": "220px"
+},
+{
+"padding-bottom": "",
+"width": "110px",
+"height": "110px",
+"position": "absolute",
+"top": "1960px",
+"left": "220px"
+}
+],
+[
+{
+"font-size": "72px",
+"line-height": "76px",
+"padding-bottom": "",
+"width": "240px",
+"text-align": "center",
+"position": "absolute",
+"top": "1230px",
+"left": "400px"
+},
+{
+"font-size": "72px",
+"line-height": "76px",
+"padding-bottom": "",
+"width": "240px",
+"text-align": "center",
+"position": "absolute",
+"top": "1380px",
+"left": "400px"
+},
+{
+"font-size": "72px",
+"line-height": "76px",
+"padding-bottom": "",
+"width": "240px",
+"text-align": "center",
+"position": "absolute",
+"top": "1530px",
+"left": "400px"
+},
+{
+"font-size": "72px",
+"line-height": "76px",
+"padding-bottom": "",
+"width": "240px",
+"text-align": "center",
+"position": "absolute",
+"top": "1680px",
+"left": "400px"
+},
+{
+"font-size": "72px",
+"line-height": "76px",
+"padding-bottom": "",
+"width": "240px",
+"text-align": "center",
+"position": "absolute",
+"top": "1830px",
+"left": "400px"
+},
+{
+"font-size": "72px",
+"line-height": "76px",
+"padding-bottom": "",
+"width": "240px",
+"text-align": "center",
+"position": "absolute",
+"top": "1980px",
+"left": "400px"
+}
+],
+[
+{
+"font-size": "72px",
+"line-height": "76px",
+"padding-bottom": "",
+"width": "240px",
+"text-align": "center",
+"position": "absolute",
+"top": "1230px",
+"left": "652px"
+},
+{
+"font-size": "72px",
+"line-height": "76px",
+"padding-bottom": "",
+"width": "240px",
+"text-align": "center",
+"position": "absolute",
+"top": "1380px",
+"left": "650px"
+},
+{
+"font-size": "72px",
+"line-height": "76px",
+"padding-bottom": "",
+"width": "240px",
+"text-align": "center",
+"position": "absolute",
+"top": "1530px",
+"left": "650px"
+},
+{
+"font-size": "72px",
+"line-height": "76px",
+"padding-bottom": "",
+"width": "240px",
+"text-align": "center",
+"position": "absolute",
+"top": "1680px",
+"left": "650px"
+},
+{
+"font-size": "72px",
+"line-height": "76px",
+"padding-bottom": "",
+"width": "240px",
+"text-align": "center",
+"position": "absolute",
+"top": "1830px",
+"left": "650px"
+},
+{
+"font-size": "72px",
+"line-height": "76px",
+"padding-bottom": "",
+"width": "240px",
+"text-align": "center",
+"position": "absolute",
+"top": "1980px",
+"left": "650px"
+}
+],
+[
+{
+"font-size": "72px",
+"line-height": "76px",
+"padding-bottom": "",
+"width": "240px",
+"text-align": "center",
+"position": "absolute",
+"top": "1230px",
+"left": "905px"
+},
+{
+"font-size": "72px",
+"line-height": "76px",
+"padding-bottom": "",
+"width": "240px",
+"text-align": "center",
+"position": "absolute",
+"top": "1380px",
+"left": "905px"
+},
+{
+"font-size": "72px",
+"line-height": "76px",
+"padding-bottom": "",
+"width": "240px",
+"text-align": "center",
+"position": "absolute",
+"top": "1530px",
+"left": "905px"
+},
+{
+"font-size": "72px",
+"line-height": "76px",
+"padding-bottom": "",
+"width": "240px",
+"text-align": "center",
+"position": "absolute",
+"top": "1680px",
+"left": "905px"
+},
+{
+"font-size": "72px",
+"line-height": "76px",
+"padding-bottom": "",
+"width": "240px",
+"text-align": "center",
+"position": "absolute",
+"top": "1830px",
+"left": "905px"
+},
+{
+"font-size": "72px",
+"line-height": "76px",
+"padding-bottom": "",
+"width": "240px",
+"text-align": "center",
+"position": "absolute",
+"top": "1980px",
+"left": "905px"
+}
+]
+],
+"section7DividerElement": {
+"width": "1025px",
+"margin-left": "125px",
+"margin-right": "125px"
+},
+"section8TextLabelElement": {
+"font-size": {
+"def": "40px",
+"it": "35px",
+"ja": "35px",
+"th": "35px"
+},
+"line-height": "45px",
+"padding-bottom": "",
+"width": "1000px",
+"position": "absolute",
+"top": "3200px",
+"text-align": "center",
+"left": {
+"def": "150px"
+}
+},
+"section8DividerElement": {
+"width": "1025px",
+"margin-left": "125px",
+"margin-right": "125px"
+},
+"section9ImageElement": {
+"margin-top": "40px",
+"width": "1050px",
+"height": "500px",
+"padding-bottom": "67px",
+"top": "",
+"left": "",
+"position": "relative"
+},
+"section9ContainerElement": {
+"width": "1280px",
+"height": "800px",
+"padding-left": "123px",
+"padding-right": "140px",
+"padding-top": "14px"
+},
+"section9TitleLabelElement": {
+"font-size": "84px",
+"padding-bottom": "40px",
+"top": "",
+"left": "",
+"position": "relative"
+},
+"section8ContainerElement": {
+"width": "1280px",
+"padding-left": "",
+"padding-right": "",
+"padding-top": "",
+"height": "3400px"
+},
+"section8HeaderTextLabelElement": {
+"font-size": "84px",
+"padding-bottom": "",
+"position": "absolute",
+"top": "25px",
+"left": "128px"
+},
+"paytableSymbolsContainerElement": {
+"padding-left": "",
+"padding-right": "",
+"padding-bottom": "",
+"padding-top": "",
+"width": "1080px",
+"top": "125px",
+"left": "100px"
+},
+"symbolElements": [
+[
+{
+"padding-left": "0px",
+"padding-right": "",
+"margin-bottom": "",
+"width": "540px",
+"height": "800px",
+"left": "0px"
+},
+{
+"font-size": "72px",
+"text-align": "center",
+"width": "470px",
+"margin-left": "35px"
+},
+{
+"width": "400px",
+"height": "400px",
+"margin-left": "70px",
+"margin-right": "70px"
+}
+]
+]
+}
+},
+"desktop": {
+"landscapeLayout": {
+"section1ContainerElement": {
+"width": "1280px",
+"height": "500px",
+"padding-left": "",
+"padding-right": "",
+"padding-top": ""
+},
+"section1HeaderTextLabelElement": {
+"font-size": "48px",
+"padding-bottom": "",
+"position": "absolute",
+"top": "25px",
+"left": "128px",
+"z-index": "1"
+},
+"section1TextLabelElement": {
+"font-size": "40px",
+"line-height": "43px",
+"padding-bottom": "",
+"width": "550px",
+"position": "absolute",
+"top": "116px",
+"left": "128px"
+},
+"section1ImageElement": {
+"width": "300px",
+"height": "300px",
+"position": "absolute",
+"top": "40px",
+"left": "730px",
+"padding-left": "",
+"padding-right": "",
+"padding-bottom": "",
+"z-index": "0"
+},
+"section1DividerElement": {
+"width": "1025px",
+"margin-left": "125px",
+"margin-right": "125px"
+},
+"section2ContainerElement": {
+"width": "1280px",
+"padding-left": "",
+"padding-right": "",
+"padding-top": "",
+"height": "450px"
+},
+"section2HeaderTextLabelElement": {
+"font-size": "48px",
+"padding-bottom": "",
+"position": "absolute",
+"top": "25px",
+"left": "128px"
+},
+"section2TextLabelElement": {
+"font-size": "40px",
+"line-height": "43px",
+"padding-bottom": "",
+"width": "490px",
+"position": "absolute",
+"top": "116px",
+"left": "128px"
+},
+"section2ImageElement": {
+"width": "300px",
+"height": "300px",
+"position": "absolute",
+"top": "40px",
+"left": "730px",
+"padding-left": "",
+"padding-right": "",
+"padding-bottom": ""
+},
+"section2DividerElement": {
+"width": "1025px",
+"margin-left": "125px",
+"margin-right": "125px"
+},
+"section3ContainerElement": {
+"width": "1280px",
+"padding-left": "",
+"padding-right": "",
+"padding-top": "",
+"height": {
+"def": "700px",
+"el": "700px",
+"bg": "700px",
+"ru": "700px",
+"ja": "700px"
+}
+},
+"section3HeaderTextLabelElement": {
+"font-size": "48px",
+"padding-bottom": "",
+"position": "absolute",
+"top": "25px",
+"left": "128px"
+},
+"section3Text1LabelElement": {
+"font-size": "30px",
+"line-height": "33px",
+"padding-bottom": "",
+"width": "490px",
+"position": "absolute",
+"top": "116px",
+"left": "128px"
+},
+"section3Text2LabelElement": {
+"font-size": "40px",
+"line-height": "43px",
+"padding-bottom": "",
+"width": "490px",
+"position": "absolute",
+"top": {
+"def": "400px",
+"el": "400px",
+"bg": "400px",
+"ru": "400px",
+"ja": "400px"
+},
+"left": "128px"
+},
+"section3ImageElement": {
+"width": "300px",
+"height": "300px",
+"position": "absolute",
+"top": "40px",
+"left": "730px",
+"padding-left": "",
+"padding-right": "",
+"padding-bottom": ""
+},
+"section3DividerElement": {
+"width": "1025px",
+"margin-left": "125px",
+"margin-right": "125px"
+},
+"section4ContainerElement": {
+"width": "1280px",
+"padding-left": "",
+"padding-right": "",
+"padding-top": "",
+"height": "450px"
+},
+"section4HeaderTextLabelElement": {
+"font-size": "48px",
+"padding-bottom": "",
+"position": "absolute",
+"top": "25px",
+"left": "128px"
+},
+"section4TextLabelElement": {
+"font-size": "40px",
+"line-height": "43px",
+"padding-bottom": "",
+"width": "490px",
+"position": "absolute",
+"top": "116px",
+"left": "128px"
+},
+"section4ImageElement": {
+"width": "512px",
+"height": "291px",
+"position": "absolute",
+"top": "40px",
+"left": "630px",
+"padding-left": "",
+"padding-right": "",
+"padding-bottom": ""
+},
+"section4DividerElement": {
+"width": "1025px",
+"margin-left": "125px",
+"margin-right": "125px"
+},
+"section5ContainerElement": {
+"width": "1280px",
+"padding-left": "",
+"padding-right": "",
+"padding-top": "",
+"height": "450px"
+},
+"section5HeaderTextLabelElement": {
+"font-size": "48px",
+"padding-bottom": "",
+"position": "absolute",
+"top": "25px",
+"left": "128px"
+},
+"section5TextLabelElement": {
+"font-size": "40px",
+"line-height": "43px",
+"padding-bottom": "",
+"width": "490px",
+"position": "absolute",
+"top": "116px",
+"left": "128px"
+},
+"section5ImageElement": {
+"width": "300px",
+"height": "300px",
+"position": "absolute",
+"top": "40px",
+"left": "730px",
+"padding-left": "",
+"padding-right": "",
+"padding-bottom": ""
+},
+"section5DividerElement": {
+"width": "1025px",
+"margin-left": "125px",
+"margin-right": "125px"
+},
+"section6ContainerElement": {
+"width": "1280px",
+"padding-left": "",
+"padding-right": "",
+"padding-top": "",
+"height": {
+"def": "700px",
+"el": "700px",
+"bg": "700px",
+"ru": "700px",
+"ja": "700px"
+}
+},
+"section6HeaderTextLabelElement": {
+"font-size": "48px",
+"padding-bottom": "",
+"position": "absolute",
+"top": "25px",
+"left": "128px"
+},
+"section6Text1LabelElement": {
+"font-size": "30px",
+"line-height": "33px",
+"padding-bottom": "",
+"width": "490px",
+"position": "absolute",
+"top": "116px",
+"left": "128px"
+},
+"section6Text2LabelElement": {
+"font-size": "40px",
+"line-height": "43px",
+"padding-bottom": "",
+"width": "490px",
+"position": "absolute",
+"top": {
+"def": "400px",
+"el": "400px",
+"bg": "400px",
+"ru": "400px",
+"ja": "400px"
+},
+"left": "128px"
+},
+"section6ImageElement": {
+"width": "300px",
+"height": "300px",
+"position": "absolute",
+"top": "40px",
+"left": "730px",
+"padding-left": "",
+"padding-right": "",
+"padding-bottom": ""
+},
+"section6DividerElement": {
+"width": "1025px",
+"margin-left": "125px",
+"margin-right": "125px"
+},
+"section7ContainerElement": {
+"width": "1280px",
+"padding-left": "",
+"padding-right": "",
+"padding-top": "",
+"height": "1050px"
+},
+"section7HeaderTextLabelElement": {
+"font-size": "48px",
+"padding-bottom": "",
+"position": "absolute",
+"top": "25px",
+"left": "128px"
+},
+"section7TextLabelElement": {
+"font-size": "40px",
+"line-height": "43px",
+"padding-bottom": "",
+"width": "490px",
+"position": "absolute",
+"top": "116px",
+"left": "128px"
+},
+"section7PreviewImageElement": {
+"width": "512px",
+"height": "291px",
+"position": "absolute",
+"top": "40px",
+"left": "630px",
+"padding-left": "",
+"padding-right": "",
+"padding-bottom": ""
+},
+"section7GridImageElement": {
+"width": "634px",
+"height": "593px",
+"position": "absolute",
+"top": "400px",
+"left": "321px",
+"padding-left": "",
+"padding-right": "",
+"padding-bottom": ""
+},
+"section7GridElement": [
+[
+{
+"font-size": "30px",
+"line-height": "33px",
+"padding-bottom": "",
+"width": "290px",
+"text-align": "center",
+"position": "absolute",
+"top": "550px",
+"left": "321px"
+},
+{
+"padding-bottom": "",
+"width": "110px",
+"height": "110px",
+"position": "absolute",
+"top": "495px",
+"left": "341px"
+},
+{
+"padding-bottom": "",
+"width": "110px",
+"height": "110px",
+"position": "absolute",
+"top": "595px",
+"left": "341px"
+},
+{
+"padding-bottom": "",
+"width": "110px",
+"height": "110px",
+"position": "absolute",
+"top": "695px",
+"left": "341px"
+},
+{
+"padding-bottom": "",
+"width": "110px",
+"height": "110px",
+"position": "absolute",
+"top": "795px",
+"left": "341px"
+},
+{
+"padding-bottom": "",
+"width": "110px",
+"height": "110px",
+"position": "absolute",
+"top": "895px",
+"left": "341px"
+}
+],
+[
+{
+"font-size": "40px",
+"line-height": "43px",
+"padding-bottom": "",
+"width": "160px",
+"text-align": "center",
+"position": "absolute",
+"top": "430px",
+"left": "479px"
+},
+{
+"font-size": "40px",
+"line-height": "43px",
+"padding-bottom": "",
+"width": "160px",
+"text-align": "center",
+"position": "absolute",
+"top": "525px",
+"left": "479px"
+},
+{
+"font-size": "40px",
+"line-height": "43px",
+"padding-bottom": "",
+"width": "160px",
+"text-align": "center",
+"position": "absolute",
+"top": "625px",
+"left": "479px"
+},
+{
+"font-size": "40px",
+"line-height": "43px",
+"padding-bottom": "",
+"width": "160px",
+"text-align": "center",
+"position": "absolute",
+"top": "725px",
+"left": "479px"
+},
+{
+"font-size": "40px",
+"line-height": "43px",
+"padding-bottom": "",
+"width": "160px",
+"text-align": "center",
+"position": "absolute",
+"top": "825px",
+"left": "479px"
+},
+{
+"font-size": "40px",
+"line-height": "43px",
+"padding-bottom": "",
+"width": "160px",
+"text-align": "center",
+"position": "absolute",
+"top": "925px",
+"left": "479px"
+}
+],
+[
+{
+"font-size": "40px",
+"line-height": "43px",
+"padding-bottom": "",
+"width": "160px",
+"text-align": "center",
+"position": "absolute",
+"top": "430px",
+"left": "648px"
+},
+{
+"font-size": "40px",
+"line-height": "43px",
+"padding-bottom": "",
+"width": "160px",
+"text-align": "center",
+"position": "absolute",
+"top": "525px",
+"left": "648px"
+},
+{
+"font-size": "40px",
+"line-height": "43px",
+"padding-bottom": "",
+"width": "160px",
+"text-align": "center",
+"position": "absolute",
+"top": "625px",
+"left": "648px"
+},
+{
+"font-size": "40px",
+"line-height": "43px",
+"padding-bottom": "",
+"width": "160px",
+"text-align": "center",
+"position": "absolute",
+"top": "725px",
+"left": "648px"
+},
+{
+"font-size": "40px",
+"line-height": "43px",
+"padding-bottom": "",
+"width": "160px",
+"text-align": "center",
+"position": "absolute",
+"top": "825px",
+"left": "648px"
+},
+{
+"font-size": "40px",
+"line-height": "43px",
+"padding-bottom": "",
+"width": "160px",
+"text-align": "center",
+"position": "absolute",
+"top": "925px",
+"left": "648px"
+}
+],
+[
+{
+"font-size": "40px",
+"line-height": "43px",
+"padding-bottom": "",
+"width": "160px",
+"text-align": "center",
+"position": "absolute",
+"top": "430px",
+"left": "815px"
+},
+{
+"font-size": "40px",
+"line-height": "43px",
+"padding-bottom": "",
+"width": "160px",
+"text-align": "center",
+"position": "absolute",
+"top": "525px",
+"left": "815px"
+},
+{
+"font-size": "40px",
+"line-height": "43px",
+"padding-bottom": "",
+"width": "160px",
+"text-align": "center",
+"position": "absolute",
+"top": "625px",
+"left": "815px"
+},
+{
+"font-size": "40px",
+"line-height": "43px",
+"padding-bottom": "",
+"width": "160px",
+"text-align": "center",
+"position": "absolute",
+"top": "725px",
+"left": "815px"
+},
+{
+"font-size": "40px",
+"line-height": "43px",
+"padding-bottom": "",
+"width": "160px",
+"text-align": "center",
+"position": "absolute",
+"top": "825px",
+"left": "815px"
+},
+{
+"font-size": "40px",
+"line-height": "43px",
+"padding-bottom": "",
+"width": "160px",
+"text-align": "center",
+"position": "absolute",
+"top": "925px",
+"left": "815px"
+}
+]
+],
+"section7DividerElement": {
+"width": "1025px",
+"margin-left": "125px",
+"margin-right": "125px"
+},
+"section8ContainerElement": {
+"width": "1280px",
+"padding-left": "",
+"padding-right": "",
+"padding-top": "",
+"height": "1750px"
+},
+"section8HeaderTextLabelElement": {
+"font-size": "48px",
+"padding-bottom": "",
+"position": "absolute",
+"top": "25px",
+"left": "128px"
+},
+"paytableSymbolsContainerElement": {
+"padding-left": "",
+"padding-right": "",
+"padding-bottom": "",
+"padding-top": "",
+"width": "1040px",
+"top": "125px",
+"left": "130px"
+},
+"section8TextLabelElement": {
+"font-size": {
+"def": "35px",
+"it": "30px",
+"ja": "30px",
+"th": "30px"
+},
+"line-height": "45px",
+"padding-bottom": "",
+"width": "1000px",
+"position": "absolute",
+"top": "1600px",
+"text-align": "center",
+"left": {
+"def": "150px"
+}
+},
+"section8DividerElement": {
+"width": "1025px",
+"margin-left": "125px",
+"margin-right": "125px"
+},
+"section9ImageElement": {
+"margin-top": "40px",
+"width": "1050px",
+"height": "500px",
+"padding-bottom": "67px",
+"top": "",
+"left": "",
+"position": "relative"
+},
+"section9ContainerElement": {
+"width": "1280px",
+"height": "800px",
+"padding-left": "123px",
+"padding-right": "140px",
+"padding-top": "14px"
+},
+"section9TitleLabelElement": {
+"font-size": "48px",
+"padding-bottom": "40px",
+"top": "",
+"left": "",
+"position": "relative"
+},
+"symbolElements": [
+[
+{
+"padding-left": "0px",
+"padding-right": "",
+"margin-bottom": "",
+"width": "340px",
+"height": "500px",
+"left": "0px"
+},
+{
+"font-size": "40px",
+"text-align": "center",
+"width": "300px",
+"margin-left": "20px",
+"margin-right": "20px"
+},
+{
+"width": "300px",
+"height": "300px",
+"margin-left": "20px",
+"margin-right": "20px"
+}
+]
+]
+},
+"portraitLayout": {
+"section1ContainerElement": {
+"width": "1280px",
+"padding-left": "",
+"padding-right": "",
+"padding-top": "",
+"height": "1000px"
+},
+"section1HeaderTextLabelElement": {
+"font-size": "84px",
+"padding-bottom": "",
+"position": "absolute",
+"top": "25px",
+"left": "128px",
+"z-index": "1"
+},
+"section1TextLabelElement": {
+"font-size": "72px",
+"line-height": "76px",
+"padding-bottom": "",
+"width": "1024px",
+"position": "absolute",
+"top": "164px",
+"left": "128px"
+},
+"section1ImageElement": {
+"width": "400px",
+"height": "400px",
+"position": "absolute",
+"top": "440px",
+"left": "440px",
+"padding-left": "",
+"padding-right": "",
+"padding-bottom": "",
+"z-index": "0"
+},
+"section1DividerElement": {
+"width": "1025px",
+"margin-left": "125px",
+"margin-right": "125px"
+},
+"section2ContainerElement": {
+"width": "1280px",
+"padding-left": "",
+"padding-right": "",
+"padding-top": "",
+"height": "1000px"
+},
+"section2HeaderTextLabelElement": {
+"font-size": "84px",
+"padding-bottom": "",
+"position": "absolute",
+"top": "25px",
+"left": "128px"
+},
+"section2TextLabelElement": {
+"font-size": "72px",
+"line-height": "76px",
+"padding-bottom": "",
+"width": "1025px",
+"position": "absolute",
+"top": "164px",
+"left": "128px"
+},
+"section2ImageElement": {
+"width": "400px",
+"height": "400px",
+"position": "absolute",
+"top": "440px",
+"left": "440px",
+"padding-left": "",
+"padding-right": "",
+"padding-bottom": ""
+},
+"section2DividerElement": {
+"width": "1025px",
+"margin-left": "125px",
+"margin-right": "125px"
+},
+"section3ContainerElement": {
+"width": "1280px",
+"padding-left": "",
+"padding-right": "",
+"padding-top": "",
+"height": {
+"def": "1300px",
+"el": "1500px",
+"bg": "1500px",
+"ru": "1500px",
+"ja": "1500px"
+}
+},
+"section3HeaderTextLabelElement": {
+"font-size": "84px",
+"padding-bottom": "",
+"position": "absolute",
+"top": "25px",
+"left": "128px"
+},
+"section3Text1LabelElement": {
+"font-size": "72px",
+"line-height": "76px",
+"padding-bottom": "",
+"width": "1025px",
+"position": "absolute",
+"top": "190px",
+"left": "128px"
+},
+"section3Text2LabelElement": {
+"font-size": "72px",
+"line-height": "76px",
+"padding-bottom": "",
+"width": "1025px",
+"position": "absolute",
+"top": {
+"def": "500px",
+"el": "700px",
+"bg": "700px",
+"ru": "700px",
+"ja": "700px"
+},
+"left": "128px"
+},
+"section3ImageElement": {
+"width": "400px",
+"height": "400px",
+"position": "absolute",
+"top": {
+"def": "760px",
+"el": "1050px",
+"bg": "1050px",
+"ru": "1050px",
+"ja": "1050px"
+},
+"left": "440px",
+"padding-left": "",
+"padding-right": "",
+"padding-bottom": ""
+},
+"section3DividerElement": {
+"width": "1025px",
+"margin-left": "125px",
+"margin-right": "125px"
+},
+"section4ContainerElement": {
+"width": "1280px",
+"padding-left": "",
+"padding-right": "",
+"padding-top": "",
+"height": {
+"def": "1200px",
+"el": "1300px",
+"bg": "1300px",
+"ru": "1300px",
+"ja": "1300px"
+}
+},
+"section4HeaderTextLabelElement": {
+"font-size": "84px",
+"padding-bottom": "",
+"position": "absolute",
+"top": "25px",
+"left": "128px"
+},
+"section4TextLabelElement": {
+"font-size": "72px",
+"line-height": "76px",
+"padding-bottom": "",
+"width": "1025px",
+"position": "absolute",
+"top": "190px",
+"left": "128px"
+},
+"section4ImageElement": {
+"width": "812px",
+"height": "456px",
+"position": "absolute",
+"top": {
+"def": "540px",
+"el": "700px",
+"bg": "700px",
+"ru": "700px",
+"ja": "700px"
+},
+"left": "220px",
+"padding-left": "",
+"padding-right": "",
+"padding-bottom": ""
+},
+"section4DividerElement": {
+"width": "1025px",
+"margin-left": "125px",
+"margin-right": "125px"
+},
+"section5ContainerElement": {
+"width": "1280px",
+"padding-left": "",
+"padding-right": "",
+"padding-top": "",
+"height": "1000px"
+},
+"section5HeaderTextLabelElement": {
+"font-size": "84px",
+"padding-bottom": "",
+"position": "absolute",
+"top": "25px",
+"left": "128px"
+},
+"section5TextLabelElement": {
+"font-size": "72px",
+"line-height": "76px",
+"padding-bottom": "",
+"width": "1025px",
+"position": "absolute",
+"top": "180px",
+"left": "128px"
+},
+"section5ImageElement": {
+"width": "400px",
+"height": "400px",
+"position": "absolute",
+"top": "440px",
+"left": "440px",
+"padding-left": "",
+"padding-right": "",
+"padding-bottom": ""
+},
+"section5DividerElement": {
+"width": "1025px",
+"margin-left": "125px",
+"margin-right": "125px"
+},
+"section6ContainerElement": {
+"width": "1280px",
+"padding-left": "",
+"padding-right": "",
+"padding-top": "",
+"height": {
+"def": "1300px",
+"el": "1600",
+"bg": "1600",
+"ru": "1600",
+"ja": "1600"
+}
+},
+"section6HeaderTextLabelElement": {
+"font-size": "84px",
+"padding-bottom": "",
+"position": "absolute",
+"top": "25px",
+"left": "128px"
+},
+"section6Text1LabelElement": {
+"font-size": "72px",
+"line-height": "76px",
+"padding-bottom": "",
+"width": "1025px",
+"position": "absolute",
+"top": "190px",
+"left": "128px"
+},
+"section6Text2LabelElement": {
+"font-size": "72px",
+"line-height": "76px",
+"padding-bottom": "",
+"width": "1025px",
+"position": "absolute",
+"top": {
+"def": "500px",
+"el": "700px",
+"bg": "700px",
+"ru": "700px",
+"ja": "700px"
+},
+"left": "128px"
+},
+"section6ImageElement": {
+"width": "400px",
+"height": "400px",
+"position": "absolute",
+"top": {
+"def": "760px",
+"el": "1100px",
+"bg": "1100px",
+"ru": "1100px",
+"ja": "1100px"
+},
+"left": "440px",
+"padding-left": "",
+"padding-right": "",
+"padding-bottom": ""
+},
+"section6DividerElement": {
+"width": "1025px",
+"margin-left": "125px",
+"margin-right": "125px"
+},
+"section7ContainerElement": {
+"width": "1280px",
+"padding-left": "",
+"padding-right": "",
+"padding-top": "",
+"height": "2200px"
+},
+"section7HeaderTextLabelElement": {
+"font-size": "84px",
+"padding-bottom": "",
+"position": "absolute",
+"top": "25px",
+"left": "128px"
+},
+"section7TextLabelElement": {
+"font-size": "72px",
+"line-height": "76px",
+"padding-bottom": "",
+"width": "1025px",
+"position": "absolute",
+"top": "190px",
+"left": "128px"
+},
+"section7PreviewImageElement": {
+"width": "812px",
+"height": "456px",
+"position": "absolute",
+"top": "540px",
+"left": "234px",
+"padding-left": "",
+"padding-right": "",
+"padding-bottom": ""
+},
+"section7GridImageElement": {
+"width": "950px",
+"height": "890px",
+"position": "absolute",
+"top": "1200px",
+"left": "165px",
+"padding-left": "",
+"padding-right": "",
+"padding-bottom": ""
+},
+"section7GridElement": [
+[
+{
+"font-size": "30px",
+"line-height": "33px",
+"padding-bottom": "",
+"width": "290px",
+"position": "absolute",
+"top": "1230px",
+"left": "500px"
+},
+{
+"padding-bottom": "",
+"width": "110px",
+"height": "110px",
+"position": "absolute",
+"top": "1370px",
+"left": "220px"
+},
+{
+"padding-bottom": "",
+"width": "110px",
+"height": "110px",
+"position": "absolute",
+"top": "1515px",
+"left": "220px"
+},
+{
+"padding-bottom": "",
+"width": "110px",
+"height": "110px",
+"position": "absolute",
+"top": "1670px",
+"left": "220px"
+},
+{
+"padding-bottom": "",
+"width": "110px",
+"height": "110px",
+"position": "absolute",
+"top": "1815px",
+"left": "220px"
+},
+{
+"padding-bottom": "",
+"width": "110px",
+"height": "110px",
+"position": "absolute",
+"top": "1960px",
+"left": "220px"
+}
+],
+[
+{
+"font-size": "72px",
+"line-height": "76px",
+"padding-bottom": "",
+"width": "240px",
+"text-align": "center",
+"position": "absolute",
+"top": "1230px",
+"left": "400px"
+},
+{
+"font-size": "72px",
+"line-height": "76px",
+"padding-bottom": "",
+"width": "240px",
+"text-align": "center",
+"position": "absolute",
+"top": "1380px",
+"left": "400px"
+},
+{
+"font-size": "72px",
+"line-height": "76px",
+"padding-bottom": "",
+"width": "240px",
+"text-align": "center",
+"position": "absolute",
+"top": "1530px",
+"left": "400px"
+},
+{
+"font-size": "72px",
+"line-height": "76px",
+"padding-bottom": "",
+"width": "240px",
+"text-align": "center",
+"position": "absolute",
+"top": "1680px",
+"left": "400px"
+},
+{
+"font-size": "72px",
+"line-height": "76px",
+"padding-bottom": "",
+"width": "240px",
+"text-align": "center",
+"position": "absolute",
+"top": "1830px",
+"left": "400px"
+},
+{
+"font-size": "72px",
+"line-height": "76px",
+"padding-bottom": "",
+"width": "240px",
+"text-align": "center",
+"position": "absolute",
+"top": "1980px",
+"left": "400px"
+}
+],
+[
+{
+"font-size": "72px",
+"line-height": "76px",
+"padding-bottom": "",
+"width": "240px",
+"text-align": "center",
+"position": "absolute",
+"top": "1230px",
+"left": "652px"
+},
+{
+"font-size": "72px",
+"line-height": "76px",
+"padding-bottom": "",
+"width": "240px",
+"text-align": "center",
+"position": "absolute",
+"top": "1380px",
+"left": "650px"
+},
+{
+"font-size": "72px",
+"line-height": "76px",
+"padding-bottom": "",
+"width": "240px",
+"text-align": "center",
+"position": "absolute",
+"top": "1530px",
+"left": "650px"
+},
+{
+"font-size": "72px",
+"line-height": "76px",
+"padding-bottom": "",
+"width": "240px",
+"text-align": "center",
+"position": "absolute",
+"top": "1680px",
+"left": "650px"
+},
+{
+"font-size": "72px",
+"line-height": "76px",
+"padding-bottom": "",
+"width": "240px",
+"text-align": "center",
+"position": "absolute",
+"top": "1830px",
+"left": "650px"
+},
+{
+"font-size": "72px",
+"line-height": "76px",
+"padding-bottom": "",
+"width": "240px",
+"text-align": "center",
+"position": "absolute",
+"top": "1980px",
+"left": "650px"
+}
+],
+[
+{
+"font-size": "72px",
+"line-height": "76px",
+"padding-bottom": "",
+"width": "240px",
+"text-align": "center",
+"position": "absolute",
+"top": "1230px",
+"left": "905px"
+},
+{
+"font-size": "72px",
+"line-height": "76px",
+"padding-bottom": "",
+"width": "240px",
+"text-align": "center",
+"position": "absolute",
+"top": "1380px",
+"left": "905px"
+},
+{
+"font-size": "72px",
+"line-height": "76px",
+"padding-bottom": "",
+"width": "240px",
+"text-align": "center",
+"position": "absolute",
+"top": "1530px",
+"left": "905px"
+},
+{
+"font-size": "72px",
+"line-height": "76px",
+"padding-bottom": "",
+"width": "240px",
+"text-align": "center",
+"position": "absolute",
+"top": "1680px",
+"left": "905px"
+},
+{
+"font-size": "72px",
+"line-height": "76px",
+"padding-bottom": "",
+"width": "240px",
+"text-align": "center",
+"position": "absolute",
+"top": "1830px",
+"left": "905px"
+},
+{
+"font-size": "72px",
+"line-height": "76px",
+"padding-bottom": "",
+"width": "240px",
+"text-align": "center",
+"position": "absolute",
+"top": "1980px",
+"left": "905px"
+}
+]
+],
+"section7DividerElement": {
+"width": "1025px",
+"margin-left": "125px",
+"margin-right": "125px"
+},
+"section8TextLabelElement": {
+"font-size": {
+"def": "40px",
+"it": "35px",
+"ja": "35px",
+"th": "35px"
+},
+"line-height": "45px",
+"padding-bottom": "",
+"width": "1000px",
+"position": "absolute",
+"top": "6000px",
+"text-align": "center",
+"left": {
+"def": "150px"
+}
+},
+"section8DividerElement": {
+"width": "1025px",
+"margin-left": "125px",
+"margin-right": "125px"
+},
+"section9ImageElement": {
+"margin-top": "40px",
+"width": "1050px",
+"height": "500px",
+"padding-bottom": "67px",
+"top": "",
+"left": "",
+"position": "relative"
+},
+"section9ContainerElement": {
+"width": "1280px",
+"height": "800px",
+"padding-left": "123px",
+"padding-right": "140px",
+"padding-top": "14px"
+},
+"section9TitleLabelElement": {
+"font-size": "84px",
+"padding-bottom": "40px",
+"top": "",
+"left": "",
+"position": "relative"
+},
+"section8ContainerElement": {
+"width": "1280px",
+"padding-left": "",
+"padding-right": "",
+"padding-top": "",
+"height": "3400px"
+},
+"section8HeaderTextLabelElement": {
+"font-size": "84px",
+"padding-bottom": "",
+"position": "absolute",
+"top": "25px",
+"left": "128px"
+},
+"paytableSymbolsContainerElement": {
+"padding-left": "",
+"padding-right": "",
+"padding-bottom": "",
+"padding-top": "",
+"width": "1080px",
+"top": "125px",
+"left": "100px"
+},
+"symbolElements": [
+[
+{
+"padding-left": "0px",
+"padding-right": "",
+"margin-bottom": "",
+"width": "540px",
+"height": "800px",
+"left": "0px"
+},
+{
+"font-size": "72px",
+"text-align": "center",
+"width": "470px",
+"margin-left": "35px"
+},
+{
+"width": "400px",
+"height": "400px",
+"margin-left": "70px",
+"margin-right": "70px"
+}
+]
+]
+}
+}
+},
+"sceneScaleManager": {
+"4:3": {
+"landscapeLayout": {
+"mainGame": {
+"x": 0,
+"y": -18,
+"sx": 1,
+"sy": 1
+},
+"bonusGame": {
+"x": 0,
+"y": -18,
+"sx": 1,
+"sy": 1
+},
+"mysteryGame": {
+"x": 0,
+"y": -18,
+"sx": 1,
+"sy": 1
+},
+"specialWin": {
+"x": 12.8,
+"y": 7.2,
+"sx": 0.98,
+"sy": 0.98
+},
+"ultraWin": {
+"x": -25.6,
+"y": -14.4,
+"sx": 1.04,
+"sy": 1.04
+},
+"nearWin": {
+"x": -12.8,
+"y": -7.2,
+"sx": 1.02,
+"sy": 1.02
+}
+},
+"portraitLayout": {
+"mainGame": {
+"x": -128,
+"y": 0,
+"sx": 1.2,
+"sy": 1.2
+},
+"bonusGame": {
+"x": -128,
+"y": 0,
+"sx": 1.2,
+"sy": 1.2
+},
+"mysteryGame": {
+"x": -128,
+"y": 0,
+"sx": 1.2,
+"sy": 1.2
+},
+"specialWin": {
+"x": 12.8,
+"y": 7.2,
+"sx": 0.98,
+"sy": 0.98
+},
+"ultraWin": {
+"x": -25.6,
+"y": -14.4,
+"sx": 1.04,
+"sy": 1.04
+},
+"nearWin": {
+"x": -12.8,
+"y": -7.2,
+"sx": 1.02,
+"sy": 1.02
+}
+},
+"countUp": {
+"landscape": {
+"default": {
+"x": 640,
+"y": 570,
+"s": 1
+},
+"specialWin": {
+"x": 640,
+"y": 524,
+"s": 1.4
+},
+"bonusOutro": {
+"x": 640,
+"y": 524,
+"s": 1.4
+}
+},
+"portrait": {
+"default": {
+"x": 640,
+"y": 860,
+"s": 2
+},
+"specialWin": {
+"x": 640,
+"y": 860,
+"s": 2.4
+},
+"bonusOutro": {
+"x": 640,
+"y": 860,
+"s": 2.4
+}
+}
+},
+"mysteryGameInfoTexts": {
+"landscape": {
+"x": 640,
+"y": 50,
+"s": 1
+},
+"portrait": {
+"x": 640,
+"y": 50,
+"s": 1
+}
+},
+"bonusGameInfoTexts": {
+"landscape": {
+"x": 640,
+"y": 50,
+"s": 1
+},
+"portrait": {
+"x": 640,
+"y": 50,
+"s": 1
+}
+},
+"mysteryGameWinLabelScale": {
+"landscape": 0.7,
+"portrait": 1
+}
+},
+"16:9": {
+"landscapeLayout": {
+"mainGame": {
+"x": 0,
+"y": -18,
+"sx": 1,
+"sy": 1
+},
+"bonusGame": {
+"x": 0,
+"y": -18,
+"sx": 1,
+"sy": 1
+},
+"mysteryGame": {
+"x": 0,
+"y": -18,
+"sx": 1,
+"sy": 1
+},
+"specialWin": {
+"x": 12.8,
+"y": 7.2,
+"sx": 0.98,
+"sy": 0.98
+},
+"ultraWin": {
+"x": -25.6,
+"y": -14.4,
+"sx": 1.04,
+"sy": 1.04
+},
+"nearWin": {
+"x": -12.8,
+"y": -7.2,
+"sx": 1.02,
+"sy": 1.02
+}
+},
+"portraitLayout": {
+"mainGame": {
+"x": -128,
+"y": 128,
+"sx": 1.2,
+"sy": 1.2
+},
+"bonusGame": {
+"x": -128,
+"y": 128,
+"sx": 1.2,
+"sy": 1.2
+},
+"mysteryGame": {
+"x": -256,
+"y": 128,
+"sx": 1.4,
+"sy": 1.4
+},
+"specialWin": {
+"x": 12.8,
+"y": 7.2,
+"sx": 0.98,
+"sy": 0.98
+},
+"ultraWin": {
+"x": -25.6,
+"y": -14.4,
+"sx": 1.04,
+"sy": 1.04
+},
+"nearWin": {
+"x": -12.8,
+"y": -7.2,
+"sx": 1.02,
+"sy": 1.02
+}
+},
+"countUp": {
+"landscape": {
+"default": {
+"x": 640,
+"y": 570,
+"s": 1
+},
+"specialWin": {
+"x": 640,
+"y": 524,
+"s": 1.4
+},
+"bonusOutro": {
+"x": 640,
+"y": 524,
+"s": 1.4
+}
+},
+"portrait": {
+"default": {
+"x": 640,
+"y": 1060,
+"s": 2
+},
+"specialWin": {
+"x": 640,
+"y": 1060,
+"s": 2.4
+},
+"bonusOutro": {
+"x": 640,
+"y": 1060,
+"s": 2.4
+}
+}
+},
+"mysteryGameInfoTexts": {
+"landscape": {
+"x": 640,
+"y": 85,
+"s": 1
+},
+"portrait": {
+"x": 640,
+"y": -20,
+"s": 1
+}
+},
+"bonusGameInfoTexts": {
+"landscape": {
+"x": 640,
+"y": 50,
+"s": 1
+},
+"portrait": {
+"x": 640,
+"y": -20,
+"s": 1
+}
+},
+"mysteryGameWinLabelScale": {
+"landscape": 0.7,
+"portrait": 1
+}
+},
+"41:32": {
+"landscapeLayout": {
+"mainGame": {
+"x": 0,
+"y": -18,
+"sx": 1,
+"sy": 1
+},
+"bonusGame": {
+"x": 0,
+"y": -18,
+"sx": 1,
+"sy": 1
+},
+"mysteryGame": {
+"x": 0,
+"y": -18,
+"sx": 1,
+"sy": 1
+},
+"specialWin": {
+"x": 12.8,
+"y": 7.2,
+"sx": 0.98,
+"sy": 0.98
+},
+"ultraWin": {
+"x": -25.6,
+"y": -14.4,
+"sx": 1.04,
+"sy": 1.04
+},
+"nearWin": {
+"x": -12.8,
+"y": -7.2,
+"sx": 1.02,
+"sy": 1.02
+}
+},
+"portraitLayout": {
+"mainGame": {
+"x": -128,
+"y": 0,
+"sx": 1.2,
+"sy": 1.2
+},
+"bonusGame": {
+"x": -128,
+"y": 0,
+"sx": 1.2,
+"sy": 1.2
+},
+"mysteryGame": {
+"x": -256,
+"y": 0,
+"sx": 1.4,
+"sy": 1.4
+},
+"specialWin": {
+"x": 12.8,
+"y": 7.2,
+"sx": 0.98,
+"sy": 0.98
+},
+"ultraWin": {
+"x": -25.6,
+"y": -14.4,
+"sx": 1.04,
+"sy": 1.04
+},
+"nearWin": {
+"x": -12.8,
+"y": -7.2,
+"sx": 1.02,
+"sy": 1.02
+}
+},
+"countUp": {
+"landscape": {
+"default": {
+"x": 640,
+"y": 570,
+"s": 1
+},
+"specialWin": {
+"x": 640,
+"y": 524,
+"s": 1.4
+},
+"bonusOutro": {
+"x": 640,
+"y": 524,
+"s": 1.4
+}
+},
+"portrait": {
+"default": {
+"x": 640,
+"y": 860,
+"s": 2
+},
+"specialWin": {
+"x": 640,
+"y": 860,
+"s": 2.4
+},
+"bonusOutro": {
+"x": 640,
+"y": 860,
+"s": 2.4
+}
+}
+},
+"mysteryGameInfoTexts": {
+"landscape": {
+"x": 640,
+"y": 85,
+"s": 1
+},
+"portrait": {
+"x": 640,
+"y": 50,
+"s": 1
+}
+},
+"bonusGameInfoTexts": {
+"landscape": {
+"x": 640,
+"y": 50,
+"s": 1
+},
+"portrait": {
+"x": 640,
+"y": 50,
+"s": 1
+}
+},
+"mysteryGameWinLabelScale": {
+"landscape": 0.7,
+"portrait": 1
+}
+},
+"441:320": {
+"landscapeLayout": {
+"mainGame": {
+"x": 0,
+"y": -18,
+"sx": 1,
+"sy": 1
+},
+"bonusGame": {
+"x": 0,
+"y": -18,
+"sx": 1,
+"sy": 1
+},
+"mysteryGame": {
+"x": 0,
+"y": -18,
+"sx": 1,
+"sy": 1
+},
+"specialWin": {
+"x": 12.8,
+"y": 7.2,
+"sx": 0.98,
+"sy": 0.98
+},
+"ultraWin": {
+"x": -25.6,
+"y": -14.4,
+"sx": 1.04,
+"sy": 1.04
+},
+"nearWin": {
+"x": -12.8,
+"y": -7.2,
+"sx": 1.02,
+"sy": 1.02
+}
+},
+"portraitLayout": {
+"mainGame": {
+"x": -128,
+"y": 10,
+"sx": 1.2,
+"sy": 1.2
+},
+"bonusGame": {
+"x": -128,
+"y": 10,
+"sx": 1.2,
+"sy": 1.2
+},
+"mysteryGame": {
+"x": -256,
+"y": 0,
+"sx": 1.4,
+"sy": 1.4
+},
+"specialWin": {
+"x": 12.8,
+"y": 7.2,
+"sx": 0.98,
+"sy": 0.98
+},
+"ultraWin": {
+"x": -25.6,
+"y": -14.4,
+"sx": 1.04,
+"sy": 1.04
+},
+"nearWin": {
+"x": -12.8,
+"y": -7.2,
+"sx": 1.02,
+"sy": 1.02
+}
+},
+"countUp": {
+"landscape": {
+"default": {
+"x": 640,
+"y": 570,
+"s": 1
+},
+"specialWin": {
+"x": 640,
+"y": 524,
+"s": 1.4
+},
+"bonusOutro": {
+"x": 640,
+"y": 524,
+"s": 1.4
+}
+},
+"portrait": {
+"default": {
+"x": 640,
+"y": 890,
+"s": 2
+},
+"specialWin": {
+"x": 640,
+"y": 890,
+"s": 2.4
+},
+"bonusOutro": {
+"x": 640,
+"y": 890,
+"s": 2.4
+}
+}
+},
+"mysteryGameInfoTexts": {
+"landscape": {
+"x": 640,
+"y": 85,
+"s": 1
+},
+"portrait": {
+"x": 640,
+"y": 50,
+"s": 1
+}
+},
+"bonusGameInfoTexts": {
+"landscape": {
+"x": 640,
+"y": 50,
+"s": 1
+},
+"portrait": {
+"x": 640,
+"y": 50,
+"s": 1
+}
+},
+"mysteryGameWinLabelScale": {
+"landscape": 0.7,
+"portrait": 1
+}
+},
+"529:352": {
+"landscapeLayout": {
+"mainGame": {
+"x": 0,
+"y": -18,
+"sx": 1,
+"sy": 1
+},
+"bonusGame": {
+"x": 0,
+"y": -18,
+"sx": 1,
+"sy": 1
+},
+"mysteryGame": {
+"x": 0,
+"y": -18,
+"sx": 1,
+"sy": 1
+},
+"specialWin": {
+"x": 12.8,
+"y": 7.2,
+"sx": 0.98,
+"sy": 0.98
+},
+"ultraWin": {
+"x": -25.6,
+"y": -14.4,
+"sx": 1.04,
+"sy": 1.04
+},
+"nearWin": {
+"x": -12.8,
+"y": -7.2,
+"sx": 1.02,
+"sy": 1.02
+}
+},
+"portraitLayout": {
+"mainGame": {
+"x": -128,
+"y": 128,
+"sx": 1.2,
+"sy": 1.2
+},
+"bonusGame": {
+"x": -128,
+"y": 128,
+"sx": 1.2,
+"sy": 1.2
+},
+"mysteryGame": {
+"x": -256,
+"y": 128,
+"sx": 1.4,
+"sy": 1.4
+},
+"specialWin": {
+"x": 12.8,
+"y": 7.2,
+"sx": 0.98,
+"sy": 0.98
+},
+"ultraWin": {
+"x": -25.6,
+"y": -14.4,
+"sx": 1.04,
+"sy": 1.04
+},
+"nearWin": {
+"x": -12.8,
+"y": -7.2,
+"sx": 1.02,
+"sy": 1.02
+}
+},
+"countUp": {
+"landscape": {
+"default": {
+"x": 640,
+"y": 570,
+"s": 1
+},
+"specialWin": {
+"x": 640,
+"y": 524,
+"s": 1.4
+},
+"bonusOutro": {
+"x": 640,
+"y": 524,
+"s": 1.4
+}
+},
+"portrait": {
+"default": {
+"x": 640,
+"y": 1020,
+"s": 2
+},
+"specialWin": {
+"x": 640,
+"y": 1060,
+"s": 2.4
+},
+"bonusOutro": {
+"x": 640,
+"y": 1060,
+"s": 2.4
+}
+}
+},
+"mysteryGameInfoTexts": {
+"landscape": {
+"x": 640,
+"y": 85,
+"s": 1
+},
+"portrait": {
+"x": 640,
+"y": -20,
+"s": 1
+}
+},
+"bonusGameInfoTexts": {
+"landscape": {
+"x": 640,
+"y": 50,
+"s": 1
+},
+"portrait": {
+"x": 640,
+"y": -20,
+"s": 1
+}
+},
+"mysteryGameWinLabelScale": {
+"landscape": 0.7,
+"portrait": 1
+}
+},
+"696:414": {
+"landscapeLayout": {
+"mainGame": {
+"x": 0,
+"y": -18,
+"sx": 1,
+"sy": 1
+},
+"bonusGame": {
+"x": 0,
+"y": -18,
+"sx": 1,
+"sy": 1
+},
+"mysteryGame": {
+"x": 0,
+"y": -18,
+"sx": 1,
+"sy": 1
+},
+"specialWin": {
+"x": 12.8,
+"y": 7.2,
+"sx": 0.98,
+"sy": 0.98
+},
+"ultraWin": {
+"x": -25.6,
+"y": -14.4,
+"sx": 1.04,
+"sy": 1.04
+},
+"nearWin": {
+"x": -12.8,
+"y": -7.2,
+"sx": 1.02,
+"sy": 1.02
+}
+},
+"portraitLayout": {
+"mainGame": {
+"x": -128,
+"y": 128,
+"sx": 1.2,
+"sy": 1.2
+},
+"bonusGame": {
+"x": -128,
+"y": 128,
+"sx": 1.2,
+"sy": 1.2
+},
+"mysteryGame": {
+"x": -256,
+"y": 128,
+"sx": 1.4,
+"sy": 1.4
+},
+"specialWin": {
+"x": 12.8,
+"y": 7.2,
+"sx": 0.98,
+"sy": 0.98
+},
+"ultraWin": {
+"x": -25.6,
+"y": -14.4,
+"sx": 1.04,
+"sy": 1.04
+},
+"nearWin": {
+"x": -12.8,
+"y": -7.2,
+"sx": 1.02,
+"sy": 1.02
+}
+},
+"countUp": {
+"landscape": {
+"default": {
+"x": 640,
+"y": 570,
+"s": 1
+},
+"specialWin": {
+"x": 640,
+"y": 524,
+"s": 1.4
+},
+"bonusOutro": {
+"x": 640,
+"y": 524,
+"s": 1.4
+}
+},
+"portrait": {
+"default": {
+"x": 640,
+"y": 1020,
+"s": 2
+},
+"specialWin": {
+"x": 640,
+"y": 1060,
+"s": 2.4
+},
+"bonusOutro": {
+"x": 640,
+"y": 1060,
+"s": 2.4
+}
+}
+},
+"mysteryGameInfoTexts": {
+"landscape": {
+"x": 640,
+"y": 85,
+"s": 1
+},
+"portrait": {
+"x": 640,
+"y": -20,
+"s": 1
+}
+},
+"bonusGameInfoTexts": {
+"landscape": {
+"x": 640,
+"y": 50,
+"s": 1
+},
+"portrait": {
+"x": 640,
+"y": -20,
+"s": 1
+}
+},
+"mysteryGameWinLabelScale": {
+"landscape": 0.7,
+"portrait": 1
+}
+},
+"desktop": {
+"landscapeLayout": {
+"mainGame": {
+"x": 0,
+"y": -18,
+"sx": 1,
+"sy": 1
+},
+"bonusGame": {
+"x": 0,
+"y": -18,
+"sx": 1,
+"sy": 1
+},
+"mysteryGame": {
+"x": 0,
+"y": -18,
+"sx": 1,
+"sy": 1
+},
+"specialWin": {
+"x": 12.8,
+"y": 7.2,
+"sx": 0.98,
+"sy": 0.98
+},
+"ultraWin": {
+"x": -25.6,
+"y": -14.4,
+"sx": 1.04,
+"sy": 1.04
+},
+"nearWin": {
+"x": -12.8,
+"y": -7.2,
+"sx": 1.02,
+"sy": 1.02
+}
+},
+"portraitLayout": {
+"mainGame": {
+"x": -128,
+"y": 128,
+"sx": 1.2,
+"sy": 1.2
+},
+"bonusGame": {
+"x": -128,
+"y": 128,
+"sx": 1.2,
+"sy": 1.2
+},
+"mysteryGame": {
+"x": -256,
+"y": 128,
+"sx": 1.4,
+"sy": 1.4
+},
+"specialWin": {
+"x": 12.8,
+"y": 7.2,
+"sx": 0.98,
+"sy": 0.98
+},
+"ultraWin": {
+"x": -25.6,
+"y": -14.4,
+"sx": 1.04,
+"sy": 1.04
+},
+"nearWin": {
+"x": -12.8,
+"y": -7.2,
+"sx": 1.02,
+"sy": 1.02
+}
+},
+"countUp": {
+"landscape": {
+"default": {
+"x": 640,
+"y": 610,
+"s": 1
+},
+"specialWin": {
+"x": 640,
+"y": 610,
+"s": 1.4
+},
+"bonusOutro": {
+"x": 640,
+"y": 610,
+"s": 1.4
+}
+},
+"portrait": {
+"default": {
+"x": 640,
+"y": 1060,
+"s": 2
+},
+"specialWin": {
+"x": 640,
+"y": 1060,
+"s": 2.4
+},
+"bonusOutro": {
+"x": 640,
+"y": 1060,
+"s": 2.4
+}
+}
+},
+"mysteryGameInfoTexts": {
+"landscape": {
+"x": 640,
+"y": 85,
+"s": 1
+},
+"portrait": {
+"x": 640,
+"y": -20,
+"s": 1
+}
+},
+"bonusGameInfoTexts": {
+"landscape": {
+"x": 640,
+"y": 50,
+"s": 1
+},
+"portrait": {
+"x": 640,
+"y": -20,
+"s": 1
+}
+},
+"mysteryGameWinLabelScale": {
+"landscape": 0.7,
+"portrait": 1
+}
+},
+"mysteryGameZoomInDuration": 1200,
+"mysteryGameZoomOutDuration": 600,
+"nearWinZoomInDuration": 5000,
+"nearWinZoomOutDuration": 5000
+}
+}

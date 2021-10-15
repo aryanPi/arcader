@@ -1,0 +1,4 @@
+https://d10seqx7f7ksi7.cloudfront.net/games/tk-astronaut/3.17.0/html/libs/jquery/jquery-1.12.4.js
+https://d10seqx7f7ksi7.cloudfront.net/games/tk-astronaut/3.17.0/html/libs/jquery/jquery.textfill.min.js
+https://d10seqx7f7ksi7.cloudfront.net/games/tk-astronaut/3.17.0/html/libs/jquery/perfect-scrollbar.jquery.js
+https://d10seqx7f7ksi7.cloudfront.net/games/tk-astronaut/3.17.0/html/libs/jquery/tappy.js

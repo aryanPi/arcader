@@ -1,0 +1,8 @@
+https://d10seqx7f7ksi7.cloudfront.net/games/tk-astronaut/3.17.0/html/assets/images/paytable/Sym01.png
+https://d10seqx7f7ksi7.cloudfront.net/games/tk-astronaut/3.17.0/html/assets/images/paytable/Sym02.png
+https://d10seqx7f7ksi7.cloudfront.net/games/tk-astronaut/3.17.0/html/assets/images/paytable/Sym03.png
+https://d10seqx7f7ksi7.cloudfront.net/games/tk-astronaut/3.17.0/html/assets/images/paytable/Sym04.png
+https://d10seqx7f7ksi7.cloudfront.net/games/tk-astronaut/3.17.0/html/assets/images/paytable/Sym05.png
+https://d10seqx7f7ksi7.cloudfront.net/games/tk-astronaut/3.17.0/html/assets/images/paytable/Sym06.png
+https://d10seqx7f7ksi7.cloudfront.net/games/tk-astronaut/3.17.0/html/assets/images/paytable/Sym07.png
+https://d10seqx7f7ksi7.cloudfront.net/games/tk-astronaut/3.17.0/html/assets/images/paytable/Sym08.png

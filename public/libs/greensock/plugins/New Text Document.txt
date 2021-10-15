@@ -1,0 +1,1 @@
+https://d10seqx7f7ksi7.cloudfront.net/games/tk-astronaut/3.17.0/html/libs/greensock/plugins/ThrowPropsPlugin.min.js
