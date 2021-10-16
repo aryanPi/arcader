@@ -2167,9 +2167,9 @@ var tk,
             alwaysplacebet: !0,
             allowedguielements: { fields: {}, buttons: {} },
             currencyconfig: {
-              currencysign: void 0,
+              currencysign: "$",
               showcurrency: !0,
-              decimalplaces: void 0,
+              decimalplaces: 2,
             },
             animationspeed: "normal",
             allowedanimationspeeds: { normal: !0, fast: !0 },
@@ -12367,6 +12367,9 @@ var __spreadArrays =
                   this._roundState.abortFinalWinPresentation());
               }),
               (t.prototype.handleAutoPlayRoundsSelected = function (e) {
+                delete new BroadcastChannel("parent").postMessage(
+                  JSON.stringify({ type: "autoplay", data: e, state: "init" })
+                );
                 (this._autoPlayState.roundsLeft =
                   this._autoPlayState.roundsTotal =
                     e),
@@ -12478,11 +12481,24 @@ var __spreadArrays =
                     e.roundStarted();
                   }),
                   this._roundState.newRoundAccepted(t);
+                delete new BroadcastChannel("parent").postMessage(
+                  JSON.stringify({
+                    type: "autoplay",
+                    data: [
+                      this._autoPlayState.roundsLeft,
+                      this._autoPlayState.roundsPlayed,
+                    ],
+                    state: "running",
+                  })
+                );
               }),
               (t.prototype.handleGuiButtonClicked = function (t, n) {
                 var o = e.slots.gui.GuiButtonIds;
                 switch (t) {
                   case o.STOP_AUTO_PLAY:
+                    delete new BroadcastChannel("parent").postMessage(
+                      JSON.stringify({ type: "autoplay", state: "stop" })
+                    );
                     (this._sessionRequestedByPlayer = !1),
                       this.handleStopAutoPlayButtonClicked();
                     break;
@@ -12581,6 +12597,7 @@ var __spreadArrays =
                 });
               }),
               (t.prototype.performLastRoundCompletedLogic = function () {
+                console.log("last round");
                 var e = this._game.model.autoPlayState;
                 (e.roundsLeft = e.roundsTotal),
                   (e.started = !1),
@@ -13527,6 +13544,9 @@ var __spreadArrays =
                   r() && s.updateBalanceAmount(e);
               }),
               (u.prototype.sendBalanceChangedCallToJsBridge = function () {
+                delete new BroadcastChannel("parent").postMessage(
+                  JSON.stringify({ type: "changebalance" })
+                );
                 this.jsBridge.balanceChanged({
                   accountid: this.model.accountId,
                   balance: this.model.clientBalance,
@@ -19336,7 +19356,7 @@ var AbstractSlot = tk_common.slots.phaser.AbstractSlot;
                     null != r.responsiblegaminglink),
                   h = r.currencyconfig || {
                     showcurrency: !0,
-                    currencysign: void 0,
+                    currencysign: "$",
                     decimalplaces: void 0,
                   };
                 r.currencyconfig = h;
@@ -19354,7 +19374,7 @@ var AbstractSlot = tk_common.slots.phaser.AbstractSlot;
                   (f.buttons.quickstop =
                     null == (t = f.buttons.quickstop) || t),
                   {
-                    developmentMode: r.developmentmode,
+                    developmentMode: true,
                     browserVendor: n,
                     jsBridge: a.jsBridge,
                     targetDevice: o,

@@ -1,0 +1,3468 @@
+[
+  {
+    "outcome.totalbetmultiplier": 0,
+    "outcome.multiplier": 1,
+    "outcome.totalwinamount": 0,
+    "state.totalbetmultiplier": 0,
+    "state.totalwinamount": 0,
+    "state.bets[0].value.amount": 1,
+    "state.gameparts.main.currentspinbetmultiplier": 0,
+    "state.gameparts.main.currentspinwinamount": 0,
+    "state.gameparts.main.finalsymbols": [
+      7, 12, 8, 5, 5, 10, 4, 7, 7, 7, 7, 6, 8, 8, 8
+    ],
+    "state.gameparts.main.initialsymbols": [
+      7, 12, 8, 5, 5, 10, 4, 7, 7, 7, 7, 6, 8, 8, 8
+    ],
+    "state.gameparts.main.multiplier": 1,
+    "state.gameparts.main.potwinsym": [
+      -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1
+    ],
+    "state.gameparts.main.reelindices": [190, 649, 102, 629, 398],
+    "state.gameparts.main.totalbetmultiplier": 0,
+    "state.gameparts.main.totalwinamount": 0
+  },
+  {
+    "outcome.totalbetmultiplier": 188,
+    "outcome.multiplier": 1,
+    "outcome.totalwinamount": 188,
+    "state.totalbetmultiplier": 188,
+    "state.totalwinamount": 188,
+    "outcome.winnings": {
+      "paylinewins": [
+        {
+          "classname": "tk.d.slots.vanilla.outcome.PaylineWinSituation",
+          "id": 0,
+          "symbolid": 1,
+          "symbolcount": 5,
+          "positions": [1, 4, 7, 10, 13],
+          "betmultiplier": 20,
+          "winamount": 20,
+          "freespins": 0,
+          "componentId": 0,
+          "extraspins": 0,
+          "picksWon": 0
+        },
+        {
+          "classname": "tk.d.slots.vanilla.outcome.PaylineWinSituation",
+          "id": 1,
+          "symbolid": 1,
+          "symbolcount": 5,
+          "positions": [0, 3, 6, 9, 12],
+          "betmultiplier": 20,
+          "winamount": 20,
+          "freespins": 0,
+          "componentId": 0,
+          "extraspins": 0,
+          "picksWon": 0
+        },
+        {
+          "classname": "tk.d.slots.vanilla.outcome.PaylineWinSituation",
+          "id": 3,
+          "symbolid": 1,
+          "symbolcount": 5,
+          "positions": [1, 4, 6, 10, 13],
+          "betmultiplier": 20,
+          "winamount": 20,
+          "freespins": 0,
+          "componentId": 0,
+          "extraspins": 0,
+          "picksWon": 0
+        },
+        {
+          "classname": "tk.d.slots.vanilla.outcome.PaylineWinSituation",
+          "id": 4,
+          "symbolid": 1,
+          "symbolcount": 5,
+          "positions": [1, 4, 8, 10, 13],
+          "betmultiplier": 20,
+          "winamount": 20,
+          "freespins": 0,
+          "componentId": 0,
+          "extraspins": 0,
+          "picksWon": 0
+        },
+        {
+          "classname": "tk.d.slots.vanilla.outcome.PaylineWinSituation",
+          "id": 5,
+          "symbolid": 1,
+          "symbolcount": 5,
+          "positions": [0, 3, 7, 9, 12],
+          "betmultiplier": 20,
+          "winamount": 20,
+          "freespins": 0,
+          "componentId": 0,
+          "extraspins": 0,
+          "picksWon": 0
+        },
+        {
+          "classname": "tk.d.slots.vanilla.outcome.PaylineWinSituation",
+          "id": 7,
+          "symbolid": 1,
+          "symbolcount": 5,
+          "positions": [0, 4, 7, 10, 12],
+          "betmultiplier": 20,
+          "winamount": 20,
+          "freespins": 0,
+          "componentId": 0,
+          "extraspins": 0,
+          "picksWon": 0
+        },
+        {
+          "classname": "tk.d.slots.vanilla.outcome.PaylineWinSituation",
+          "id": 8,
+          "symbolid": 1,
+          "symbolcount": 4,
+          "positions": [2, 4, 7, 10],
+          "betmultiplier": 4,
+          "winamount": 4,
+          "freespins": 0,
+          "componentId": 0,
+          "extraspins": 0,
+          "picksWon": 0
+        },
+        {
+          "classname": "tk.d.slots.vanilla.outcome.PaylineWinSituation",
+          "id": 10,
+          "symbolid": 1,
+          "symbolcount": 5,
+          "positions": [1, 3, 6, 9, 13],
+          "betmultiplier": 20,
+          "winamount": 20,
+          "freespins": 0,
+          "componentId": 0,
+          "extraspins": 0,
+          "picksWon": 0
+        },
+        {
+          "classname": "tk.d.slots.vanilla.outcome.PaylineWinSituation",
+          "id": 11,
+          "symbolid": 1,
+          "symbolcount": 5,
+          "positions": [0, 4, 8, 10, 12],
+          "betmultiplier": 20,
+          "winamount": 20,
+          "freespins": 0,
+          "componentId": 0,
+          "extraspins": 0,
+          "picksWon": 0
+        },
+        {
+          "classname": "tk.d.slots.vanilla.outcome.PaylineWinSituation",
+          "id": 12,
+          "symbolid": 1,
+          "symbolcount": 4,
+          "positions": [2, 4, 6, 10],
+          "betmultiplier": 4,
+          "winamount": 4,
+          "freespins": 0,
+          "componentId": 0,
+          "extraspins": 0,
+          "picksWon": 0
+        },
+        {
+          "classname": "tk.d.slots.vanilla.outcome.PaylineWinSituation",
+          "id": 13,
+          "symbolid": 1,
+          "symbolcount": 5,
+          "positions": [1, 3, 7, 9, 13],
+          "betmultiplier": 20,
+          "winamount": 20,
+          "freespins": 0,
+          "componentId": 0,
+          "extraspins": 0,
+          "picksWon": 0
+        }
+      ]
+    },
+    "state.bets[0].value.amount": 1,
+    "state.gameparts.main.currentspinbetmultiplier": 188,
+    "state.gameparts.main.currentspinwinamount": 188,
+    "state.gameparts.main.finalsymbols": [
+      1, 1, 1, 0, 0, 8, 1, 1, 1, 1, 1, 1, 1, 1, 7
+    ],
+    "state.gameparts.main.initialsymbols": [
+      1, 1, 1, 0, 0, 8, 1, 1, 1, 1, 1, 11, 1, 1, 7
+    ],
+    "state.gameparts.main.multiplier": 1,
+    "state.gameparts.main.potwinsym": [
+      5, 5, 5, 5, 5, -1, 5, 5, 5, 5, 5, -1, 5, 5, -1
+    ],
+    "state.gameparts.main.reelindices": [456, 233, 466, 84, 141],
+    "state.gameparts.main.totalbetmultiplier": 188,
+    "state.gameparts.main.totalwinamount": 188
+  },
+  {
+    "outcome.totalbetmultiplier": 0,
+    "outcome.multiplier": 1,
+    "outcome.totalwinamount": 0,
+    "state.totalbetmultiplier": 0,
+    "state.totalwinamount": 0,
+    "state.bets[0].value.amount": 1,
+    "state.gameparts.main.currentspinbetmultiplier": 0,
+    "state.gameparts.main.currentspinwinamount": 0,
+    "state.gameparts.main.finalsymbols": [
+      2, 2, 2, 2, 2, 2, 3, 3, 4, 0, 4, 4, 7, 7, 7
+    ],
+    "state.gameparts.main.initialsymbols": [
+      2, 2, 2, 11, 6, 6, 3, 3, 4, 0, 4, 4, 7, 7, 7
+    ],
+    "state.gameparts.main.multiplier": 1,
+    "state.gameparts.main.potwinsym": [
+      -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1
+    ],
+    "state.gameparts.main.reelindices": [132, 414, 153, 168, 624],
+    "state.gameparts.main.totalbetmultiplier": 0,
+    "state.gameparts.main.totalwinamount": 0
+  },
+  {
+    "outcome.totalbetmultiplier": 0,
+    "outcome.multiplier": 1,
+    "outcome.totalwinamount": 0,
+    "state.totalbetmultiplier": 0,
+    "state.totalwinamount": 0,
+    "state.bets[0].value.amount": 1,
+    "state.gameparts.main.currentspinbetmultiplier": 0,
+    "state.gameparts.main.currentspinwinamount": 0,
+    "state.gameparts.main.finalsymbols": [
+      8, 8, 8, 7, 7, 7, 2, 2, 2, 6, 0, 0, 2, 2, 4
+    ],
+    "state.gameparts.main.initialsymbols": [
+      8, 8, 8, 7, 7, 7, 2, 2, 2, 6, 0, 0, 2, 2, 4
+    ],
+    "state.gameparts.main.multiplier": 1,
+    "state.gameparts.main.potwinsym": [
+      -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1
+    ],
+    "state.gameparts.main.reelindices": [506, 505, 463, 388, 537],
+    "state.gameparts.main.totalbetmultiplier": 0,
+    "state.gameparts.main.totalwinamount": 0
+  },
+  {
+    "outcome.totalbetmultiplier": 0,
+    "outcome.multiplier": 1,
+    "outcome.totalwinamount": 0,
+    "state.totalbetmultiplier": 0,
+    "state.totalwinamount": 0,
+    "state.bets[0].value.amount": 1,
+    "state.gameparts.main.currentspinbetmultiplier": 0,
+    "state.gameparts.main.currentspinwinamount": 0,
+    "state.gameparts.main.finalsymbols": [
+      8, 8, 8, 8, 8, 8, 5, 7, 7, 6, 6, 0, 5, 10, 6
+    ],
+    "state.gameparts.main.initialsymbols": [
+      8, 8, 8, 11, 2, 2, 5, 7, 7, 6, 6, 0, 5, 10, 6
+    ],
+    "state.gameparts.main.multiplier": 1,
+    "state.gameparts.main.potwinsym": [
+      -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1
+    ],
+    "state.gameparts.main.reelindices": [136, 744, 409, 387, 393],
+    "state.gameparts.main.totalbetmultiplier": 0,
+    "state.gameparts.main.totalwinamount": 0
+  },
+  {
+    "outcome.totalbetmultiplier": 2,
+    "outcome.multiplier": 1,
+    "outcome.totalwinamount": 2,
+    "state.totalbetmultiplier": 2,
+    "state.totalwinamount": 2,
+    "outcome.winnings": {
+      "paylinewins": [
+        {
+          "classname": "tk.d.slots.vanilla.outcome.PaylineWinSituation",
+          "id": 2,
+          "symbolid": 4,
+          "symbolcount": 3,
+          "positions": [2, 5, 8],
+          "betmultiplier": 0.5,
+          "winamount": 0.5,
+          "freespins": 0,
+          "componentId": 0,
+          "extraspins": 0,
+          "picksWon": 0
+        },
+        {
+          "classname": "tk.d.slots.vanilla.outcome.PaylineWinSituation",
+          "id": 6,
+          "symbolid": 4,
+          "symbolcount": 3,
+          "positions": [2, 5, 7],
+          "betmultiplier": 0.5,
+          "winamount": 0.5,
+          "freespins": 0,
+          "componentId": 0,
+          "extraspins": 0,
+          "picksWon": 0
+        },
+        {
+          "classname": "tk.d.slots.vanilla.outcome.PaylineWinSituation",
+          "id": 8,
+          "symbolid": 4,
+          "symbolcount": 3,
+          "positions": [2, 4, 7],
+          "betmultiplier": 0.5,
+          "winamount": 0.5,
+          "freespins": 0,
+          "componentId": 0,
+          "extraspins": 0,
+          "picksWon": 0
+        },
+        {
+          "classname": "tk.d.slots.vanilla.outcome.PaylineWinSituation",
+          "id": 12,
+          "symbolid": 4,
+          "symbolcount": 3,
+          "positions": [2, 4, 6],
+          "betmultiplier": 0.5,
+          "winamount": 0.5,
+          "freespins": 0,
+          "componentId": 0,
+          "extraspins": 0,
+          "picksWon": 0
+        }
+      ]
+    },
+    "state.bets[0].value.amount": 1,
+    "state.gameparts.main.currentspinbetmultiplier": 2,
+    "state.gameparts.main.currentspinwinamount": 2,
+    "state.gameparts.main.finalsymbols": [
+      8, 8, 4, 0, 0, 0, 4, 4, 4, 5, 5, 2, 7, 7, 6
+    ],
+    "state.gameparts.main.initialsymbols": [
+      8, 8, 4, 0, 0, 0, 5, 11, 6, 5, 5, 2, 7, 7, 6
+    ],
+    "state.gameparts.main.multiplier": 1,
+    "state.gameparts.main.potwinsym": [
+      2, 2, 5, 2, 5, 5, 5, 5, 5, -1, -1, -1, -1, -1, -1
+    ],
+    "state.gameparts.main.reelindices": [353, 508, 374, 104, 625],
+    "state.gameparts.main.totalbetmultiplier": 2,
+    "state.gameparts.main.totalwinamount": 2
+  },
+  {
+    "outcome.totalbetmultiplier": 0,
+    "outcome.multiplier": 1,
+    "outcome.totalwinamount": 0,
+    "state.totalbetmultiplier": 0,
+    "state.totalwinamount": 0,
+    "state.bets[0].value.amount": 1,
+    "state.gameparts.main.currentspinbetmultiplier": 0,
+    "state.gameparts.main.currentspinwinamount": 0,
+    "state.gameparts.main.finalsymbols": [
+      8, 12, 3, 10, 4, 4, 7, 5, 5, 0, 5, 5, 1, 1, 7
+    ],
+    "state.gameparts.main.initialsymbols": [
+      8, 12, 3, 10, 4, 4, 7, 5, 5, 0, 5, 5, 1, 1, 7
+    ],
+    "state.gameparts.main.multiplier": 1,
+    "state.gameparts.main.potwinsym": [
+      -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1
+    ],
+    "state.gameparts.main.reelindices": [232, 651, 208, 356, 141],
+    "state.gameparts.main.totalbetmultiplier": 0,
+    "state.gameparts.main.totalwinamount": 0
+  },
+  {
+    "outcome.totalbetmultiplier": 0,
+    "outcome.multiplier": 1,
+    "outcome.totalwinamount": 0,
+    "state.totalbetmultiplier": 0,
+    "state.totalwinamount": 0,
+    "state.bets[0].value.amount": 1,
+    "state.gameparts.main.currentspinbetmultiplier": 0,
+    "state.gameparts.main.currentspinwinamount": 0,
+    "state.gameparts.main.finalsymbols": [
+      4, 4, 4, 5, 5, 6, 7, 7, 8, 8, 8, 8, 5, 5, 6
+    ],
+    "state.gameparts.main.initialsymbols": [
+      4, 4, 4, 5, 5, 6, 7, 7, 8, 8, 8, 8, 5, 5, 6
+    ],
+    "state.gameparts.main.multiplier": 1,
+    "state.gameparts.main.potwinsym": [
+      -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1
+    ],
+    "state.gameparts.main.reelindices": [384, 342, 601, 539, 236],
+    "state.gameparts.main.totalbetmultiplier": 0,
+    "state.gameparts.main.totalwinamount": 0
+  },
+  {
+    "outcome.totalbetmultiplier": 0,
+    "outcome.multiplier": 1,
+    "outcome.totalwinamount": 0,
+    "state.totalbetmultiplier": 0,
+    "state.totalwinamount": 0,
+    "state.bets[0].value.amount": 1,
+    "state.gameparts.main.currentspinbetmultiplier": 0,
+    "state.gameparts.main.currentspinwinamount": 0,
+    "state.gameparts.main.finalsymbols": [
+      7, 8, 8, 7, 3, 3, 6, 10, 1, 7, 8, 8, 4, 4, 3
+    ],
+    "state.gameparts.main.initialsymbols": [
+      7, 8, 8, 7, 3, 3, 6, 10, 1, 7, 8, 8, 4, 4, 3
+    ],
+    "state.gameparts.main.multiplier": 1,
+    "state.gameparts.main.potwinsym": [
+      -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1
+    ],
+    "state.gameparts.main.reelindices": [59, 323, 360, 115, 421],
+    "state.gameparts.main.totalbetmultiplier": 0,
+    "state.gameparts.main.totalwinamount": 0
+  },
+  {
+    "outcome.totalbetmultiplier": 0,
+    "outcome.multiplier": 1,
+    "outcome.totalwinamount": 0,
+    "state.totalbetmultiplier": 0,
+    "state.totalwinamount": 0,
+    "state.bets[0].value.amount": 1,
+    "state.gameparts.main.currentspinbetmultiplier": 0,
+    "state.gameparts.main.currentspinwinamount": 0,
+    "state.gameparts.main.finalsymbols": [
+      5, 5, 5, 6, 6, 3, 1, 2, 2, 5, 5, 5, 5, 5, 5
+    ],
+    "state.gameparts.main.initialsymbols": [
+      5, 5, 5, 6, 6, 3, 1, 2, 2, 11, 7, 7, 5, 5, 5
+    ],
+    "state.gameparts.main.multiplier": 1,
+    "state.gameparts.main.potwinsym": [
+      -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1
+    ],
+    "state.gameparts.main.reelindices": [98, 694, 462, 253, 287],
+    "state.gameparts.main.totalbetmultiplier": 0,
+    "state.gameparts.main.totalwinamount": 0
+  },
+  {
+    "outcome.totalbetmultiplier": 0,
+    "outcome.multiplier": 1,
+    "outcome.totalwinamount": 0,
+    "state.totalbetmultiplier": 0,
+    "state.totalwinamount": 0,
+    "state.bets[0].value.amount": 1,
+    "state.gameparts.main.currentspinbetmultiplier": 0,
+    "state.gameparts.main.currentspinwinamount": 0,
+    "state.gameparts.main.finalsymbols": [
+      6, 7, 7, 6, 6, 8, 8, 8, 12, 5, 5, 5, 3, 3, 3
+    ],
+    "state.gameparts.main.initialsymbols": [
+      6, 7, 7, 6, 6, 8, 8, 8, 12, 5, 5, 5, 3, 3, 3
+    ],
+    "state.gameparts.main.multiplier": 1,
+    "state.gameparts.main.potwinsym": [
+      -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1
+    ],
+    "state.gameparts.main.reelindices": [219, 425, 557, 610, 449],
+    "state.gameparts.main.totalbetmultiplier": 0,
+    "state.gameparts.main.totalwinamount": 0
+  },
+  {
+    "outcome.totalbetmultiplier": 0,
+    "outcome.multiplier": 1,
+    "outcome.totalwinamount": 0,
+    "state.totalbetmultiplier": 0,
+    "state.totalwinamount": 0,
+    "state.bets[0].value.amount": 1,
+    "state.gameparts.main.currentspinbetmultiplier": 0,
+    "state.gameparts.main.currentspinwinamount": 0,
+    "state.gameparts.main.finalsymbols": [
+      6, 6, 6, 10, 8, 8, 4, 4, 4, 6, 7, 7, 3, 3, 3
+    ],
+    "state.gameparts.main.initialsymbols": [
+      6, 6, 6, 10, 8, 8, 4, 4, 4, 6, 7, 7, 3, 3, 3
+    ],
+    "state.gameparts.main.multiplier": 1,
+    "state.gameparts.main.potwinsym": [
+      -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1
+    ],
+    "state.gameparts.main.reelindices": [149, 748, 202, 406, 185],
+    "state.gameparts.main.totalbetmultiplier": 0,
+    "state.gameparts.main.totalwinamount": 0
+  },
+  {
+    "outcome.totalbetmultiplier": 2.4,
+    "outcome.multiplier": 1,
+    "outcome.totalwinamount": 2.4,
+    "state.totalbetmultiplier": 2.4,
+    "state.totalwinamount": 2.4,
+    "outcome.winnings": {
+      "paylinewins": [
+        {
+          "classname": "tk.d.slots.vanilla.outcome.PaylineWinSituation",
+          "id": 2,
+          "symbolid": 5,
+          "symbolcount": 3,
+          "positions": [2, 5, 8],
+          "betmultiplier": 0.4,
+          "winamount": 0.4,
+          "freespins": 0,
+          "componentId": 0,
+          "extraspins": 0,
+          "picksWon": 0
+        },
+        {
+          "classname": "tk.d.slots.vanilla.outcome.PaylineWinSituation",
+          "id": 3,
+          "symbolid": 5,
+          "symbolcount": 3,
+          "positions": [1, 4, 6],
+          "betmultiplier": 0.4,
+          "winamount": 0.4,
+          "freespins": 0,
+          "componentId": 0,
+          "extraspins": 0,
+          "picksWon": 0
+        },
+        {
+          "classname": "tk.d.slots.vanilla.outcome.PaylineWinSituation",
+          "id": 4,
+          "symbolid": 5,
+          "symbolcount": 3,
+          "positions": [1, 4, 8],
+          "betmultiplier": 0.4,
+          "winamount": 0.4,
+          "freespins": 0,
+          "componentId": 0,
+          "extraspins": 0,
+          "picksWon": 0
+        },
+        {
+          "classname": "tk.d.slots.vanilla.outcome.PaylineWinSituation",
+          "id": 9,
+          "symbolid": 5,
+          "symbolcount": 3,
+          "positions": [1, 5, 8],
+          "betmultiplier": 0.4,
+          "winamount": 0.4,
+          "freespins": 0,
+          "componentId": 0,
+          "extraspins": 0,
+          "picksWon": 0
+        },
+        {
+          "classname": "tk.d.slots.vanilla.outcome.PaylineWinSituation",
+          "id": 10,
+          "symbolid": 5,
+          "symbolcount": 3,
+          "positions": [1, 3, 6],
+          "betmultiplier": 0.4,
+          "winamount": 0.4,
+          "freespins": 0,
+          "componentId": 0,
+          "extraspins": 0,
+          "picksWon": 0
+        },
+        {
+          "classname": "tk.d.slots.vanilla.outcome.PaylineWinSituation",
+          "id": 12,
+          "symbolid": 5,
+          "symbolcount": 3,
+          "positions": [2, 4, 6],
+          "betmultiplier": 0.4,
+          "winamount": 0.4,
+          "freespins": 0,
+          "componentId": 0,
+          "extraspins": 0,
+          "picksWon": 0
+        }
+      ],
+      "scatterwins": [
+        {
+          "classname": "tk.d.slots.vanilla.outcome.ScatterWinSituation",
+          "symbolid": 12,
+          "positions": [7, 10, 12],
+          "extraspins": 0,
+          "transition": "mystery",
+          "freespins": 0,
+          "componentId": -3,
+          "picksWon": 3
+        }
+      ]
+    },
+    "state.bets[0].value.amount": 1,
+    "state.gameparts.main.currentspinbetmultiplier": 2.4,
+    "state.gameparts.main.currentspinwinamount": 2.4,
+    "state.gameparts.main.finalsymbols": [
+      8, 5, 5, 5, 5, 5, 5, 12, 5, 3, 12, 2, 12, 3, 3
+    ],
+    "state.gameparts.main.initialsymbols": [
+      8, 5, 5, 4, 11, 3, 5, 12, 5, 3, 12, 2, 12, 3, 3
+    ],
+    "state.gameparts.main.multiplier": 1,
+    "state.gameparts.main.potwinsym": [
+      -1, 5, 5, 5, 5, 5, 5, -1, 5, -1, -1, -1, -1, -1, -1
+    ],
+    "state.gameparts.main.reelindices": [536, 768, 237, 487, 302],
+    "state.gameparts.main.totalbetmultiplier": 2.4,
+    "state.gameparts.main.totalwinamount": 2.4
+  },
+  {
+    "outcome.totalbetmultiplier": 18,
+    "outcome.multiplier": 1,
+    "outcome.totalwinamount": 18,
+    "state.totalbetmultiplier": 20.4,
+    "state.totalwinamount": 20.4,
+    "state.bets[0].value.amount": 1,
+    "state.gameparts.main.currentspinbetmultiplier": 2.4,
+    "state.gameparts.main.currentspinwinamount": 2.4,
+    "state.gameparts.main.finalsymbols": [
+      8, 5, 5, 5, 5, 5, 5, 12, 5, 3, 12, 2, 12, 3, 3
+    ],
+    "state.gameparts.main.initialsymbols": [
+      8, 5, 5, 4, 11, 3, 5, 12, 5, 3, 12, 2, 12, 3, 3
+    ],
+    "state.gameparts.main.multiplier": 1,
+    "state.gameparts.main.potwinsym": [
+      -1, 5, 5, 5, 5, 5, 5, -1, 5, -1, -1, -1, -1, -1, -1
+    ],
+    "state.gameparts.main.reelindices": [536, 768, 237, 487, 302],
+    "state.gameparts.main.totalbetmultiplier": 2.4,
+    "state.gameparts.main.totalwinamount": 2.4
+  },
+  {
+    "outcome.totalbetmultiplier": 0,
+    "outcome.multiplier": 1,
+    "outcome.totalwinamount": 0,
+    "state.totalbetmultiplier": 20.4,
+    "state.totalwinamount": 20.4,
+    "state.bets[0].value.amount": 1,
+    "state.gameparts.main.currentspinbetmultiplier": 2.4,
+    "state.gameparts.main.currentspinwinamount": 2.4,
+    "state.gameparts.main.finalsymbols": [
+      8, 5, 5, 5, 5, 5, 5, 12, 5, 3, 12, 2, 12, 3, 3
+    ],
+    "state.gameparts.main.initialsymbols": [
+      8, 5, 5, 4, 11, 3, 5, 12, 5, 3, 12, 2, 12, 3, 3
+    ],
+    "state.gameparts.main.multiplier": 1,
+    "state.gameparts.main.potwinsym": [
+      -1, 5, 5, 5, 5, 5, 5, -1, 5, -1, -1, -1, -1, -1, -1
+    ],
+    "state.gameparts.main.reelindices": [536, 768, 237, 487, 302],
+    "state.gameparts.main.totalbetmultiplier": 2.4,
+    "state.gameparts.main.totalwinamount": 2.4
+  },
+  {
+    "outcome.totalbetmultiplier": 0.6,
+    "outcome.multiplier": 1,
+    "outcome.totalwinamount": 0.6,
+    "state.totalbetmultiplier": 0.6,
+    "state.totalwinamount": 0.6,
+    "outcome.winnings": {
+      "paylinewins": [
+        {
+          "classname": "tk.d.slots.vanilla.outcome.PaylineWinSituation",
+          "id": 9,
+          "symbolid": 8,
+          "symbolcount": 4,
+          "positions": [1, 5, 8, 11],
+          "betmultiplier": 0.3,
+          "winamount": 0.3,
+          "freespins": 0,
+          "componentId": 0,
+          "extraspins": 0,
+          "picksWon": 0
+        },
+        {
+          "classname": "tk.d.slots.vanilla.outcome.PaylineWinSituation",
+          "id": 14,
+          "symbolid": 8,
+          "symbolcount": 4,
+          "positions": [1, 5, 7, 11],
+          "betmultiplier": 0.3,
+          "winamount": 0.3,
+          "freespins": 0,
+          "componentId": 0,
+          "extraspins": 0,
+          "picksWon": 0
+        }
+      ]
+    },
+    "state.bets[0].value.amount": 1,
+    "state.gameparts.main.currentspinbetmultiplier": 0.6,
+    "state.gameparts.main.currentspinwinamount": 0.6,
+    "state.gameparts.main.finalsymbols": [
+      8, 8, 6, 7, 7, 8, 8, 8, 8, 8, 8, 8, 3, 3, 3
+    ],
+    "state.gameparts.main.initialsymbols": [
+      8, 8, 6, 7, 7, 8, 8, 11, 7, 6, 6, 11, 3, 3, 3
+    ],
+    "state.gameparts.main.multiplier": 1,
+    "state.gameparts.main.potwinsym": [
+      -1, 5, -1, -1, -1, 5, -1, 5, 5, -1, -1, 5, -1, -1, -1
+    ],
+    "state.gameparts.main.reelindices": [193, 47, 583, 326, 56],
+    "state.gameparts.main.totalbetmultiplier": 0.6,
+    "state.gameparts.main.totalwinamount": 0.6
+  },
+  {
+    "outcome.totalbetmultiplier": 4,
+    "outcome.multiplier": 1,
+    "outcome.totalwinamount": 4,
+    "state.totalbetmultiplier": 4,
+    "state.totalwinamount": 4,
+    "outcome.winnings": {
+      "paylinewins": [
+        {
+          "classname": "tk.d.slots.vanilla.outcome.PaylineWinSituation",
+          "id": 1,
+          "symbolid": 4,
+          "symbolcount": 4,
+          "positions": [0, 3, 6, 9],
+          "betmultiplier": 1,
+          "winamount": 1,
+          "freespins": 0,
+          "componentId": 0,
+          "extraspins": 0,
+          "picksWon": 0
+        },
+        {
+          "classname": "tk.d.slots.vanilla.outcome.PaylineWinSituation",
+          "id": 5,
+          "symbolid": 4,
+          "symbolcount": 4,
+          "positions": [0, 3, 7, 9],
+          "betmultiplier": 1,
+          "winamount": 1,
+          "freespins": 0,
+          "componentId": 0,
+          "extraspins": 0,
+          "picksWon": 0
+        },
+        {
+          "classname": "tk.d.slots.vanilla.outcome.PaylineWinSituation",
+          "id": 10,
+          "symbolid": 4,
+          "symbolcount": 4,
+          "positions": [1, 3, 6, 9],
+          "betmultiplier": 1,
+          "winamount": 1,
+          "freespins": 0,
+          "componentId": 0,
+          "extraspins": 0,
+          "picksWon": 0
+        },
+        {
+          "classname": "tk.d.slots.vanilla.outcome.PaylineWinSituation",
+          "id": 13,
+          "symbolid": 4,
+          "symbolcount": 4,
+          "positions": [1, 3, 7, 9],
+          "betmultiplier": 1,
+          "winamount": 1,
+          "freespins": 0,
+          "componentId": 0,
+          "extraspins": 0,
+          "picksWon": 0
+        }
+      ]
+    },
+    "state.bets[0].value.amount": 1,
+    "state.gameparts.main.currentspinbetmultiplier": 4,
+    "state.gameparts.main.currentspinwinamount": 4,
+    "state.gameparts.main.finalsymbols": [
+      4, 4, 4, 0, 8, 8, 0, 0, 0, 0, 8, 8, 5, 6, 6
+    ],
+    "state.gameparts.main.initialsymbols": [
+      4, 4, 4, 0, 8, 8, 0, 0, 0, 0, 8, 8, 5, 6, 6
+    ],
+    "state.gameparts.main.multiplier": 1,
+    "state.gameparts.main.potwinsym": [
+      5, 5, -1, 5, -1, -1, 5, 5, -1, 5, -1, -1, -1, -1, -1
+    ],
+    "state.gameparts.main.reelindices": [472, 329, 158, 226, 544],
+    "state.gameparts.main.totalbetmultiplier": 4,
+    "state.gameparts.main.totalwinamount": 4
+  },
+  {
+    "outcome.totalbetmultiplier": 0,
+    "outcome.multiplier": 1,
+    "outcome.totalwinamount": 0,
+    "state.totalbetmultiplier": 0,
+    "state.totalwinamount": 0,
+    "state.bets[0].value.amount": 1,
+    "state.gameparts.main.currentspinbetmultiplier": 0,
+    "state.gameparts.main.currentspinwinamount": 0,
+    "state.gameparts.main.finalsymbols": [
+      6, 6, 6, 5, 5, 0, 5, 5, 5, 8, 8, 2, 4, 6, 6
+    ],
+    "state.gameparts.main.initialsymbols": [
+      6, 6, 6, 5, 5, 0, 5, 5, 5, 8, 8, 2, 4, 6, 6
+    ],
+    "state.gameparts.main.multiplier": 1,
+    "state.gameparts.main.potwinsym": [
+      -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1
+    ],
+    "state.gameparts.main.reelindices": [47, 476, 631, 61, 158],
+    "state.gameparts.main.totalbetmultiplier": 0,
+    "state.gameparts.main.totalwinamount": 0
+  },
+  {
+    "outcome.totalbetmultiplier": 0,
+    "outcome.multiplier": 1,
+    "outcome.totalwinamount": 0,
+    "state.totalbetmultiplier": 0,
+    "state.totalwinamount": 0,
+    "state.bets[0].value.amount": 1,
+    "state.gameparts.main.currentspinbetmultiplier": 0,
+    "state.gameparts.main.currentspinwinamount": 0,
+    "state.gameparts.main.finalsymbols": [
+      8, 8, 3, 3, 3, 3, 5, 5, 7, 0, 4, 4, 7, 7, 5
+    ],
+    "state.gameparts.main.initialsymbols": [
+      8, 8, 3, 4, 4, 11, 5, 5, 7, 0, 4, 4, 7, 7, 5
+    ],
+    "state.gameparts.main.multiplier": 1,
+    "state.gameparts.main.potwinsym": [
+      -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1
+    ],
+    "state.gameparts.main.reelindices": [648, 627, 538, 72, 297],
+    "state.gameparts.main.totalbetmultiplier": 0,
+    "state.gameparts.main.totalwinamount": 0
+  },
+  {
+    "outcome.totalbetmultiplier": 0,
+    "outcome.multiplier": 1,
+    "outcome.totalwinamount": 0,
+    "state.totalbetmultiplier": 0,
+    "state.totalwinamount": 0,
+    "state.bets[0].value.amount": 1,
+    "state.gameparts.main.currentspinbetmultiplier": 0,
+    "state.gameparts.main.currentspinwinamount": 0,
+    "state.gameparts.main.finalsymbols": [
+      6, 6, 6, 3, 3, 4, 7, 3, 3, 8, 12, 3, 3, 3, 8
+    ],
+    "state.gameparts.main.initialsymbols": [
+      6, 6, 6, 3, 3, 4, 7, 3, 3, 8, 12, 3, 3, 3, 8
+    ],
+    "state.gameparts.main.multiplier": 1,
+    "state.gameparts.main.potwinsym": [
+      -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1
+    ],
+    "state.gameparts.main.reelindices": [286, 519, 151, 229, 147],
+    "state.gameparts.main.totalbetmultiplier": 0,
+    "state.gameparts.main.totalwinamount": 0
+  },
+  {
+    "outcome.totalbetmultiplier": 0,
+    "outcome.multiplier": 1,
+    "outcome.totalwinamount": 0,
+    "state.totalbetmultiplier": 0,
+    "state.totalwinamount": 0,
+    "state.bets[0].value.amount": 1,
+    "state.gameparts.main.currentspinbetmultiplier": 0,
+    "state.gameparts.main.currentspinwinamount": 0,
+    "state.gameparts.main.finalsymbols": [
+      4, 4, 2, 8, 8, 8, 8, 8, 1, 0, 0, 0, 8, 8, 8
+    ],
+    "state.gameparts.main.initialsymbols": [
+      4, 4, 2, 8, 8, 8, 8, 8, 1, 0, 0, 0, 8, 8, 8
+    ],
+    "state.gameparts.main.multiplier": 1,
+    "state.gameparts.main.potwinsym": [
+      -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1
+    ],
+    "state.gameparts.main.reelindices": [277, 235, 95, 129, 578],
+    "state.gameparts.main.totalbetmultiplier": 0,
+    "state.gameparts.main.totalwinamount": 0
+  },
+  {
+    "outcome.totalbetmultiplier": 0,
+    "outcome.multiplier": 1,
+    "outcome.totalwinamount": 0,
+    "state.totalbetmultiplier": 0,
+    "state.totalwinamount": 0,
+    "state.bets[0].value.amount": 1,
+    "state.gameparts.main.currentspinbetmultiplier": 0,
+    "state.gameparts.main.currentspinwinamount": 0,
+    "state.gameparts.main.finalsymbols": [
+      5, 5, 6, 7, 0, 0, 7, 8, 8, 8, 8, 8, 12, 4, 4
+    ],
+    "state.gameparts.main.initialsymbols": [
+      5, 5, 6, 7, 0, 0, 7, 8, 8, 8, 8, 8, 12, 4, 4
+    ],
+    "state.gameparts.main.multiplier": 1,
+    "state.gameparts.main.potwinsym": [
+      -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1
+    ],
+    "state.gameparts.main.reelindices": [578, 527, 123, 558, 260],
+    "state.gameparts.main.totalbetmultiplier": 0,
+    "state.gameparts.main.totalwinamount": 0
+  },
+  {
+    "outcome.totalbetmultiplier": 0,
+    "outcome.multiplier": 1,
+    "outcome.totalwinamount": 0,
+    "state.totalbetmultiplier": 0,
+    "state.totalwinamount": 0,
+    "state.bets[0].value.amount": 1,
+    "state.gameparts.main.currentspinbetmultiplier": 0,
+    "state.gameparts.main.currentspinwinamount": 0,
+    "state.gameparts.main.finalsymbols": [
+      4, 4, 2, 5, 5, 5, 8, 8, 6, 8, 8, 8, 3, 3, 10
+    ],
+    "state.gameparts.main.initialsymbols": [
+      4, 4, 2, 5, 5, 5, 8, 8, 6, 8, 8, 8, 3, 3, 10
+    ],
+    "state.gameparts.main.multiplier": 1,
+    "state.gameparts.main.potwinsym": [
+      -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1
+    ],
+    "state.gameparts.main.reelindices": [277, 182, 356, 227, 281],
+    "state.gameparts.main.totalbetmultiplier": 0,
+    "state.gameparts.main.totalwinamount": 0
+  },
+  {
+    "outcome.totalbetmultiplier": 0,
+    "outcome.multiplier": 1,
+    "outcome.totalwinamount": 0,
+    "state.totalbetmultiplier": 0,
+    "state.totalwinamount": 0,
+    "state.bets[0].value.amount": 1,
+    "state.gameparts.main.currentspinbetmultiplier": 0,
+    "state.gameparts.main.currentspinwinamount": 0,
+    "state.gameparts.main.finalsymbols": [
+      4, 4, 4, 7, 3, 3, 2, 2, 2, 5, 5, 12, 10, 6, 6
+    ],
+    "state.gameparts.main.initialsymbols": [
+      4, 4, 4, 7, 3, 3, 2, 2, 2, 5, 5, 12, 10, 6, 6
+    ],
+    "state.gameparts.main.multiplier": 1,
+    "state.gameparts.main.potwinsym": [
+      -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1
+    ],
+    "state.gameparts.main.reelindices": [449, 323, 75, 339, 377],
+    "state.gameparts.main.totalbetmultiplier": 0,
+    "state.gameparts.main.totalwinamount": 0
+  },
+  {
+    "outcome.totalbetmultiplier": 0,
+    "outcome.multiplier": 1,
+    "outcome.totalwinamount": 0,
+    "state.totalbetmultiplier": 0,
+    "state.totalwinamount": 0,
+    "state.bets[0].value.amount": 1,
+    "state.gameparts.main.currentspinbetmultiplier": 0,
+    "state.gameparts.main.currentspinwinamount": 0,
+    "state.gameparts.main.finalsymbols": [
+      3, 3, 3, 12, 7, 7, 2, 2, 0, 3, 3, 3, 6, 7, 7
+    ],
+    "state.gameparts.main.initialsymbols": [
+      3, 3, 3, 12, 7, 7, 2, 2, 0, 3, 3, 3, 6, 7, 7
+    ],
+    "state.gameparts.main.multiplier": 1,
+    "state.gameparts.main.potwinsym": [
+      -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1
+    ],
+    "state.gameparts.main.reelindices": [587, 333, 380, 647, 99],
+    "state.gameparts.main.totalbetmultiplier": 0,
+    "state.gameparts.main.totalwinamount": 0
+  },
+  {
+    "outcome.totalbetmultiplier": 0,
+    "outcome.multiplier": 1,
+    "outcome.totalwinamount": 0,
+    "state.totalbetmultiplier": 0,
+    "state.totalwinamount": 0,
+    "state.bets[0].value.amount": 1,
+    "state.gameparts.main.currentspinbetmultiplier": 0,
+    "state.gameparts.main.currentspinwinamount": 0,
+    "state.gameparts.main.finalsymbols": [
+      8, 8, 5, 8, 8, 0, 7, 7, 12, 5, 5, 12, 8, 5, 5
+    ],
+    "state.gameparts.main.initialsymbols": [
+      8, 8, 5, 8, 8, 0, 7, 7, 12, 5, 5, 12, 8, 5, 5
+    ],
+    "state.gameparts.main.multiplier": 1,
+    "state.gameparts.main.potwinsym": [
+      -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1
+    ],
+    "state.gameparts.main.reelindices": [535, 38, 457, 422, 234],
+    "state.gameparts.main.totalbetmultiplier": 0,
+    "state.gameparts.main.totalwinamount": 0
+  },
+  {
+    "outcome.totalbetmultiplier": 0,
+    "outcome.multiplier": 1,
+    "outcome.totalwinamount": 0,
+    "state.totalbetmultiplier": 0,
+    "state.totalwinamount": 0,
+    "state.bets[0].value.amount": 1,
+    "state.gameparts.main.currentspinbetmultiplier": 0,
+    "state.gameparts.main.currentspinwinamount": 0,
+    "state.gameparts.main.finalsymbols": [
+      7, 7, 3, 8, 6, 6, 0, 0, 0, 8, 8, 8, 5, 5, 5
+    ],
+    "state.gameparts.main.initialsymbols": [
+      7, 7, 3, 8, 6, 6, 0, 0, 0, 8, 8, 8, 5, 5, 5
+    ],
+    "state.gameparts.main.multiplier": 1,
+    "state.gameparts.main.potwinsym": [
+      -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1
+    ],
+    "state.gameparts.main.reelindices": [156, 237, 672, 60, 502],
+    "state.gameparts.main.totalbetmultiplier": 0,
+    "state.gameparts.main.totalwinamount": 0
+  },
+  {
+    "outcome.totalbetmultiplier": 0,
+    "outcome.multiplier": 1,
+    "outcome.totalwinamount": 0,
+    "state.totalbetmultiplier": 0,
+    "state.totalwinamount": 0,
+    "state.bets[0].value.amount": 1,
+    "state.gameparts.main.currentspinbetmultiplier": 0,
+    "state.gameparts.main.currentspinwinamount": 0,
+    "state.gameparts.main.finalsymbols": [
+      10, 2, 2, 7, 7, 7, 7, 7, 7, 10, 3, 3, 7, 7, 6
+    ],
+    "state.gameparts.main.initialsymbols": [
+      10, 2, 2, 7, 7, 7, 7, 7, 7, 10, 3, 3, 7, 7, 6
+    ],
+    "state.gameparts.main.multiplier": 1,
+    "state.gameparts.main.potwinsym": [
+      -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1
+    ],
+    "state.gameparts.main.reelindices": [252, 638, 66, 217, 460],
+    "state.gameparts.main.totalbetmultiplier": 0,
+    "state.gameparts.main.totalwinamount": 0
+  },
+  {
+    "outcome.totalbetmultiplier": 0,
+    "outcome.multiplier": 1,
+    "outcome.totalwinamount": 0,
+    "state.totalbetmultiplier": 0,
+    "state.totalwinamount": 0,
+    "state.bets[0].value.amount": 1,
+    "state.gameparts.main.currentspinbetmultiplier": 0,
+    "state.gameparts.main.currentspinwinamount": 0,
+    "state.gameparts.main.finalsymbols": [
+      3, 3, 3, 3, 3, 3, 2, 2, 2, 8, 8, 8, 3, 3, 3
+    ],
+    "state.gameparts.main.initialsymbols": [
+      3, 3, 3, 7, 11, 7, 2, 2, 2, 8, 8, 8, 3, 3, 3
+    ],
+    "state.gameparts.main.multiplier": 1,
+    "state.gameparts.main.potwinsym": [
+      -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1
+    ],
+    "state.gameparts.main.reelindices": [462, 761, 443, 177, 508],
+    "state.gameparts.main.totalbetmultiplier": 0,
+    "state.gameparts.main.totalwinamount": 0
+  },
+  {
+    "outcome.totalbetmultiplier": 0,
+    "outcome.multiplier": 1,
+    "outcome.totalwinamount": 0,
+    "state.totalbetmultiplier": 0,
+    "state.totalwinamount": 0,
+    "state.bets[0].value.amount": 1,
+    "state.gameparts.main.currentspinbetmultiplier": 0,
+    "state.gameparts.main.currentspinwinamount": 0,
+    "state.gameparts.main.finalsymbols": [
+      6, 10, 8, 7, 7, 7, 7, 6, 6, 6, 12, 5, 8, 5, 5
+    ],
+    "state.gameparts.main.initialsymbols": [
+      6, 10, 8, 7, 7, 7, 7, 6, 6, 6, 12, 5, 8, 5, 5
+    ],
+    "state.gameparts.main.multiplier": 1,
+    "state.gameparts.main.potwinsym": [
+      -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1
+    ],
+    "state.gameparts.main.reelindices": [311, 276, 714, 563, 400],
+    "state.gameparts.main.totalbetmultiplier": 0,
+    "state.gameparts.main.totalwinamount": 0
+  },
+  {
+    "outcome.totalbetmultiplier": 0.4,
+    "outcome.multiplier": 1,
+    "outcome.totalwinamount": 0.4,
+    "state.totalbetmultiplier": 0.4,
+    "state.totalwinamount": 0.4,
+    "outcome.winnings": {
+      "paylinewins": [
+        {
+          "classname": "tk.d.slots.vanilla.outcome.PaylineWinSituation",
+          "id": 2,
+          "symbolid": 7,
+          "symbolcount": 3,
+          "positions": [2, 5, 8],
+          "betmultiplier": 0.2,
+          "winamount": 0.2,
+          "freespins": 0,
+          "componentId": 0,
+          "extraspins": 0,
+          "picksWon": 0
+        },
+        {
+          "classname": "tk.d.slots.vanilla.outcome.PaylineWinSituation",
+          "id": 6,
+          "symbolid": 7,
+          "symbolcount": 3,
+          "positions": [2, 5, 7],
+          "betmultiplier": 0.2,
+          "winamount": 0.2,
+          "freespins": 0,
+          "componentId": 0,
+          "extraspins": 0,
+          "picksWon": 0
+        }
+      ]
+    },
+    "state.bets[0].value.amount": 1,
+    "state.gameparts.main.currentspinbetmultiplier": 0.4,
+    "state.gameparts.main.currentspinwinamount": 0.4,
+    "state.gameparts.main.finalsymbols": [
+      3, 3, 7, 5, 5, 0, 7, 7, 7, 1, 3, 3, 7, 7, 7
+    ],
+    "state.gameparts.main.initialsymbols": [
+      3, 3, 7, 5, 5, 0, 7, 7, 7, 1, 3, 3, 7, 7, 7
+    ],
+    "state.gameparts.main.multiplier": 1,
+    "state.gameparts.main.potwinsym": [
+      -1, -1, 5, -1, -1, 5, -1, 5, 5, -1, -1, -1, -1, -1, -1
+    ],
+    "state.gameparts.main.reelindices": [636, 183, 31, 464, 40],
+    "state.gameparts.main.totalbetmultiplier": 0.4,
+    "state.gameparts.main.totalwinamount": 0.4
+  },
+  {
+    "outcome.totalbetmultiplier": 0,
+    "outcome.multiplier": 1,
+    "outcome.totalwinamount": 0,
+    "state.totalbetmultiplier": 0,
+    "state.totalwinamount": 0,
+    "state.bets[0].value.amount": 1,
+    "state.gameparts.main.currentspinbetmultiplier": 0,
+    "state.gameparts.main.currentspinwinamount": 0,
+    "state.gameparts.main.finalsymbols": [
+      3, 3, 3, 5, 12, 6, 7, 6, 6, 5, 7, 7, 5, 5, 5
+    ],
+    "state.gameparts.main.initialsymbols": [
+      3, 3, 3, 5, 12, 6, 7, 6, 6, 5, 7, 7, 5, 5, 5
+    ],
+    "state.gameparts.main.multiplier": 1,
+    "state.gameparts.main.potwinsym": [
+      -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1
+    ],
+    "state.gameparts.main.reelindices": [635, 367, 189, 359, 417],
+    "state.gameparts.main.totalbetmultiplier": 0,
+    "state.gameparts.main.totalwinamount": 0
+  },
+  {
+    "outcome.totalbetmultiplier": 0,
+    "outcome.multiplier": 1,
+    "outcome.totalwinamount": 0,
+    "state.totalbetmultiplier": 0,
+    "state.totalwinamount": 0,
+    "state.bets[0].value.amount": 1,
+    "state.gameparts.main.currentspinbetmultiplier": 0,
+    "state.gameparts.main.currentspinwinamount": 0,
+    "state.gameparts.main.finalsymbols": [
+      12, 4, 4, 6, 6, 5, 0, 0, 7, 4, 4, 4, 2, 2, 2
+    ],
+    "state.gameparts.main.initialsymbols": [
+      12, 4, 4, 6, 6, 5, 0, 0, 7, 4, 4, 4, 2, 2, 2
+    ],
+    "state.gameparts.main.multiplier": 1,
+    "state.gameparts.main.potwinsym": [
+      -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1
+    ],
+    "state.gameparts.main.reelindices": [91, 53, 13, 555, 574],
+    "state.gameparts.main.totalbetmultiplier": 0,
+    "state.gameparts.main.totalwinamount": 0
+  },
+  {
+    "outcome.totalbetmultiplier": 3.2,
+    "outcome.multiplier": 1,
+    "outcome.totalwinamount": 3.2,
+    "state.totalbetmultiplier": 3.2,
+    "state.totalwinamount": 3.2,
+    "outcome.winnings": {
+      "paylinewins": [
+        {
+          "classname": "tk.d.slots.vanilla.outcome.PaylineWinSituation",
+          "id": 1,
+          "symbolid": 5,
+          "symbolcount": 4,
+          "positions": [0, 3, 6, 9],
+          "betmultiplier": 0.8,
+          "winamount": 0.8,
+          "freespins": 0,
+          "componentId": 0,
+          "extraspins": 0,
+          "picksWon": 0
+        },
+        {
+          "classname": "tk.d.slots.vanilla.outcome.PaylineWinSituation",
+          "id": 5,
+          "symbolid": 5,
+          "symbolcount": 4,
+          "positions": [0, 3, 7, 9],
+          "betmultiplier": 0.8,
+          "winamount": 0.8,
+          "freespins": 0,
+          "componentId": 0,
+          "extraspins": 0,
+          "picksWon": 0
+        },
+        {
+          "classname": "tk.d.slots.vanilla.outcome.PaylineWinSituation",
+          "id": 10,
+          "symbolid": 5,
+          "symbolcount": 4,
+          "positions": [1, 3, 6, 9],
+          "betmultiplier": 0.8,
+          "winamount": 0.8,
+          "freespins": 0,
+          "componentId": 0,
+          "extraspins": 0,
+          "picksWon": 0
+        },
+        {
+          "classname": "tk.d.slots.vanilla.outcome.PaylineWinSituation",
+          "id": 13,
+          "symbolid": 5,
+          "symbolcount": 4,
+          "positions": [1, 3, 7, 9],
+          "betmultiplier": 0.8,
+          "winamount": 0.8,
+          "freespins": 0,
+          "componentId": 0,
+          "extraspins": 0,
+          "picksWon": 0
+        }
+      ]
+    },
+    "state.bets[0].value.amount": 1,
+    "state.gameparts.main.currentspinbetmultiplier": 3.2,
+    "state.gameparts.main.currentspinwinamount": 3.2,
+    "state.gameparts.main.finalsymbols": [
+      5, 5, 8, 0, 2, 2, 5, 5, 5, 5, 3, 3, 6, 8, 8
+    ],
+    "state.gameparts.main.initialsymbols": [
+      5, 5, 8, 0, 2, 2, 6, 11, 4, 5, 3, 3, 6, 8, 8
+    ],
+    "state.gameparts.main.multiplier": 1,
+    "state.gameparts.main.potwinsym": [
+      5, 5, -1, 5, -1, -1, 5, 5, -1, 5, -1, -1, -1, -1, -1
+    ],
+    "state.gameparts.main.reelindices": [326, 432, 545, 122, 560],
+    "state.gameparts.main.totalbetmultiplier": 3.2,
+    "state.gameparts.main.totalwinamount": 3.2
+  },
+  {
+    "outcome.totalbetmultiplier": 0,
+    "outcome.multiplier": 1,
+    "outcome.totalwinamount": 0,
+    "state.totalbetmultiplier": 0,
+    "state.totalwinamount": 0,
+    "state.bets[0].value.amount": 1,
+    "state.gameparts.main.currentspinbetmultiplier": 0,
+    "state.gameparts.main.currentspinwinamount": 0,
+    "state.gameparts.main.finalsymbols": [
+      7, 7, 7, 8, 8, 8, 5, 5, 7, 3, 0, 0, 6, 12, 5
+    ],
+    "state.gameparts.main.initialsymbols": [
+      7, 7, 7, 8, 8, 8, 5, 5, 7, 3, 0, 0, 6, 12, 5
+    ],
+    "state.gameparts.main.multiplier": 1,
+    "state.gameparts.main.potwinsym": [
+      -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1
+    ],
+    "state.gameparts.main.reelindices": [41, 545, 119, 69, 435],
+    "state.gameparts.main.totalbetmultiplier": 0,
+    "state.gameparts.main.totalwinamount": 0
+  },
+  {
+    "outcome.totalbetmultiplier": 0,
+    "outcome.multiplier": 1,
+    "outcome.totalwinamount": 0,
+    "state.totalbetmultiplier": 0,
+    "state.totalwinamount": 0,
+    "state.bets[0].value.amount": 1,
+    "state.gameparts.main.currentspinbetmultiplier": 0,
+    "state.gameparts.main.currentspinwinamount": 0,
+    "state.gameparts.main.finalsymbols": [
+      10, 4, 4, 6, 6, 0, 5, 5, 5, 4, 4, 0, 10, 5, 5
+    ],
+    "state.gameparts.main.initialsymbols": [
+      10, 4, 4, 6, 6, 0, 5, 5, 5, 4, 4, 0, 10, 5, 5
+    ],
+    "state.gameparts.main.multiplier": 1,
+    "state.gameparts.main.potwinsym": [
+      -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1
+    ],
+    "state.gameparts.main.reelindices": [527, 230, 372, 480, 328],
+    "state.gameparts.main.totalbetmultiplier": 0,
+    "state.gameparts.main.totalwinamount": 0
+  },
+  {
+    "outcome.totalbetmultiplier": 0,
+    "outcome.multiplier": 1,
+    "outcome.totalwinamount": 0,
+    "state.totalbetmultiplier": 0,
+    "state.totalwinamount": 0,
+    "state.bets[0].value.amount": 1,
+    "state.gameparts.main.currentspinbetmultiplier": 0,
+    "state.gameparts.main.currentspinwinamount": 0,
+    "state.gameparts.main.finalsymbols": [
+      5, 5, 6, 6, 6, 0, 3, 3, 3, 2, 2, 2, 6, 2, 2
+    ],
+    "state.gameparts.main.initialsymbols": [
+      5, 5, 6, 6, 6, 0, 3, 3, 3, 2, 2, 2, 6, 2, 2
+    ],
+    "state.gameparts.main.multiplier": 1,
+    "state.gameparts.main.potwinsym": [
+      -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1
+    ],
+    "state.gameparts.main.reelindices": [4, 140, 658, 63, 177],
+    "state.gameparts.main.totalbetmultiplier": 0,
+    "state.gameparts.main.totalwinamount": 0
+  },
+  {
+    "outcome.totalbetmultiplier": 0,
+    "outcome.multiplier": 1,
+    "outcome.totalwinamount": 0,
+    "state.totalbetmultiplier": 0,
+    "state.totalwinamount": 0,
+    "state.bets[0].value.amount": 1,
+    "state.gameparts.main.currentspinbetmultiplier": 0,
+    "state.gameparts.main.currentspinwinamount": 0,
+    "state.gameparts.main.finalsymbols": [
+      7, 7, 7, 6, 12, 4, 5, 5, 5, 8, 5, 5, 6, 6, 6
+    ],
+    "state.gameparts.main.initialsymbols": [
+      7, 7, 7, 6, 12, 4, 5, 5, 5, 8, 5, 5, 6, 6, 6
+    ],
+    "state.gameparts.main.multiplier": 1,
+    "state.gameparts.main.potwinsym": [
+      -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1
+    ],
+    "state.gameparts.main.reelindices": [668, 378, 480, 541, 250],
+    "state.gameparts.main.totalbetmultiplier": 0,
+    "state.gameparts.main.totalwinamount": 0
+  },
+  {
+    "outcome.totalbetmultiplier": 0,
+    "outcome.multiplier": 1,
+    "outcome.totalwinamount": 0,
+    "state.totalbetmultiplier": 0,
+    "state.totalwinamount": 0,
+    "state.bets[0].value.amount": 1,
+    "state.gameparts.main.currentspinbetmultiplier": 0,
+    "state.gameparts.main.currentspinwinamount": 0,
+    "state.gameparts.main.finalsymbols": [
+      5, 5, 5, 7, 7, 7, 7, 7, 7, 0, 0, 6, 8, 8, 6
+    ],
+    "state.gameparts.main.initialsymbols": [
+      5, 5, 5, 7, 7, 7, 7, 7, 7, 0, 0, 6, 8, 8, 6
+    ],
+    "state.gameparts.main.multiplier": 1,
+    "state.gameparts.main.potwinsym": [
+      -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1
+    ],
+    "state.gameparts.main.reelindices": [237, 672, 134, 317, 255],
+    "state.gameparts.main.totalbetmultiplier": 0,
+    "state.gameparts.main.totalwinamount": 0
+  },
+  {
+    "outcome.totalbetmultiplier": 0,
+    "outcome.multiplier": 1,
+    "outcome.totalwinamount": 0,
+    "state.totalbetmultiplier": 0,
+    "state.totalwinamount": 0,
+    "state.bets[0].value.amount": 1,
+    "state.gameparts.main.currentspinbetmultiplier": 0,
+    "state.gameparts.main.currentspinwinamount": 0,
+    "state.gameparts.main.finalsymbols": [
+      8, 8, 6, 7, 7, 7, 0, 0, 0, 6, 6, 6, 3, 3, 3
+    ],
+    "state.gameparts.main.initialsymbols": [
+      8, 8, 6, 7, 7, 7, 0, 0, 0, 5, 5, 11, 3, 3, 3
+    ],
+    "state.gameparts.main.multiplier": 1,
+    "state.gameparts.main.potwinsym": [
+      -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1
+    ],
+    "state.gameparts.main.reelindices": [45, 216, 53, 4, 374],
+    "state.gameparts.main.totalbetmultiplier": 0,
+    "state.gameparts.main.totalwinamount": 0
+  },
+  {
+    "outcome.totalbetmultiplier": 0,
+    "outcome.multiplier": 1,
+    "outcome.totalwinamount": 0,
+    "state.totalbetmultiplier": 0,
+    "state.totalwinamount": 0,
+    "state.bets[0].value.amount": 1,
+    "state.gameparts.main.currentspinbetmultiplier": 0,
+    "state.gameparts.main.currentspinwinamount": 0,
+    "state.gameparts.main.finalsymbols": [
+      6, 6, 6, 5, 5, 6, 1, 4, 4, 5, 5, 5, 2, 2, 4
+    ],
+    "state.gameparts.main.initialsymbols": [
+      6, 6, 6, 5, 5, 6, 1, 4, 4, 5, 5, 5, 2, 2, 4
+    ],
+    "state.gameparts.main.multiplier": 1,
+    "state.gameparts.main.potwinsym": [
+      -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1
+    ],
+    "state.gameparts.main.reelindices": [371, 56, 552, 51, 23],
+    "state.gameparts.main.totalbetmultiplier": 0,
+    "state.gameparts.main.totalwinamount": 0
+  },
+  {
+    "outcome.totalbetmultiplier": 0,
+    "outcome.multiplier": 1,
+    "outcome.totalwinamount": 0,
+    "state.totalbetmultiplier": 0,
+    "state.totalwinamount": 0,
+    "state.bets[0].value.amount": 1,
+    "state.gameparts.main.currentspinbetmultiplier": 0,
+    "state.gameparts.main.currentspinwinamount": 0,
+    "state.gameparts.main.finalsymbols": [
+      7, 7, 7, 7, 7, 10, 1, 1, 1, 6, 6, 6, 8, 8, 8
+    ],
+    "state.gameparts.main.initialsymbols": [
+      7, 7, 7, 7, 7, 10, 1, 1, 1, 6, 6, 6, 8, 8, 8
+    ],
+    "state.gameparts.main.multiplier": 1,
+    "state.gameparts.main.potwinsym": [
+      -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1
+    ],
+    "state.gameparts.main.reelindices": [626, 335, 550, 54, 578],
+    "state.gameparts.main.totalbetmultiplier": 0,
+    "state.gameparts.main.totalwinamount": 0
+  },
+  {
+    "outcome.totalbetmultiplier": 0,
+    "outcome.multiplier": 1,
+    "outcome.totalwinamount": 0,
+    "state.totalbetmultiplier": 0,
+    "state.totalwinamount": 0,
+    "state.bets[0].value.amount": 1,
+    "state.gameparts.main.currentspinbetmultiplier": 0,
+    "state.gameparts.main.currentspinwinamount": 0,
+    "state.gameparts.main.finalsymbols": [
+      3, 3, 3, 8, 6, 6, 7, 7, 8, 5, 5, 10, 4, 4, 3
+    ],
+    "state.gameparts.main.initialsymbols": [
+      3, 3, 3, 8, 6, 6, 7, 7, 8, 5, 5, 10, 4, 4, 3
+    ],
+    "state.gameparts.main.multiplier": 1,
+    "state.gameparts.main.potwinsym": [
+      -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1
+    ],
+    "state.gameparts.main.reelindices": [126, 352, 144, 527, 447],
+    "state.gameparts.main.totalbetmultiplier": 0,
+    "state.gameparts.main.totalwinamount": 0
+  },
+  {
+    "outcome.totalbetmultiplier": 0,
+    "outcome.multiplier": 1,
+    "outcome.totalwinamount": 0,
+    "state.totalbetmultiplier": 0,
+    "state.totalwinamount": 0,
+    "state.bets[0].value.amount": 1,
+    "state.gameparts.main.currentspinbetmultiplier": 0,
+    "state.gameparts.main.currentspinwinamount": 0,
+    "state.gameparts.main.finalsymbols": [
+      7, 7, 7, 0, 0, 0, 6, 10, 2, 3, 3, 3, 8, 8, 8
+    ],
+    "state.gameparts.main.initialsymbols": [
+      7, 7, 7, 0, 0, 0, 6, 10, 2, 3, 3, 3, 8, 8, 8
+    ],
+    "state.gameparts.main.multiplier": 1,
+    "state.gameparts.main.potwinsym": [
+      -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1
+    ],
+    "state.gameparts.main.reelindices": [57, 64, 278, 657, 514],
+    "state.gameparts.main.totalbetmultiplier": 0,
+    "state.gameparts.main.totalwinamount": 0
+  },
+  {
+    "outcome.totalbetmultiplier": 0,
+    "outcome.multiplier": 1,
+    "outcome.totalwinamount": 0,
+    "state.totalbetmultiplier": 0,
+    "state.totalwinamount": 0,
+    "state.bets[0].value.amount": 1,
+    "state.gameparts.main.currentspinbetmultiplier": 0,
+    "state.gameparts.main.currentspinwinamount": 0,
+    "state.gameparts.main.finalsymbols": [
+      6, 7, 7, 7, 7, 7, 4, 4, 4, 6, 6, 6, 1, 8, 8
+    ],
+    "state.gameparts.main.initialsymbols": [
+      6, 7, 7, 7, 7, 7, 4, 4, 4, 4, 4, 11, 1, 8, 8
+    ],
+    "state.gameparts.main.multiplier": 1,
+    "state.gameparts.main.potwinsym": [
+      -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1
+    ],
+    "state.gameparts.main.reelindices": [409, 216, 568, 508, 619],
+    "state.gameparts.main.totalbetmultiplier": 0,
+    "state.gameparts.main.totalwinamount": 0
+  },
+  {
+    "outcome.totalbetmultiplier": 0,
+    "outcome.multiplier": 1,
+    "outcome.totalwinamount": 0,
+    "state.totalbetmultiplier": 0,
+    "state.totalwinamount": 0,
+    "state.bets[0].value.amount": 1,
+    "state.gameparts.main.currentspinbetmultiplier": 0,
+    "state.gameparts.main.currentspinwinamount": 0,
+    "state.gameparts.main.finalsymbols": [
+      3, 5, 5, 3, 5, 5, 7, 7, 7, 7, 5, 5, 1, 4, 4
+    ],
+    "state.gameparts.main.initialsymbols": [
+      3, 5, 5, 3, 5, 5, 7, 7, 7, 7, 5, 5, 1, 4, 4
+    ],
+    "state.gameparts.main.multiplier": 1,
+    "state.gameparts.main.potwinsym": [
+      -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1
+    ],
+    "state.gameparts.main.reelindices": [236, 740, 456, 427, 81],
+    "state.gameparts.main.totalbetmultiplier": 0,
+    "state.gameparts.main.totalwinamount": 0
+  },
+  {
+    "outcome.totalbetmultiplier": 0,
+    "outcome.multiplier": 1,
+    "outcome.totalwinamount": 0,
+    "state.totalbetmultiplier": 0,
+    "state.totalwinamount": 0,
+    "state.bets[0].value.amount": 1,
+    "state.gameparts.main.currentspinbetmultiplier": 0,
+    "state.gameparts.main.currentspinwinamount": 0,
+    "state.gameparts.main.finalsymbols": [
+      8, 8, 8, 0, 0, 3, 4, 4, 3, 5, 5, 6, 4, 4, 6
+    ],
+    "state.gameparts.main.initialsymbols": [
+      8, 8, 8, 0, 0, 3, 4, 4, 3, 5, 5, 6, 4, 4, 6
+    ],
+    "state.gameparts.main.multiplier": 1,
+    "state.gameparts.main.potwinsym": [
+      -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1
+    ],
+    "state.gameparts.main.reelindices": [440, 409, 350, 371, 157],
+    "state.gameparts.main.totalbetmultiplier": 0,
+    "state.gameparts.main.totalwinamount": 0
+  },
+  {
+    "outcome.totalbetmultiplier": 0,
+    "outcome.multiplier": 1,
+    "outcome.totalwinamount": 0,
+    "state.totalbetmultiplier": 0,
+    "state.totalwinamount": 0,
+    "state.bets[0].value.amount": 1,
+    "state.gameparts.main.currentspinbetmultiplier": 0,
+    "state.gameparts.main.currentspinwinamount": 0,
+    "state.gameparts.main.finalsymbols": [
+      1, 3, 3, 0, 0, 8, 6, 12, 5, 7, 7, 8, 8, 5, 5
+    ],
+    "state.gameparts.main.initialsymbols": [
+      1, 3, 3, 0, 0, 8, 6, 12, 5, 7, 7, 8, 8, 5, 5
+    ],
+    "state.gameparts.main.multiplier": 1,
+    "state.gameparts.main.potwinsym": [
+      -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1
+    ],
+    "state.gameparts.main.reelindices": [318, 242, 614, 17, 501],
+    "state.gameparts.main.totalbetmultiplier": 0,
+    "state.gameparts.main.totalwinamount": 0
+  },
+  {
+    "outcome.totalbetmultiplier": 3.2,
+    "outcome.multiplier": 1,
+    "outcome.totalwinamount": 3.2,
+    "state.totalbetmultiplier": 3.2,
+    "state.totalwinamount": 3.2,
+    "outcome.winnings": {
+      "paylinewins": [
+        {
+          "classname": "tk.d.slots.vanilla.outcome.PaylineWinSituation",
+          "id": 0,
+          "symbolid": 5,
+          "symbolcount": 3,
+          "positions": [1, 4, 7],
+          "betmultiplier": 0.4,
+          "winamount": 0.4,
+          "freespins": 0,
+          "componentId": 0,
+          "extraspins": 0,
+          "picksWon": 0
+        },
+        {
+          "classname": "tk.d.slots.vanilla.outcome.PaylineWinSituation",
+          "id": 1,
+          "symbolid": 5,
+          "symbolcount": 3,
+          "positions": [0, 3, 6],
+          "betmultiplier": 0.4,
+          "winamount": 0.4,
+          "freespins": 0,
+          "componentId": 0,
+          "extraspins": 0,
+          "picksWon": 0
+        },
+        {
+          "classname": "tk.d.slots.vanilla.outcome.PaylineWinSituation",
+          "id": 3,
+          "symbolid": 5,
+          "symbolcount": 3,
+          "positions": [1, 4, 6],
+          "betmultiplier": 0.4,
+          "winamount": 0.4,
+          "freespins": 0,
+          "componentId": 0,
+          "extraspins": 0,
+          "picksWon": 0
+        },
+        {
+          "classname": "tk.d.slots.vanilla.outcome.PaylineWinSituation",
+          "id": 5,
+          "symbolid": 5,
+          "symbolcount": 3,
+          "positions": [0, 3, 7],
+          "betmultiplier": 0.4,
+          "winamount": 0.4,
+          "freespins": 0,
+          "componentId": 0,
+          "extraspins": 0,
+          "picksWon": 0
+        },
+        {
+          "classname": "tk.d.slots.vanilla.outcome.PaylineWinSituation",
+          "id": 7,
+          "symbolid": 5,
+          "symbolcount": 3,
+          "positions": [0, 4, 7],
+          "betmultiplier": 0.4,
+          "winamount": 0.4,
+          "freespins": 0,
+          "componentId": 0,
+          "extraspins": 0,
+          "picksWon": 0
+        },
+        {
+          "classname": "tk.d.slots.vanilla.outcome.PaylineWinSituation",
+          "id": 10,
+          "symbolid": 5,
+          "symbolcount": 3,
+          "positions": [1, 3, 6],
+          "betmultiplier": 0.4,
+          "winamount": 0.4,
+          "freespins": 0,
+          "componentId": 0,
+          "extraspins": 0,
+          "picksWon": 0
+        },
+        {
+          "classname": "tk.d.slots.vanilla.outcome.PaylineWinSituation",
+          "id": 13,
+          "symbolid": 5,
+          "symbolcount": 3,
+          "positions": [1, 3, 7],
+          "betmultiplier": 0.4,
+          "winamount": 0.4,
+          "freespins": 0,
+          "componentId": 0,
+          "extraspins": 0,
+          "picksWon": 0
+        },
+        {
+          "classname": "tk.d.slots.vanilla.outcome.PaylineWinSituation",
+          "id": 14,
+          "symbolid": 5,
+          "symbolcount": 3,
+          "positions": [1, 5, 7],
+          "betmultiplier": 0.4,
+          "winamount": 0.4,
+          "freespins": 0,
+          "componentId": 0,
+          "extraspins": 0,
+          "picksWon": 0
+        }
+      ]
+    },
+    "state.bets[0].value.amount": 1,
+    "state.gameparts.main.currentspinbetmultiplier": 3.2,
+    "state.gameparts.main.currentspinwinamount": 3.2,
+    "state.gameparts.main.finalsymbols": [
+      5, 5, 8, 5, 5, 5, 0, 0, 6, 2, 7, 7, 6, 4, 4
+    ],
+    "state.gameparts.main.initialsymbols": [
+      5, 5, 8, 11, 4, 4, 0, 0, 6, 2, 7, 7, 6, 4, 4
+    ],
+    "state.gameparts.main.multiplier": 1,
+    "state.gameparts.main.potwinsym": [
+      5, 5, 2, 5, 5, 5, 5, 5, -1, -1, -1, -1, -1, -1, -1
+    ],
+    "state.gameparts.main.reelindices": [32, 600, 54, 331, 324],
+    "state.gameparts.main.totalbetmultiplier": 3.2,
+    "state.gameparts.main.totalwinamount": 3.2
+  },
+  {
+    "outcome.totalbetmultiplier": 0,
+    "outcome.multiplier": 1,
+    "outcome.totalwinamount": 0,
+    "state.totalbetmultiplier": 0,
+    "state.totalwinamount": 0,
+    "state.bets[0].value.amount": 1,
+    "state.gameparts.main.currentspinbetmultiplier": 0,
+    "state.gameparts.main.currentspinwinamount": 0,
+    "state.gameparts.main.finalsymbols": [
+      8, 7, 7, 6, 6, 6, 7, 7, 7, 5, 5, 0, 7, 6, 6
+    ],
+    "state.gameparts.main.initialsymbols": [
+      8, 7, 7, 6, 6, 6, 5, 5, 11, 5, 5, 0, 7, 6, 6
+    ],
+    "state.gameparts.main.multiplier": 1,
+    "state.gameparts.main.potwinsym": [
+      -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1
+    ],
+    "state.gameparts.main.reelindices": [367, 259, 373, 127, 344],
+    "state.gameparts.main.totalbetmultiplier": 0,
+    "state.gameparts.main.totalwinamount": 0
+  },
+  {
+    "outcome.totalbetmultiplier": 0,
+    "outcome.multiplier": 1,
+    "outcome.totalwinamount": 0,
+    "state.totalbetmultiplier": 0,
+    "state.totalwinamount": 0,
+    "state.bets[0].value.amount": 1,
+    "state.gameparts.main.currentspinbetmultiplier": 0,
+    "state.gameparts.main.currentspinwinamount": 0,
+    "state.gameparts.main.finalsymbols": [
+      8, 4, 4, 0, 0, 5, 5, 6, 6, 2, 2, 2, 4, 5, 5
+    ],
+    "state.gameparts.main.initialsymbols": [
+      8, 4, 4, 0, 0, 5, 5, 6, 6, 2, 2, 2, 4, 5, 5
+    ],
+    "state.gameparts.main.multiplier": 1,
+    "state.gameparts.main.potwinsym": [
+      -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1
+    ],
+    "state.gameparts.main.reelindices": [354, 706, 211, 250, 370],
+    "state.gameparts.main.totalbetmultiplier": 0,
+    "state.gameparts.main.totalwinamount": 0
+  },
+  {
+    "outcome.totalbetmultiplier": 0,
+    "outcome.multiplier": 1,
+    "outcome.totalwinamount": 0,
+    "state.totalbetmultiplier": 0,
+    "state.totalwinamount": 0,
+    "state.bets[0].value.amount": 1,
+    "state.gameparts.main.currentspinbetmultiplier": 0,
+    "state.gameparts.main.currentspinwinamount": 0,
+    "state.gameparts.main.finalsymbols": [
+      3, 5, 5, 2, 2, 2, 4, 3, 3, 7, 7, 5, 5, 5, 5
+    ],
+    "state.gameparts.main.initialsymbols": [
+      3, 5, 5, 2, 2, 2, 4, 3, 3, 7, 7, 5, 5, 5, 5
+    ],
+    "state.gameparts.main.multiplier": 1,
+    "state.gameparts.main.potwinsym": [
+      -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1
+    ],
+    "state.gameparts.main.reelindices": [236, 405, 351, 31, 417],
+    "state.gameparts.main.totalbetmultiplier": 0,
+    "state.gameparts.main.totalwinamount": 0
+  },
+  {
+    "outcome.totalbetmultiplier": 7.5,
+    "outcome.multiplier": 1,
+    "outcome.totalwinamount": 7.5,
+    "state.totalbetmultiplier": 7.5,
+    "state.totalwinamount": 7.5,
+    "outcome.winnings": {
+      "paylinewins": [
+        {
+          "classname": "tk.d.slots.vanilla.outcome.PaylineWinSituation",
+          "id": 0,
+          "symbolid": 4,
+          "symbolcount": 3,
+          "positions": [1, 4, 7],
+          "betmultiplier": 0.5,
+          "winamount": 0.5,
+          "freespins": 0,
+          "componentId": 0,
+          "extraspins": 0,
+          "picksWon": 0
+        },
+        {
+          "classname": "tk.d.slots.vanilla.outcome.PaylineWinSituation",
+          "id": 2,
+          "symbolid": 4,
+          "symbolcount": 4,
+          "positions": [2, 5, 8, 11],
+          "betmultiplier": 1,
+          "winamount": 1,
+          "freespins": 0,
+          "componentId": 0,
+          "extraspins": 0,
+          "picksWon": 0
+        },
+        {
+          "classname": "tk.d.slots.vanilla.outcome.PaylineWinSituation",
+          "id": 3,
+          "symbolid": 4,
+          "symbolcount": 3,
+          "positions": [1, 4, 6],
+          "betmultiplier": 0.5,
+          "winamount": 0.5,
+          "freespins": 0,
+          "componentId": 0,
+          "extraspins": 0,
+          "picksWon": 0
+        },
+        {
+          "classname": "tk.d.slots.vanilla.outcome.PaylineWinSituation",
+          "id": 4,
+          "symbolid": 4,
+          "symbolcount": 3,
+          "positions": [1, 4, 8],
+          "betmultiplier": 0.5,
+          "winamount": 0.5,
+          "freespins": 0,
+          "componentId": 0,
+          "extraspins": 0,
+          "picksWon": 0
+        },
+        {
+          "classname": "tk.d.slots.vanilla.outcome.PaylineWinSituation",
+          "id": 6,
+          "symbolid": 4,
+          "symbolcount": 4,
+          "positions": [2, 5, 7, 11],
+          "betmultiplier": 1,
+          "winamount": 1,
+          "freespins": 0,
+          "componentId": 0,
+          "extraspins": 0,
+          "picksWon": 0
+        },
+        {
+          "classname": "tk.d.slots.vanilla.outcome.PaylineWinSituation",
+          "id": 8,
+          "symbolid": 4,
+          "symbolcount": 3,
+          "positions": [2, 4, 7],
+          "betmultiplier": 0.5,
+          "winamount": 0.5,
+          "freespins": 0,
+          "componentId": 0,
+          "extraspins": 0,
+          "picksWon": 0
+        },
+        {
+          "classname": "tk.d.slots.vanilla.outcome.PaylineWinSituation",
+          "id": 9,
+          "symbolid": 4,
+          "symbolcount": 4,
+          "positions": [1, 5, 8, 11],
+          "betmultiplier": 1,
+          "winamount": 1,
+          "freespins": 0,
+          "componentId": 0,
+          "extraspins": 0,
+          "picksWon": 0
+        },
+        {
+          "classname": "tk.d.slots.vanilla.outcome.PaylineWinSituation",
+          "id": 10,
+          "symbolid": 4,
+          "symbolcount": 3,
+          "positions": [1, 3, 6],
+          "betmultiplier": 0.5,
+          "winamount": 0.5,
+          "freespins": 0,
+          "componentId": 0,
+          "extraspins": 0,
+          "picksWon": 0
+        },
+        {
+          "classname": "tk.d.slots.vanilla.outcome.PaylineWinSituation",
+          "id": 12,
+          "symbolid": 4,
+          "symbolcount": 3,
+          "positions": [2, 4, 6],
+          "betmultiplier": 0.5,
+          "winamount": 0.5,
+          "freespins": 0,
+          "componentId": 0,
+          "extraspins": 0,
+          "picksWon": 0
+        },
+        {
+          "classname": "tk.d.slots.vanilla.outcome.PaylineWinSituation",
+          "id": 13,
+          "symbolid": 4,
+          "symbolcount": 3,
+          "positions": [1, 3, 7],
+          "betmultiplier": 0.5,
+          "winamount": 0.5,
+          "freespins": 0,
+          "componentId": 0,
+          "extraspins": 0,
+          "picksWon": 0
+        },
+        {
+          "classname": "tk.d.slots.vanilla.outcome.PaylineWinSituation",
+          "id": 14,
+          "symbolid": 4,
+          "symbolcount": 4,
+          "positions": [1, 5, 7, 11],
+          "betmultiplier": 1,
+          "winamount": 1,
+          "freespins": 0,
+          "componentId": 0,
+          "extraspins": 0,
+          "picksWon": 0
+        }
+      ]
+    },
+    "state.bets[0].value.amount": 1,
+    "state.gameparts.main.currentspinbetmultiplier": 7.5,
+    "state.gameparts.main.currentspinwinamount": 7.5,
+    "state.gameparts.main.finalsymbols": [
+      10, 4, 4, 4, 4, 4, 4, 4, 4, 8, 8, 0, 6, 12, 2
+    ],
+    "state.gameparts.main.initialsymbols": [
+      10, 4, 4, 5, 11, 7, 4, 4, 4, 8, 8, 0, 6, 12, 2
+    ],
+    "state.gameparts.main.multiplier": 1,
+    "state.gameparts.main.potwinsym": [
+      -1, 5, 5, 5, 5, 5, 5, 5, 5, -1, -1, 5, -1, -1, -1
+    ],
+    "state.gameparts.main.reelindices": [527, 660, 85, 619, 347],
+    "state.gameparts.main.totalbetmultiplier": 7.5,
+    "state.gameparts.main.totalwinamount": 7.5
+  },
+  {
+    "outcome.totalbetmultiplier": 0.2,
+    "outcome.multiplier": 1,
+    "outcome.totalwinamount": 0.2,
+    "state.totalbetmultiplier": 0.2,
+    "state.totalwinamount": 0.2,
+    "outcome.winnings": {
+      "paylinewins": [
+        {
+          "classname": "tk.d.slots.vanilla.outcome.PaylineWinSituation",
+          "id": 2,
+          "symbolid": 8,
+          "symbolcount": 3,
+          "positions": [2, 5, 8],
+          "betmultiplier": 0.1,
+          "winamount": 0.1,
+          "freespins": 0,
+          "componentId": 0,
+          "extraspins": 0,
+          "picksWon": 0
+        },
+        {
+          "classname": "tk.d.slots.vanilla.outcome.PaylineWinSituation",
+          "id": 6,
+          "symbolid": 8,
+          "symbolcount": 3,
+          "positions": [2, 5, 7],
+          "betmultiplier": 0.1,
+          "winamount": 0.1,
+          "freespins": 0,
+          "componentId": 0,
+          "extraspins": 0,
+          "picksWon": 0
+        }
+      ]
+    },
+    "state.bets[0].value.amount": 1,
+    "state.gameparts.main.currentspinbetmultiplier": 0.2,
+    "state.gameparts.main.currentspinwinamount": 0.2,
+    "state.gameparts.main.finalsymbols": [
+      1, 1, 8, 6, 10, 8, 8, 8, 8, 4, 5, 5, 2, 2, 2
+    ],
+    "state.gameparts.main.initialsymbols": [
+      1, 1, 8, 6, 10, 8, 8, 8, 8, 4, 5, 5, 2, 2, 2
+    ],
+    "state.gameparts.main.multiplier": 1,
+    "state.gameparts.main.potwinsym": [
+      -1, -1, 5, -1, -1, 5, -1, 5, 5, -1, -1, -1, -1, -1, -1
+    ],
+    "state.gameparts.main.reelindices": [350, 371, 423, 420, 218],
+    "state.gameparts.main.totalbetmultiplier": 0.2,
+    "state.gameparts.main.totalwinamount": 0.2
+  },
+  {
+    "outcome.totalbetmultiplier": 0,
+    "outcome.multiplier": 1,
+    "outcome.totalwinamount": 0,
+    "state.totalbetmultiplier": 0,
+    "state.totalwinamount": 0,
+    "state.bets[0].value.amount": 1,
+    "state.gameparts.main.currentspinbetmultiplier": 0,
+    "state.gameparts.main.currentspinwinamount": 0,
+    "state.gameparts.main.finalsymbols": [
+      6, 6, 6, 5, 4, 4, 0, 0, 6, 8, 8, 8, 6, 10, 5
+    ],
+    "state.gameparts.main.initialsymbols": [
+      6, 6, 6, 5, 4, 4, 0, 0, 6, 8, 8, 8, 6, 10, 5
+    ],
+    "state.gameparts.main.multiplier": 1,
+    "state.gameparts.main.potwinsym": [
+      -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1
+    ],
+    "state.gameparts.main.reelindices": [107, 569, 54, 45, 48],
+    "state.gameparts.main.totalbetmultiplier": 0,
+    "state.gameparts.main.totalwinamount": 0
+  },
+  {
+    "outcome.totalbetmultiplier": 0,
+    "outcome.multiplier": 1,
+    "outcome.totalwinamount": 0,
+    "state.totalbetmultiplier": 0,
+    "state.totalwinamount": 0,
+    "state.bets[0].value.amount": 1,
+    "state.gameparts.main.currentspinbetmultiplier": 0,
+    "state.gameparts.main.currentspinwinamount": 0,
+    "state.gameparts.main.finalsymbols": [
+      3, 3, 6, 0, 0, 0, 5, 5, 5, 7, 7, 7, 5, 5, 10
+    ],
+    "state.gameparts.main.initialsymbols": [
+      3, 3, 6, 0, 0, 0, 5, 5, 5, 7, 7, 7, 5, 5, 10
+    ],
+    "state.gameparts.main.multiplier": 1,
+    "state.gameparts.main.potwinsym": [
+      -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1
+    ],
+    "state.gameparts.main.reelindices": [320, 421, 718, 153, 392],
+    "state.gameparts.main.totalbetmultiplier": 0,
+    "state.gameparts.main.totalwinamount": 0
+  },
+  {
+    "outcome.totalbetmultiplier": 0,
+    "outcome.multiplier": 1,
+    "outcome.totalwinamount": 0,
+    "state.totalbetmultiplier": 0,
+    "state.totalwinamount": 0,
+    "state.bets[0].value.amount": 1,
+    "state.gameparts.main.currentspinbetmultiplier": 0,
+    "state.gameparts.main.currentspinwinamount": 0,
+    "state.gameparts.main.finalsymbols": [
+      8, 8, 8, 0, 6, 6, 1, 1, 1, 4, 3, 3, 2, 7, 7
+    ],
+    "state.gameparts.main.initialsymbols": [
+      8, 8, 8, 0, 6, 6, 1, 1, 1, 4, 3, 3, 2, 7, 7
+    ],
+    "state.gameparts.main.multiplier": 1,
+    "state.gameparts.main.potwinsym": [
+      -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1
+    ],
+    "state.gameparts.main.reelindices": [647, 493, 267, 457, 190],
+    "state.gameparts.main.totalbetmultiplier": 0,
+    "state.gameparts.main.totalwinamount": 0
+  },
+  {
+    "outcome.totalbetmultiplier": 0,
+    "outcome.multiplier": 1,
+    "outcome.totalwinamount": 0,
+    "state.totalbetmultiplier": 0,
+    "state.totalwinamount": 0,
+    "state.bets[0].value.amount": 1,
+    "state.gameparts.main.currentspinbetmultiplier": 0,
+    "state.gameparts.main.currentspinwinamount": 0,
+    "state.gameparts.main.finalsymbols": [
+      6, 6, 6, 4, 5, 5, 2, 2, 2, 6, 7, 7, 5, 5, 5
+    ],
+    "state.gameparts.main.initialsymbols": [
+      6, 6, 6, 4, 5, 5, 2, 2, 2, 6, 7, 7, 5, 5, 5
+    ],
+    "state.gameparts.main.multiplier": 1,
+    "state.gameparts.main.potwinsym": [
+      -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1
+    ],
+    "state.gameparts.main.reelindices": [407, 382, 280, 406, 527],
+    "state.gameparts.main.totalbetmultiplier": 0,
+    "state.gameparts.main.totalwinamount": 0
+  },
+  {
+    "outcome.totalbetmultiplier": 0,
+    "outcome.multiplier": 1,
+    "outcome.totalwinamount": 0,
+    "state.totalbetmultiplier": 0,
+    "state.totalwinamount": 0,
+    "state.bets[0].value.amount": 1,
+    "state.gameparts.main.currentspinbetmultiplier": 0,
+    "state.gameparts.main.currentspinwinamount": 0,
+    "state.gameparts.main.finalsymbols": [
+      5, 5, 6, 6, 6, 6, 8, 8, 8, 4, 4, 5, 6, 6, 3
+    ],
+    "state.gameparts.main.initialsymbols": [
+      5, 5, 6, 6, 6, 6, 8, 8, 8, 4, 4, 5, 6, 6, 3
+    ],
+    "state.gameparts.main.multiplier": 1,
+    "state.gameparts.main.potwinsym": [
+      -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1
+    ],
+    "state.gameparts.main.reelindices": [578, 791, 130, 578, 54],
+    "state.gameparts.main.totalbetmultiplier": 0,
+    "state.gameparts.main.totalwinamount": 0
+  },
+  {
+    "outcome.totalbetmultiplier": 0,
+    "outcome.multiplier": 1,
+    "outcome.totalwinamount": 0,
+    "state.totalbetmultiplier": 0,
+    "state.totalwinamount": 0,
+    "state.bets[0].value.amount": 1,
+    "state.gameparts.main.currentspinbetmultiplier": 0,
+    "state.gameparts.main.currentspinwinamount": 0,
+    "state.gameparts.main.finalsymbols": [
+      4, 4, 4, 7, 5, 5, 3, 3, 6, 0, 0, 5, 3, 2, 2
+    ],
+    "state.gameparts.main.initialsymbols": [
+      4, 4, 4, 7, 5, 5, 3, 3, 6, 0, 0, 5, 3, 2, 2
+    ],
+    "state.gameparts.main.multiplier": 1,
+    "state.gameparts.main.potwinsym": [
+      -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1
+    ],
+    "state.gameparts.main.reelindices": [69, 2, 138, 355, 554],
+    "state.gameparts.main.totalbetmultiplier": 0,
+    "state.gameparts.main.totalwinamount": 0
+  },
+  {
+    "outcome.totalbetmultiplier": 0,
+    "outcome.multiplier": 1,
+    "outcome.totalwinamount": 0,
+    "state.totalbetmultiplier": 0,
+    "state.totalwinamount": 0,
+    "state.bets[0].value.amount": 1,
+    "state.gameparts.main.currentspinbetmultiplier": 0,
+    "state.gameparts.main.currentspinwinamount": 0,
+    "state.gameparts.main.finalsymbols": [
+      8, 8, 8, 10, 2, 2, 7, 6, 6, 8, 8, 8, 6, 6, 6
+    ],
+    "state.gameparts.main.initialsymbols": [
+      8, 8, 8, 10, 2, 2, 7, 6, 6, 8, 8, 8, 6, 6, 6
+    ],
+    "state.gameparts.main.multiplier": 1,
+    "state.gameparts.main.potwinsym": [
+      -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1
+    ],
+    "state.gameparts.main.reelindices": [488, 311, 714, 383, 345],
+    "state.gameparts.main.totalbetmultiplier": 0,
+    "state.gameparts.main.totalwinamount": 0
+  },
+  {
+    "outcome.totalbetmultiplier": 0,
+    "outcome.multiplier": 1,
+    "outcome.totalwinamount": 0,
+    "state.totalbetmultiplier": 0,
+    "state.totalwinamount": 0,
+    "state.bets[0].value.amount": 1,
+    "state.gameparts.main.currentspinbetmultiplier": 0,
+    "state.gameparts.main.currentspinwinamount": 0,
+    "state.gameparts.main.finalsymbols": [
+      3, 6, 6, 6, 6, 8, 5, 5, 5, 8, 8, 2, 6, 6, 10
+    ],
+    "state.gameparts.main.initialsymbols": [
+      3, 6, 6, 6, 6, 8, 5, 5, 5, 8, 8, 2, 6, 6, 10
+    ],
+    "state.gameparts.main.multiplier": 1,
+    "state.gameparts.main.potwinsym": [
+      -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1
+    ],
+    "state.gameparts.main.reelindices": [200, 205, 654, 61, 73],
+    "state.gameparts.main.totalbetmultiplier": 0,
+    "state.gameparts.main.totalwinamount": 0
+  },
+  {
+    "outcome.totalbetmultiplier": 0,
+    "outcome.multiplier": 1,
+    "outcome.totalwinamount": 0,
+    "state.totalbetmultiplier": 0,
+    "state.totalwinamount": 0,
+    "state.bets[0].value.amount": 1,
+    "state.gameparts.main.currentspinbetmultiplier": 0,
+    "state.gameparts.main.currentspinwinamount": 0,
+    "state.gameparts.main.finalsymbols": [
+      4, 4, 4, 6, 6, 3, 2, 5, 5, 8, 8, 8, 4, 4, 4
+    ],
+    "state.gameparts.main.initialsymbols": [
+      4, 4, 4, 6, 6, 3, 2, 5, 5, 8, 8, 8, 4, 4, 4
+    ],
+    "state.gameparts.main.multiplier": 1,
+    "state.gameparts.main.potwinsym": [
+      -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1
+    ],
+    "state.gameparts.main.reelindices": [173, 694, 318, 19, 82],
+    "state.gameparts.main.totalbetmultiplier": 0,
+    "state.gameparts.main.totalwinamount": 0
+  },
+  {
+    "outcome.totalbetmultiplier": 0,
+    "outcome.multiplier": 1,
+    "outcome.totalwinamount": 0,
+    "state.totalbetmultiplier": 0,
+    "state.totalwinamount": 0,
+    "state.bets[0].value.amount": 1,
+    "state.gameparts.main.currentspinbetmultiplier": 0,
+    "state.gameparts.main.currentspinwinamount": 0,
+    "state.gameparts.main.finalsymbols": [
+      8, 8, 8, 0, 5, 5, 7, 7, 0, 10, 7, 7, 12, 3, 3
+    ],
+    "state.gameparts.main.initialsymbols": [
+      8, 8, 8, 0, 5, 5, 7, 7, 0, 10, 7, 7, 12, 3, 3
+    ],
+    "state.gameparts.main.multiplier": 1,
+    "state.gameparts.main.potwinsym": [
+      -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1
+    ],
+    "state.gameparts.main.reelindices": [290, 88, 285, 112, 302],
+    "state.gameparts.main.totalbetmultiplier": 0,
+    "state.gameparts.main.totalwinamount": 0
+  },
+  {
+    "outcome.totalbetmultiplier": 0,
+    "outcome.multiplier": 1,
+    "outcome.totalwinamount": 0,
+    "state.totalbetmultiplier": 0,
+    "state.totalwinamount": 0,
+    "state.bets[0].value.amount": 1,
+    "state.gameparts.main.currentspinbetmultiplier": 0,
+    "state.gameparts.main.currentspinwinamount": 0,
+    "state.gameparts.main.finalsymbols": [
+      4, 4, 10, 4, 4, 5, 2, 2, 2, 7, 7, 8, 1, 10, 5
+    ],
+    "state.gameparts.main.initialsymbols": [
+      4, 4, 10, 4, 4, 5, 2, 2, 2, 7, 7, 8, 1, 10, 5
+    ],
+    "state.gameparts.main.multiplier": 1,
+    "state.gameparts.main.potwinsym": [
+      -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1
+    ],
+    "state.gameparts.main.reelindices": [511, 251, 534, 58, 409],
+    "state.gameparts.main.totalbetmultiplier": 0,
+    "state.gameparts.main.totalwinamount": 0
+  },
+  {
+    "outcome.totalbetmultiplier": 0,
+    "outcome.multiplier": 1,
+    "outcome.totalwinamount": 0,
+    "state.totalbetmultiplier": 0,
+    "state.totalwinamount": 0,
+    "state.bets[0].value.amount": 1,
+    "state.gameparts.main.currentspinbetmultiplier": 0,
+    "state.gameparts.main.currentspinwinamount": 0,
+    "state.gameparts.main.finalsymbols": [
+      8, 8, 3, 4, 4, 4, 8, 8, 8, 5, 5, 5, 12, 2, 2
+    ],
+    "state.gameparts.main.initialsymbols": [
+      8, 8, 3, 4, 4, 4, 8, 8, 8, 5, 5, 5, 12, 2, 2
+    ],
+    "state.gameparts.main.multiplier": 1,
+    "state.gameparts.main.potwinsym": [
+      -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1
+    ],
+    "state.gameparts.main.reelindices": [460, 13, 199, 120, 452],
+    "state.gameparts.main.totalbetmultiplier": 0,
+    "state.gameparts.main.totalwinamount": 0
+  },
+  {
+    "outcome.totalbetmultiplier": 0,
+    "outcome.multiplier": 1,
+    "outcome.totalwinamount": 0,
+    "state.totalbetmultiplier": 0,
+    "state.totalwinamount": 0,
+    "state.bets[0].value.amount": 1,
+    "state.gameparts.main.currentspinbetmultiplier": 0,
+    "state.gameparts.main.currentspinwinamount": 0,
+    "state.gameparts.main.finalsymbols": [
+      8, 8, 6, 6, 6, 0, 5, 5, 5, 4, 4, 0, 3, 2, 2
+    ],
+    "state.gameparts.main.initialsymbols": [
+      8, 8, 6, 6, 6, 0, 5, 5, 5, 4, 4, 0, 3, 2, 2
+    ],
+    "state.gameparts.main.multiplier": 1,
+    "state.gameparts.main.potwinsym": [
+      -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1
+    ],
+    "state.gameparts.main.reelindices": [193, 489, 501, 88, 554],
+    "state.gameparts.main.totalbetmultiplier": 0,
+    "state.gameparts.main.totalwinamount": 0
+  },
+  {
+    "outcome.totalbetmultiplier": 0,
+    "outcome.multiplier": 1,
+    "outcome.totalwinamount": 0,
+    "state.totalbetmultiplier": 0,
+    "state.totalwinamount": 0,
+    "state.bets[0].value.amount": 1,
+    "state.gameparts.main.currentspinbetmultiplier": 0,
+    "state.gameparts.main.currentspinwinamount": 0,
+    "state.gameparts.main.finalsymbols": [
+      8, 8, 8, 6, 6, 6, 4, 4, 4, 5, 5, 7, 5, 8, 8
+    ],
+    "state.gameparts.main.initialsymbols": [
+      8, 8, 8, 6, 6, 6, 4, 4, 4, 5, 5, 7, 5, 8, 8
+    ],
+    "state.gameparts.main.multiplier": 1,
+    "state.gameparts.main.potwinsym": [
+      -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1
+    ],
+    "state.gameparts.main.reelindices": [267, 229, 560, 493, 33],
+    "state.gameparts.main.totalbetmultiplier": 0,
+    "state.gameparts.main.totalwinamount": 0
+  },
+  {
+    "outcome.totalbetmultiplier": 0,
+    "outcome.multiplier": 1,
+    "outcome.totalwinamount": 0,
+    "state.totalbetmultiplier": 0,
+    "state.totalwinamount": 0,
+    "state.bets[0].value.amount": 1,
+    "state.gameparts.main.currentspinbetmultiplier": 0,
+    "state.gameparts.main.currentspinwinamount": 0,
+    "state.gameparts.main.finalsymbols": [
+      6, 6, 8, 8, 12, 7, 6, 10, 7, 3, 3, 12, 1, 1, 8
+    ],
+    "state.gameparts.main.initialsymbols": [
+      6, 6, 8, 8, 12, 7, 6, 10, 7, 3, 3, 12, 1, 1, 8
+    ],
+    "state.gameparts.main.multiplier": 1,
+    "state.gameparts.main.potwinsym": [
+      -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1
+    ],
+    "state.gameparts.main.reelindices": [422, 332, 163, 486, 353],
+    "state.gameparts.main.totalbetmultiplier": 0,
+    "state.gameparts.main.totalwinamount": 0
+  },
+  {
+    "outcome.totalbetmultiplier": 0.2,
+    "outcome.multiplier": 1,
+    "outcome.totalwinamount": 0.2,
+    "state.totalbetmultiplier": 0.2,
+    "state.totalwinamount": 0.2,
+    "outcome.winnings": {
+      "paylinewins": [
+        {
+          "classname": "tk.d.slots.vanilla.outcome.PaylineWinSituation",
+          "id": 8,
+          "symbolid": 7,
+          "symbolcount": 3,
+          "positions": [2, 4, 7],
+          "betmultiplier": 0.2,
+          "winamount": 0.2,
+          "freespins": 0,
+          "componentId": 0,
+          "extraspins": 0,
+          "picksWon": 0
+        }
+      ]
+    },
+    "state.bets[0].value.amount": 1,
+    "state.gameparts.main.currentspinbetmultiplier": 0.2,
+    "state.gameparts.main.currentspinwinamount": 0.2,
+    "state.gameparts.main.finalsymbols": [
+      4, 10, 7, 0, 0, 5, 10, 7, 7, 6, 5, 5, 12, 5, 5
+    ],
+    "state.gameparts.main.initialsymbols": [
+      4, 10, 7, 0, 0, 5, 10, 7, 7, 6, 5, 5, 12, 5, 5
+    ],
+    "state.gameparts.main.multiplier": 1,
+    "state.gameparts.main.potwinsym": [
+      -1, -1, 5, -1, 5, -1, -1, 5, -1, -1, -1, -1, -1, -1, -1
+    ],
+    "state.gameparts.main.reelindices": [512, 549, 563, 633, 526],
+    "state.gameparts.main.totalbetmultiplier": 0.2,
+    "state.gameparts.main.totalwinamount": 0.2
+  },
+  {
+    "outcome.totalbetmultiplier": 0,
+    "outcome.multiplier": 1,
+    "outcome.totalwinamount": 0,
+    "state.totalbetmultiplier": 0,
+    "state.totalwinamount": 0,
+    "state.bets[0].value.amount": 1,
+    "state.gameparts.main.currentspinbetmultiplier": 0,
+    "state.gameparts.main.currentspinwinamount": 0,
+    "state.gameparts.main.finalsymbols": [
+      5, 5, 5, 7, 7, 7, 7, 7, 6, 8, 8, 8, 3, 3, 2
+    ],
+    "state.gameparts.main.initialsymbols": [
+      5, 5, 5, 7, 7, 7, 7, 7, 6, 8, 8, 8, 3, 3, 2
+    ],
+    "state.gameparts.main.multiplier": 1,
+    "state.gameparts.main.potwinsym": [
+      -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1
+    ],
+    "state.gameparts.main.reelindices": [31, 673, 689, 60, 534],
+    "state.gameparts.main.totalbetmultiplier": 0,
+    "state.gameparts.main.totalwinamount": 0
+  },
+  {
+    "outcome.totalbetmultiplier": 0,
+    "outcome.multiplier": 1,
+    "outcome.totalwinamount": 0,
+    "state.totalbetmultiplier": 0,
+    "state.totalwinamount": 0,
+    "state.bets[0].value.amount": 1,
+    "state.gameparts.main.currentspinbetmultiplier": 0,
+    "state.gameparts.main.currentspinwinamount": 0,
+    "state.gameparts.main.finalsymbols": [
+      7, 7, 5, 3, 3, 3, 7, 0, 0, 4, 4, 4, 5, 5, 5
+    ],
+    "state.gameparts.main.initialsymbols": [
+      7, 7, 5, 3, 3, 3, 7, 0, 0, 4, 4, 4, 5, 5, 5
+    ],
+    "state.gameparts.main.multiplier": 1,
+    "state.gameparts.main.potwinsym": [
+      -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1
+    ],
+    "state.gameparts.main.reelindices": [177, 518, 286, 376, 50],
+    "state.gameparts.main.totalbetmultiplier": 0,
+    "state.gameparts.main.totalwinamount": 0
+  },
+  {
+    "outcome.totalbetmultiplier": 0,
+    "outcome.multiplier": 1,
+    "outcome.totalwinamount": 0,
+    "state.totalbetmultiplier": 0,
+    "state.totalwinamount": 0,
+    "state.bets[0].value.amount": 1,
+    "state.gameparts.main.currentspinbetmultiplier": 0,
+    "state.gameparts.main.currentspinwinamount": 0,
+    "state.gameparts.main.finalsymbols": [
+      4, 4, 4, 8, 8, 8, 4, 4, 4, 4, 4, 4, 8, 12, 2
+    ],
+    "state.gameparts.main.initialsymbols": [
+      4, 4, 4, 8, 8, 8, 5, 5, 11, 4, 4, 4, 8, 12, 2
+    ],
+    "state.gameparts.main.multiplier": 1,
+    "state.gameparts.main.potwinsym": [
+      -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1
+    ],
+    "state.gameparts.main.reelindices": [528, 630, 304, 507, 20],
+    "state.gameparts.main.totalbetmultiplier": 0,
+    "state.gameparts.main.totalwinamount": 0
+  },
+  {
+    "outcome.totalbetmultiplier": 6,
+    "outcome.multiplier": 1,
+    "outcome.totalwinamount": 6,
+    "state.totalbetmultiplier": 6,
+    "state.totalwinamount": 6,
+    "outcome.winnings": {
+      "paylinewins": [
+        {
+          "classname": "tk.d.slots.vanilla.outcome.PaylineWinSituation",
+          "id": 1,
+          "symbolid": 2,
+          "symbolcount": 4,
+          "positions": [0, 3, 6, 9],
+          "betmultiplier": 1.5,
+          "winamount": 1.5,
+          "freespins": 0,
+          "componentId": 0,
+          "extraspins": 0,
+          "picksWon": 0
+        },
+        {
+          "classname": "tk.d.slots.vanilla.outcome.PaylineWinSituation",
+          "id": 5,
+          "symbolid": 2,
+          "symbolcount": 4,
+          "positions": [0, 3, 7, 9],
+          "betmultiplier": 1.5,
+          "winamount": 1.5,
+          "freespins": 0,
+          "componentId": 0,
+          "extraspins": 0,
+          "picksWon": 0
+        },
+        {
+          "classname": "tk.d.slots.vanilla.outcome.PaylineWinSituation",
+          "id": 7,
+          "symbolid": 2,
+          "symbolcount": 4,
+          "positions": [0, 4, 7, 10],
+          "betmultiplier": 1.5,
+          "winamount": 1.5,
+          "freespins": 0,
+          "componentId": 0,
+          "extraspins": 0,
+          "picksWon": 0
+        },
+        {
+          "classname": "tk.d.slots.vanilla.outcome.PaylineWinSituation",
+          "id": 11,
+          "symbolid": 2,
+          "symbolcount": 4,
+          "positions": [0, 4, 8, 10],
+          "betmultiplier": 1.5,
+          "winamount": 1.5,
+          "freespins": 0,
+          "componentId": 0,
+          "extraspins": 0,
+          "picksWon": 0
+        }
+      ]
+    },
+    "state.bets[0].value.amount": 1,
+    "state.gameparts.main.currentspinbetmultiplier": 6,
+    "state.gameparts.main.currentspinwinamount": 6,
+    "state.gameparts.main.finalsymbols": [
+      2, 12, 8, 0, 0, 3, 2, 2, 2, 2, 2, 2, 8, 6, 6
+    ],
+    "state.gameparts.main.initialsymbols": [
+      2, 12, 8, 0, 0, 3, 5, 11, 6, 5, 11, 6, 8, 6, 6
+    ],
+    "state.gameparts.main.multiplier": 1,
+    "state.gameparts.main.potwinsym": [
+      5, -1, 3, 5, 5, -1, 5, 5, 5, 5, 5, -1, -1, -1, -1
+    ],
+    "state.gameparts.main.reelindices": [134, 409, 374, 5, 151],
+    "state.gameparts.main.totalbetmultiplier": 6,
+    "state.gameparts.main.totalwinamount": 6
+  },
+  {
+    "outcome.totalbetmultiplier": 0,
+    "outcome.multiplier": 1,
+    "outcome.totalwinamount": 0,
+    "state.totalbetmultiplier": 0,
+    "state.totalwinamount": 0,
+    "state.bets[0].value.amount": 1,
+    "state.gameparts.main.currentspinbetmultiplier": 0,
+    "state.gameparts.main.currentspinwinamount": 0,
+    "state.gameparts.main.finalsymbols": [
+      3, 5, 5, 5, 5, 6, 1, 1, 4, 7, 10, 3, 6, 6, 6
+    ],
+    "state.gameparts.main.initialsymbols": [
+      3, 5, 5, 5, 5, 6, 1, 1, 4, 7, 10, 3, 6, 6, 6
+    ],
+    "state.gameparts.main.multiplier": 1,
+    "state.gameparts.main.potwinsym": [
+      -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1
+    ],
+    "state.gameparts.main.reelindices": [361, 342, 98, 155, 339],
+    "state.gameparts.main.totalbetmultiplier": 0,
+    "state.gameparts.main.totalwinamount": 0
+  },
+  {
+    "outcome.totalbetmultiplier": 0,
+    "outcome.multiplier": 1,
+    "outcome.totalwinamount": 0,
+    "state.totalbetmultiplier": 0,
+    "state.totalwinamount": 0,
+    "state.bets[0].value.amount": 1,
+    "state.gameparts.main.currentspinbetmultiplier": 0,
+    "state.gameparts.main.currentspinwinamount": 0,
+    "state.gameparts.main.finalsymbols": [
+      7, 7, 12, 7, 7, 7, 4, 4, 12, 5, 5, 7, 6, 4, 4
+    ],
+    "state.gameparts.main.initialsymbols": [
+      7, 7, 12, 11, 8, 8, 4, 4, 12, 5, 5, 7, 6, 4, 4
+    ],
+    "state.gameparts.main.multiplier": 1,
+    "state.gameparts.main.potwinsym": [
+      -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1
+    ],
+    "state.gameparts.main.reelindices": [515, 629, 639, 193, 240],
+    "state.gameparts.main.totalbetmultiplier": 0,
+    "state.gameparts.main.totalwinamount": 0
+  },
+  {
+    "outcome.totalbetmultiplier": 0,
+    "outcome.multiplier": 1,
+    "outcome.totalwinamount": 0,
+    "state.totalbetmultiplier": 0,
+    "state.totalwinamount": 0,
+    "state.bets[0].value.amount": 1,
+    "state.gameparts.main.currentspinbetmultiplier": 0,
+    "state.gameparts.main.currentspinwinamount": 0,
+    "state.gameparts.main.finalsymbols": [
+      4, 4, 4, 5, 5, 5, 6, 6, 0, 5, 5, 5, 3, 3, 10
+    ],
+    "state.gameparts.main.initialsymbols": [
+      4, 4, 4, 5, 5, 5, 6, 6, 0, 5, 5, 5, 3, 3, 10
+    ],
+    "state.gameparts.main.multiplier": 1,
+    "state.gameparts.main.potwinsym": [
+      -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1
+    ],
+    "state.gameparts.main.reelindices": [384, 708, 308, 300, 375],
+    "state.gameparts.main.totalbetmultiplier": 0,
+    "state.gameparts.main.totalwinamount": 0
+  },
+  {
+    "outcome.totalbetmultiplier": 3.3,
+    "outcome.multiplier": 1,
+    "outcome.totalwinamount": 3.3,
+    "state.totalbetmultiplier": 3.3,
+    "state.totalwinamount": 3.3,
+    "outcome.winnings": {
+      "paylinewins": [
+        {
+          "classname": "tk.d.slots.vanilla.outcome.PaylineWinSituation",
+          "id": 0,
+          "symbolid": 8,
+          "symbolcount": 4,
+          "positions": [1, 4, 7, 10],
+          "betmultiplier": 0.3,
+          "winamount": 0.3,
+          "freespins": 0,
+          "componentId": 0,
+          "extraspins": 0,
+          "picksWon": 0
+        },
+        {
+          "classname": "tk.d.slots.vanilla.outcome.PaylineWinSituation",
+          "id": 1,
+          "symbolid": 8,
+          "symbolcount": 4,
+          "positions": [0, 3, 6, 9],
+          "betmultiplier": 0.3,
+          "winamount": 0.3,
+          "freespins": 0,
+          "componentId": 0,
+          "extraspins": 0,
+          "picksWon": 0
+        },
+        {
+          "classname": "tk.d.slots.vanilla.outcome.PaylineWinSituation",
+          "id": 3,
+          "symbolid": 8,
+          "symbolcount": 4,
+          "positions": [1, 4, 6, 10],
+          "betmultiplier": 0.3,
+          "winamount": 0.3,
+          "freespins": 0,
+          "componentId": 0,
+          "extraspins": 0,
+          "picksWon": 0
+        },
+        {
+          "classname": "tk.d.slots.vanilla.outcome.PaylineWinSituation",
+          "id": 4,
+          "symbolid": 8,
+          "symbolcount": 4,
+          "positions": [1, 4, 8, 10],
+          "betmultiplier": 0.3,
+          "winamount": 0.3,
+          "freespins": 0,
+          "componentId": 0,
+          "extraspins": 0,
+          "picksWon": 0
+        },
+        {
+          "classname": "tk.d.slots.vanilla.outcome.PaylineWinSituation",
+          "id": 5,
+          "symbolid": 8,
+          "symbolcount": 4,
+          "positions": [0, 3, 7, 9],
+          "betmultiplier": 0.3,
+          "winamount": 0.3,
+          "freespins": 0,
+          "componentId": 0,
+          "extraspins": 0,
+          "picksWon": 0
+        },
+        {
+          "classname": "tk.d.slots.vanilla.outcome.PaylineWinSituation",
+          "id": 7,
+          "symbolid": 8,
+          "symbolcount": 4,
+          "positions": [0, 4, 7, 10],
+          "betmultiplier": 0.3,
+          "winamount": 0.3,
+          "freespins": 0,
+          "componentId": 0,
+          "extraspins": 0,
+          "picksWon": 0
+        },
+        {
+          "classname": "tk.d.slots.vanilla.outcome.PaylineWinSituation",
+          "id": 8,
+          "symbolid": 8,
+          "symbolcount": 4,
+          "positions": [2, 4, 7, 10],
+          "betmultiplier": 0.3,
+          "winamount": 0.3,
+          "freespins": 0,
+          "componentId": 0,
+          "extraspins": 0,
+          "picksWon": 0
+        },
+        {
+          "classname": "tk.d.slots.vanilla.outcome.PaylineWinSituation",
+          "id": 10,
+          "symbolid": 8,
+          "symbolcount": 4,
+          "positions": [1, 3, 6, 9],
+          "betmultiplier": 0.3,
+          "winamount": 0.3,
+          "freespins": 0,
+          "componentId": 0,
+          "extraspins": 0,
+          "picksWon": 0
+        },
+        {
+          "classname": "tk.d.slots.vanilla.outcome.PaylineWinSituation",
+          "id": 11,
+          "symbolid": 8,
+          "symbolcount": 4,
+          "positions": [0, 4, 8, 10],
+          "betmultiplier": 0.3,
+          "winamount": 0.3,
+          "freespins": 0,
+          "componentId": 0,
+          "extraspins": 0,
+          "picksWon": 0
+        },
+        {
+          "classname": "tk.d.slots.vanilla.outcome.PaylineWinSituation",
+          "id": 12,
+          "symbolid": 8,
+          "symbolcount": 4,
+          "positions": [2, 4, 6, 10],
+          "betmultiplier": 0.3,
+          "winamount": 0.3,
+          "freespins": 0,
+          "componentId": 0,
+          "extraspins": 0,
+          "picksWon": 0
+        },
+        {
+          "classname": "tk.d.slots.vanilla.outcome.PaylineWinSituation",
+          "id": 13,
+          "symbolid": 8,
+          "symbolcount": 4,
+          "positions": [1, 3, 7, 9],
+          "betmultiplier": 0.3,
+          "winamount": 0.3,
+          "freespins": 0,
+          "componentId": 0,
+          "extraspins": 0,
+          "picksWon": 0
+        }
+      ]
+    },
+    "state.bets[0].value.amount": 1,
+    "state.gameparts.main.currentspinbetmultiplier": 3.3,
+    "state.gameparts.main.currentspinwinamount": 3.3,
+    "state.gameparts.main.finalsymbols": [
+      8, 8, 8, 0, 0, 6, 8, 8, 8, 8, 8, 8, 7, 6, 6
+    ],
+    "state.gameparts.main.initialsymbols": [
+      8, 8, 8, 0, 0, 6, 11, 7, 7, 8, 8, 8, 7, 6, 6
+    ],
+    "state.gameparts.main.multiplier": 1,
+    "state.gameparts.main.potwinsym": [
+      5, 5, 5, 5, 5, -1, 5, 5, 5, 5, 5, -1, -1, -1, -1
+    ],
+    "state.gameparts.main.reelindices": [555, 306, 283, 243, 360],
+    "state.gameparts.main.totalbetmultiplier": 3.3,
+    "state.gameparts.main.totalwinamount": 3.3
+  },
+  {
+    "outcome.totalbetmultiplier": 2,
+    "outcome.multiplier": 1,
+    "outcome.totalwinamount": 2,
+    "state.totalbetmultiplier": 2,
+    "state.totalwinamount": 2,
+    "outcome.winnings": {
+      "paylinewins": [
+        {
+          "classname": "tk.d.slots.vanilla.outcome.PaylineWinSituation",
+          "id": 1,
+          "symbolid": 4,
+          "symbolcount": 3,
+          "positions": [0, 3, 6],
+          "betmultiplier": 0.5,
+          "winamount": 0.5,
+          "freespins": 0,
+          "componentId": 0,
+          "extraspins": 0,
+          "picksWon": 0
+        },
+        {
+          "classname": "tk.d.slots.vanilla.outcome.PaylineWinSituation",
+          "id": 5,
+          "symbolid": 4,
+          "symbolcount": 3,
+          "positions": [0, 3, 7],
+          "betmultiplier": 0.5,
+          "winamount": 0.5,
+          "freespins": 0,
+          "componentId": 0,
+          "extraspins": 0,
+          "picksWon": 0
+        },
+        {
+          "classname": "tk.d.slots.vanilla.outcome.PaylineWinSituation",
+          "id": 7,
+          "symbolid": 4,
+          "symbolcount": 3,
+          "positions": [0, 4, 7],
+          "betmultiplier": 0.5,
+          "winamount": 0.5,
+          "freespins": 0,
+          "componentId": 0,
+          "extraspins": 0,
+          "picksWon": 0
+        },
+        {
+          "classname": "tk.d.slots.vanilla.outcome.PaylineWinSituation",
+          "id": 11,
+          "symbolid": 4,
+          "symbolcount": 3,
+          "positions": [0, 4, 8],
+          "betmultiplier": 0.5,
+          "winamount": 0.5,
+          "freespins": 0,
+          "componentId": 0,
+          "extraspins": 0,
+          "picksWon": 0
+        }
+      ]
+    },
+    "state.bets[0].value.amount": 1,
+    "state.gameparts.main.currentspinbetmultiplier": 2,
+    "state.gameparts.main.currentspinwinamount": 2,
+    "state.gameparts.main.finalsymbols": [
+      4, 12, 3, 0, 0, 6, 4, 4, 4, 6, 6, 4, 6, 6, 6
+    ],
+    "state.gameparts.main.initialsymbols": [
+      4, 12, 3, 0, 0, 6, 5, 11, 2, 6, 6, 4, 6, 6, 6
+    ],
+    "state.gameparts.main.multiplier": 1,
+    "state.gameparts.main.potwinsym": [
+      5, -1, 2, 5, 5, -1, 5, 5, 5, -1, -1, -1, -1, -1, -1
+    ],
+    "state.gameparts.main.reelindices": [585, 156, 663, 276, 395],
+    "state.gameparts.main.totalbetmultiplier": 2,
+    "state.gameparts.main.totalwinamount": 2
+  },
+  {
+    "outcome.totalbetmultiplier": 0,
+    "outcome.multiplier": 1,
+    "outcome.totalwinamount": 0,
+    "state.totalbetmultiplier": 0,
+    "state.totalwinamount": 0,
+    "state.bets[0].value.amount": 1,
+    "state.gameparts.main.currentspinbetmultiplier": 0,
+    "state.gameparts.main.currentspinwinamount": 0,
+    "state.gameparts.main.finalsymbols": [
+      4, 8, 8, 0, 0, 0, 6, 7, 7, 2, 2, 2, 6, 4, 4
+    ],
+    "state.gameparts.main.initialsymbols": [
+      4, 8, 8, 0, 0, 0, 6, 7, 7, 2, 2, 2, 6, 4, 4
+    ],
+    "state.gameparts.main.multiplier": 1,
+    "state.gameparts.main.potwinsym": [
+      -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1
+    ],
+    "state.gameparts.main.reelindices": [505, 185, 171, 100, 547],
+    "state.gameparts.main.totalbetmultiplier": 0,
+    "state.gameparts.main.totalwinamount": 0
+  },
+  {
+    "outcome.totalbetmultiplier": 0,
+    "outcome.multiplier": 1,
+    "outcome.totalwinamount": 0,
+    "state.totalbetmultiplier": 0,
+    "state.totalwinamount": 0,
+    "state.bets[0].value.amount": 1,
+    "state.gameparts.main.currentspinbetmultiplier": 0,
+    "state.gameparts.main.currentspinwinamount": 0,
+    "state.gameparts.main.finalsymbols": [
+      4, 4, 4, 8, 8, 10, 3, 3, 8, 2, 2, 6, 7, 7, 3
+    ],
+    "state.gameparts.main.initialsymbols": [
+      4, 4, 4, 8, 8, 10, 3, 3, 8, 2, 2, 6, 7, 7, 3
+    ],
+    "state.gameparts.main.multiplier": 1,
+    "state.gameparts.main.potwinsym": [
+      -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1
+    ],
+    "state.gameparts.main.reelindices": [384, 123, 182, 595, 144],
+    "state.gameparts.main.totalbetmultiplier": 0,
+    "state.gameparts.main.totalwinamount": 0
+  },
+  {
+    "outcome.totalbetmultiplier": 0,
+    "outcome.multiplier": 1,
+    "outcome.totalwinamount": 0,
+    "state.totalbetmultiplier": 0,
+    "state.totalwinamount": 0,
+    "state.bets[0].value.amount": 1,
+    "state.gameparts.main.currentspinbetmultiplier": 0,
+    "state.gameparts.main.currentspinwinamount": 0,
+    "state.gameparts.main.finalsymbols": [
+      3, 3, 5, 5, 5, 5, 10, 6, 6, 4, 4, 4, 5, 5, 5
+    ],
+    "state.gameparts.main.initialsymbols": [
+      3, 3, 5, 5, 5, 5, 10, 6, 6, 4, 4, 4, 5, 5, 5
+    ],
+    "state.gameparts.main.multiplier": 1,
+    "state.gameparts.main.potwinsym": [
+      -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1
+    ],
+    "state.gameparts.main.reelindices": [235, 734, 483, 87, 630],
+    "state.gameparts.main.totalbetmultiplier": 0,
+    "state.gameparts.main.totalwinamount": 0
+  },
+  {
+    "outcome.totalbetmultiplier": 0,
+    "outcome.multiplier": 1,
+    "outcome.totalwinamount": 0,
+    "state.totalbetmultiplier": 0,
+    "state.totalwinamount": 0,
+    "state.bets[0].value.amount": 1,
+    "state.gameparts.main.currentspinbetmultiplier": 0,
+    "state.gameparts.main.currentspinwinamount": 0,
+    "state.gameparts.main.finalsymbols": [
+      6, 12, 2, 5, 5, 8, 2, 2, 2, 2, 2, 2, 6, 12, 5
+    ],
+    "state.gameparts.main.initialsymbols": [
+      6, 12, 2, 5, 5, 8, 2, 2, 2, 11, 7, 7, 6, 12, 5
+    ],
+    "state.gameparts.main.multiplier": 1,
+    "state.gameparts.main.potwinsym": [
+      -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1
+    ],
+    "state.gameparts.main.reelindices": [396, 552, 231, 548, 525],
+    "state.gameparts.main.totalbetmultiplier": 0,
+    "state.gameparts.main.totalwinamount": 0
+  },
+  {
+    "outcome.totalbetmultiplier": 0,
+    "outcome.multiplier": 1,
+    "outcome.totalwinamount": 0,
+    "state.totalbetmultiplier": 0,
+    "state.totalwinamount": 0,
+    "state.bets[0].value.amount": 1,
+    "state.gameparts.main.currentspinbetmultiplier": 0,
+    "state.gameparts.main.currentspinwinamount": 0,
+    "state.gameparts.main.finalsymbols": [
+      8, 6, 6, 6, 6, 6, 5, 1, 1, 12, 3, 3, 4, 4, 4
+    ],
+    "state.gameparts.main.initialsymbols": [
+      8, 6, 6, 6, 6, 6, 5, 1, 1, 12, 3, 3, 4, 4, 4
+    ],
+    "state.gameparts.main.multiplier": 1,
+    "state.gameparts.main.potwinsym": [
+      -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1
+    ],
+    "state.gameparts.main.reelindices": [138, 587, 266, 230, 82],
+    "state.gameparts.main.totalbetmultiplier": 0,
+    "state.gameparts.main.totalwinamount": 0
+  },
+  {
+    "outcome.totalbetmultiplier": 0,
+    "outcome.multiplier": 1,
+    "outcome.totalwinamount": 0,
+    "state.totalbetmultiplier": 0,
+    "state.totalwinamount": 0,
+    "state.bets[0].value.amount": 1,
+    "state.gameparts.main.currentspinbetmultiplier": 0,
+    "state.gameparts.main.currentspinwinamount": 0,
+    "state.gameparts.main.finalsymbols": [
+      6, 4, 4, 7, 7, 7, 8, 6, 6, 4, 10, 6, 5, 10, 4
+    ],
+    "state.gameparts.main.initialsymbols": [
+      6, 4, 4, 7, 7, 7, 8, 6, 6, 4, 10, 6, 5, 10, 4
+    ],
+    "state.gameparts.main.multiplier": 1,
+    "state.gameparts.main.potwinsym": [
+      -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1
+    ],
+    "state.gameparts.main.reelindices": [582, 465, 224, 378, 491],
+    "state.gameparts.main.totalbetmultiplier": 0,
+    "state.gameparts.main.totalwinamount": 0
+  },
+  {
+    "outcome.totalbetmultiplier": 0,
+    "outcome.multiplier": 1,
+    "outcome.totalwinamount": 0,
+    "state.totalbetmultiplier": 0,
+    "state.totalwinamount": 0,
+    "state.bets[0].value.amount": 1,
+    "state.gameparts.main.currentspinbetmultiplier": 0,
+    "state.gameparts.main.currentspinwinamount": 0,
+    "state.gameparts.main.finalsymbols": [
+      8, 6, 6, 7, 0, 0, 1, 1, 1, 5, 8, 8, 5, 6, 6
+    ],
+    "state.gameparts.main.initialsymbols": [
+      8, 6, 6, 7, 0, 0, 1, 1, 1, 5, 8, 8, 5, 6, 6
+    ],
+    "state.gameparts.main.multiplier": 1,
+    "state.gameparts.main.potwinsym": [
+      -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1
+    ],
+    "state.gameparts.main.reelindices": [194, 563, 267, 35, 529],
+    "state.gameparts.main.totalbetmultiplier": 0,
+    "state.gameparts.main.totalwinamount": 0
+  },
+  {
+    "outcome.totalbetmultiplier": 0.6,
+    "outcome.multiplier": 1,
+    "outcome.totalwinamount": 0.6,
+    "state.totalbetmultiplier": 0.6,
+    "state.totalwinamount": 0.6,
+    "outcome.winnings": {
+      "paylinewins": [
+        {
+          "classname": "tk.d.slots.vanilla.outcome.PaylineWinSituation",
+          "id": 5,
+          "symbolid": 6,
+          "symbolcount": 3,
+          "positions": [0, 3, 7],
+          "betmultiplier": 0.3,
+          "winamount": 0.3,
+          "freespins": 0,
+          "componentId": 0,
+          "extraspins": 0,
+          "picksWon": 0
+        },
+        {
+          "classname": "tk.d.slots.vanilla.outcome.PaylineWinSituation",
+          "id": 13,
+          "symbolid": 6,
+          "symbolcount": 3,
+          "positions": [1, 3, 7],
+          "betmultiplier": 0.3,
+          "winamount": 0.3,
+          "freespins": 0,
+          "componentId": 0,
+          "extraspins": 0,
+          "picksWon": 0
+        }
+      ]
+    },
+    "state.bets[0].value.amount": 1,
+    "state.gameparts.main.currentspinbetmultiplier": 0.6,
+    "state.gameparts.main.currentspinwinamount": 0.6,
+    "state.gameparts.main.finalsymbols": [
+      6, 6, 6, 0, 4, 4, 8, 6, 6, 7, 7, 6, 3, 3, 3
+    ],
+    "state.gameparts.main.initialsymbols": [
+      6, 6, 6, 0, 4, 4, 8, 6, 6, 7, 7, 6, 3, 3, 3
+    ],
+    "state.gameparts.main.multiplier": 1,
+    "state.gameparts.main.potwinsym": [
+      5, 5, -1, 5, -1, -1, -1, 5, -1, -1, -1, -1, -1, -1, -1
+    ],
+    "state.gameparts.main.reelindices": [149, 452, 275, 196, 568],
+    "state.gameparts.main.totalbetmultiplier": 0.6,
+    "state.gameparts.main.totalwinamount": 0.6
+  },
+  {
+    "outcome.totalbetmultiplier": 0,
+    "outcome.multiplier": 1,
+    "outcome.totalwinamount": 0,
+    "state.totalbetmultiplier": 0,
+    "state.totalwinamount": 0,
+    "state.bets[0].value.amount": 1,
+    "state.gameparts.main.currentspinbetmultiplier": 0,
+    "state.gameparts.main.currentspinwinamount": 0,
+    "state.gameparts.main.finalsymbols": [
+      3, 3, 3, 8, 6, 6, 3, 3, 3, 0, 0, 8, 6, 6, 4
+    ],
+    "state.gameparts.main.initialsymbols": [
+      3, 3, 3, 8, 6, 6, 3, 3, 3, 0, 0, 8, 6, 6, 4
+    ],
+    "state.gameparts.main.multiplier": 1,
+    "state.gameparts.main.potwinsym": [
+      -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1
+    ],
+    "state.gameparts.main.reelindices": [126, 22, 658, 225, 546],
+    "state.gameparts.main.totalbetmultiplier": 0,
+    "state.gameparts.main.totalwinamount": 0
+  },
+  {
+    "outcome.totalbetmultiplier": 0,
+    "outcome.multiplier": 1,
+    "outcome.totalwinamount": 0,
+    "state.totalbetmultiplier": 0,
+    "state.totalwinamount": 0,
+    "state.bets[0].value.amount": 1,
+    "state.gameparts.main.currentspinbetmultiplier": 0,
+    "state.gameparts.main.currentspinwinamount": 0,
+    "state.gameparts.main.finalsymbols": [
+      5, 8, 8, 5, 5, 5, 6, 6, 10, 4, 4, 4, 8, 8, 5
+    ],
+    "state.gameparts.main.initialsymbols": [
+      5, 8, 8, 5, 5, 5, 6, 6, 10, 4, 4, 4, 8, 8, 5
+    ],
+    "state.gameparts.main.multiplier": 1,
+    "state.gameparts.main.potwinsym": [
+      -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1
+    ],
+    "state.gameparts.main.reelindices": [33, 690, 324, 479, 562],
+    "state.gameparts.main.totalbetmultiplier": 0,
+    "state.gameparts.main.totalwinamount": 0
+  },
+  {
+    "outcome.totalbetmultiplier": 0,
+    "outcome.multiplier": 1,
+    "outcome.totalwinamount": 0,
+    "state.totalbetmultiplier": 0,
+    "state.totalwinamount": 0,
+    "state.bets[0].value.amount": 1,
+    "state.gameparts.main.currentspinbetmultiplier": 0,
+    "state.gameparts.main.currentspinwinamount": 0,
+    "state.gameparts.main.finalsymbols": [
+      8, 8, 8, 4, 7, 7, 8, 8, 8, 1, 1, 4, 3, 12, 2
+    ],
+    "state.gameparts.main.initialsymbols": [
+      8, 8, 8, 4, 7, 7, 11, 7, 7, 1, 1, 4, 3, 12, 2
+    ],
+    "state.gameparts.main.multiplier": 1,
+    "state.gameparts.main.potwinsym": [
+      -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1
+    ],
+    "state.gameparts.main.reelindices": [622, 29, 449, 346, 451],
+    "state.gameparts.main.totalbetmultiplier": 0,
+    "state.gameparts.main.totalwinamount": 0
+  },
+  {
+    "outcome.totalbetmultiplier": 0,
+    "outcome.multiplier": 1,
+    "outcome.totalwinamount": 0,
+    "state.totalbetmultiplier": 0,
+    "state.totalwinamount": 0,
+    "state.bets[0].value.amount": 1,
+    "state.gameparts.main.currentspinbetmultiplier": 0,
+    "state.gameparts.main.currentspinwinamount": 0,
+    "state.gameparts.main.finalsymbols": [
+      5, 5, 2, 0, 5, 5, 4, 3, 3, 1, 3, 3, 7, 10, 3
+    ],
+    "state.gameparts.main.initialsymbols": [
+      5, 5, 2, 0, 5, 5, 4, 3, 3, 1, 3, 3, 7, 10, 3
+    ],
+    "state.gameparts.main.multiplier": 1,
+    "state.gameparts.main.potwinsym": [
+      -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1
+    ],
+    "state.gameparts.main.reelindices": [607, 566, 403, 464, 183],
+    "state.gameparts.main.totalbetmultiplier": 0,
+    "state.gameparts.main.totalwinamount": 0
+  },
+  {
+    "outcome.totalbetmultiplier": 0.3,
+    "outcome.multiplier": 1,
+    "outcome.totalwinamount": 0.3,
+    "state.totalbetmultiplier": 0.3,
+    "state.totalwinamount": 0.3,
+    "outcome.winnings": {
+      "paylinewins": [
+        {
+          "classname": "tk.d.slots.vanilla.outcome.PaylineWinSituation",
+          "id": 3,
+          "symbolid": 8,
+          "symbolcount": 3,
+          "positions": [1, 4, 6],
+          "betmultiplier": 0.1,
+          "winamount": 0.1,
+          "freespins": 0,
+          "componentId": 0,
+          "extraspins": 0,
+          "picksWon": 0
+        },
+        {
+          "classname": "tk.d.slots.vanilla.outcome.PaylineWinSituation",
+          "id": 10,
+          "symbolid": 8,
+          "symbolcount": 3,
+          "positions": [1, 3, 6],
+          "betmultiplier": 0.1,
+          "winamount": 0.1,
+          "freespins": 0,
+          "componentId": 0,
+          "extraspins": 0,
+          "picksWon": 0
+        },
+        {
+          "classname": "tk.d.slots.vanilla.outcome.PaylineWinSituation",
+          "id": 12,
+          "symbolid": 8,
+          "symbolcount": 3,
+          "positions": [2, 4, 6],
+          "betmultiplier": 0.1,
+          "winamount": 0.1,
+          "freespins": 0,
+          "componentId": 0,
+          "extraspins": 0,
+          "picksWon": 0
+        }
+      ]
+    },
+    "state.bets[0].value.amount": 1,
+    "state.gameparts.main.currentspinbetmultiplier": 0.3,
+    "state.gameparts.main.currentspinwinamount": 0.3,
+    "state.gameparts.main.finalsymbols": [
+      7, 8, 8, 8, 8, 0, 8, 6, 6, 2, 5, 5, 4, 4, 4
+    ],
+    "state.gameparts.main.initialsymbols": [
+      7, 8, 8, 8, 8, 0, 8, 6, 6, 2, 5, 5, 4, 4, 4
+    ],
+    "state.gameparts.main.multiplier": 1,
+    "state.gameparts.main.potwinsym": [
+      -1, 5, 5, 5, 5, -1, 5, -1, -1, -1, -1, -1, -1, -1, -1
+    ],
+    "state.gameparts.main.reelindices": [229, 428, 329, 191, 37],
+    "state.gameparts.main.totalbetmultiplier": 0.3,
+    "state.gameparts.main.totalwinamount": 0.3
+  },
+  {
+    "outcome.totalbetmultiplier": 0,
+    "outcome.multiplier": 1,
+    "outcome.totalwinamount": 0,
+    "state.totalbetmultiplier": 0,
+    "state.totalwinamount": 0,
+    "state.bets[0].value.amount": 1,
+    "state.gameparts.main.currentspinbetmultiplier": 0,
+    "state.gameparts.main.currentspinwinamount": 0,
+    "state.gameparts.main.finalsymbols": [
+      7, 7, 8, 4, 4, 0, 5, 5, 10, 5, 5, 5, 6, 6, 6
+    ],
+    "state.gameparts.main.initialsymbols": [
+      7, 7, 8, 4, 4, 0, 5, 5, 10, 5, 5, 5, 6, 6, 6
+    ],
+    "state.gameparts.main.multiplier": 1,
+    "state.gameparts.main.potwinsym": [
+      -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1
+    ],
+    "state.gameparts.main.reelindices": [42, 163, 572, 542, 545],
+    "state.gameparts.main.totalbetmultiplier": 0,
+    "state.gameparts.main.totalwinamount": 0
+  },
+  {
+    "outcome.totalbetmultiplier": 0,
+    "outcome.multiplier": 1,
+    "outcome.totalwinamount": 0,
+    "state.totalbetmultiplier": 0,
+    "state.totalwinamount": 0,
+    "state.bets[0].value.amount": 1,
+    "state.gameparts.main.currentspinbetmultiplier": 0,
+    "state.gameparts.main.currentspinwinamount": 0,
+    "state.gameparts.main.finalsymbols": [
+      4, 4, 4, 3, 3, 3, 5, 5, 6, 8, 8, 8, 12, 3, 3
+    ],
+    "state.gameparts.main.initialsymbols": [
+      4, 4, 4, 3, 3, 3, 5, 5, 6, 8, 8, 8, 12, 3, 3
+    ],
+    "state.gameparts.main.multiplier": 1,
+    "state.gameparts.main.potwinsym": [
+      -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1
+    ],
+    "state.gameparts.main.reelindices": [142, 773, 617, 177, 302],
+    "state.gameparts.main.totalbetmultiplier": 0,
+    "state.gameparts.main.totalwinamount": 0
+  },
+  {
+    "outcome.totalbetmultiplier": 0,
+    "outcome.multiplier": 1,
+    "outcome.totalwinamount": 0,
+    "state.totalbetmultiplier": 0,
+    "state.totalwinamount": 0,
+    "state.bets[0].value.amount": 1,
+    "state.gameparts.main.currentspinbetmultiplier": 0,
+    "state.gameparts.main.currentspinwinamount": 0,
+    "state.gameparts.main.finalsymbols": [
+      2, 2, 2, 8, 8, 10, 8, 8, 8, 6, 3, 3, 2, 2, 5
+    ],
+    "state.gameparts.main.initialsymbols": [
+      2, 2, 2, 8, 8, 10, 8, 8, 8, 6, 3, 3, 2, 2, 5
+    ],
+    "state.gameparts.main.multiplier": 1,
+    "state.gameparts.main.potwinsym": [
+      -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1
+    ],
+    "state.gameparts.main.reelindices": [335, 169, 146, 570, 245],
+    "state.gameparts.main.totalbetmultiplier": 0,
+    "state.gameparts.main.totalwinamount": 0
+  },
+  {
+    "outcome.totalbetmultiplier": 0,
+    "outcome.multiplier": 1,
+    "outcome.totalwinamount": 0,
+    "state.totalbetmultiplier": 0,
+    "state.totalwinamount": 0,
+    "state.bets[0].value.amount": 1,
+    "state.gameparts.main.currentspinbetmultiplier": 0,
+    "state.gameparts.main.currentspinwinamount": 0,
+    "state.gameparts.main.finalsymbols": [
+      7, 7, 7, 5, 5, 5, 4, 4, 4, 7, 7, 7, 4, 4, 3
+    ],
+    "state.gameparts.main.initialsymbols": [
+      7, 7, 7, 5, 5, 5, 4, 4, 4, 7, 7, 7, 4, 4, 3
+    ],
+    "state.gameparts.main.multiplier": 1,
+    "state.gameparts.main.potwinsym": [
+      -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1
+    ],
+    "state.gameparts.main.reelindices": [368, 443, 638, 180, 268],
+    "state.gameparts.main.totalbetmultiplier": 0,
+    "state.gameparts.main.totalwinamount": 0
+  },
+  {
+    "outcome.totalbetmultiplier": 0,
+    "outcome.multiplier": 1,
+    "outcome.totalwinamount": 0,
+    "state.totalbetmultiplier": 0,
+    "state.totalwinamount": 0,
+    "state.bets[0].value.amount": 1,
+    "state.gameparts.main.currentspinbetmultiplier": 0,
+    "state.gameparts.main.currentspinwinamount": 0,
+    "state.gameparts.main.finalsymbols": [
+      4, 4, 4, 0, 0, 6, 7, 6, 6, 4, 4, 4, 3, 3, 3
+    ],
+    "state.gameparts.main.initialsymbols": [
+      4, 4, 4, 0, 0, 6, 7, 6, 6, 4, 4, 4, 3, 3, 3
+    ],
+    "state.gameparts.main.multiplier": 1,
+    "state.gameparts.main.potwinsym": [
+      -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1
+    ],
+    "state.gameparts.main.reelindices": [92, 422, 542, 555, 270],
+    "state.gameparts.main.totalbetmultiplier": 0,
+    "state.gameparts.main.totalwinamount": 0
+  },
+  {
+    "outcome.totalbetmultiplier": 0.5,
+    "outcome.multiplier": 1,
+    "outcome.totalwinamount": 0.5,
+    "state.totalbetmultiplier": 0.5,
+    "state.totalwinamount": 0.5,
+    "outcome.winnings": {
+      "paylinewins": [
+        {
+          "classname": "tk.d.slots.vanilla.outcome.PaylineWinSituation",
+          "id": 2,
+          "symbolid": 4,
+          "symbolcount": 3,
+          "positions": [2, 5, 8],
+          "betmultiplier": 0.5,
+          "winamount": 0.5,
+          "freespins": 0,
+          "componentId": 0,
+          "extraspins": 0,
+          "picksWon": 0
+        }
+      ]
+    },
+    "state.bets[0].value.amount": 1,
+    "state.gameparts.main.currentspinbetmultiplier": 0.5,
+    "state.gameparts.main.currentspinwinamount": 0.5,
+    "state.gameparts.main.finalsymbols": [
+      6, 12, 4, 4, 4, 4, 7, 7, 0, 2, 2, 5, 7, 10, 8
+    ],
+    "state.gameparts.main.initialsymbols": [
+      6, 12, 4, 11, 8, 8, 7, 7, 0, 2, 2, 5, 7, 10, 8
+    ],
+    "state.gameparts.main.multiplier": 1,
+    "state.gameparts.main.potwinsym": [
+      2, -1, 5, -1, 2, 5, -1, -1, 5, -1, -1, -1, -1, -1, -1
+    ],
+    "state.gameparts.main.reelindices": [295, 730, 389, 133, 230],
+    "state.gameparts.main.totalbetmultiplier": 0.5,
+    "state.gameparts.main.totalwinamount": 0.5
+  },
+  {
+    "outcome.totalbetmultiplier": 0,
+    "outcome.multiplier": 1,
+    "outcome.totalwinamount": 0,
+    "state.totalbetmultiplier": 0,
+    "state.totalwinamount": 0,
+    "state.bets[0].value.amount": 1,
+    "state.gameparts.main.currentspinbetmultiplier": 0,
+    "state.gameparts.main.currentspinwinamount": 0,
+    "state.gameparts.main.finalsymbols": [
+      8, 8, 8, 7, 7, 7, 3, 3, 3, 3, 3, 0, 6, 4, 4
+    ],
+    "state.gameparts.main.initialsymbols": [
+      8, 8, 8, 7, 7, 7, 3, 3, 3, 3, 3, 0, 6, 4, 4
+    ],
+    "state.gameparts.main.multiplier": 1,
+    "state.gameparts.main.potwinsym": [
+      -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1
+    ],
+    "state.gameparts.main.reelindices": [534, 172, 517, 68, 334],
+    "state.gameparts.main.totalbetmultiplier": 0,
+    "state.gameparts.main.totalwinamount": 0
+  },
+  {
+    "outcome.totalbetmultiplier": 0,
+    "outcome.multiplier": 1,
+    "outcome.totalwinamount": 0,
+    "state.totalbetmultiplier": 0,
+    "state.totalwinamount": 0,
+    "state.bets[0].value.amount": 1,
+    "state.gameparts.main.currentspinbetmultiplier": 0,
+    "state.gameparts.main.currentspinwinamount": 0,
+    "state.gameparts.main.finalsymbols": [
+      7, 7, 7, 10, 2, 2, 7, 7, 7, 6, 6, 6, 3, 3, 10
+    ],
+    "state.gameparts.main.initialsymbols": [
+      7, 7, 7, 10, 2, 2, 7, 7, 7, 6, 6, 6, 3, 3, 10
+    ],
+    "state.gameparts.main.multiplier": 1,
+    "state.gameparts.main.potwinsym": [
+      -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1
+    ],
+    "state.gameparts.main.reelindices": [164, 311, 149, 498, 304],
+    "state.gameparts.main.totalbetmultiplier": 0,
+    "state.gameparts.main.totalwinamount": 0
+  },
+  {
+    "outcome.totalbetmultiplier": 0,
+    "outcome.multiplier": 1,
+    "outcome.totalwinamount": 0,
+    "state.totalbetmultiplier": 0,
+    "state.totalwinamount": 0,
+    "state.bets[0].value.amount": 1,
+    "state.gameparts.main.currentspinbetmultiplier": 0,
+    "state.gameparts.main.currentspinwinamount": 0,
+    "state.gameparts.main.finalsymbols": [
+      10, 7, 7, 4, 4, 4, 8, 4, 4, 5, 3, 3, 6, 6, 6
+    ],
+    "state.gameparts.main.initialsymbols": [
+      10, 7, 7, 4, 4, 4, 8, 4, 4, 5, 3, 3, 6, 6, 6
+    ],
+    "state.gameparts.main.multiplier": 1,
+    "state.gameparts.main.potwinsym": [
+      -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1
+    ],
+    "state.gameparts.main.reelindices": [625, 380, 114, 122, 214],
+    "state.gameparts.main.totalbetmultiplier": 0,
+    "state.gameparts.main.totalwinamount": 0
+  },
+  {
+    "outcome.totalbetmultiplier": 0,
+    "outcome.multiplier": 1,
+    "outcome.totalwinamount": 0,
+    "state.totalbetmultiplier": 0,
+    "state.totalwinamount": 0,
+    "state.bets[0].value.amount": 1,
+    "state.gameparts.main.currentspinbetmultiplier": 0,
+    "state.gameparts.main.currentspinwinamount": 0,
+    "state.gameparts.main.finalsymbols": [
+      10, 8, 8, 5, 5, 6, 5, 5, 10, 12, 3, 3, 4, 4, 4
+    ],
+    "state.gameparts.main.initialsymbols": [
+      10, 8, 8, 5, 5, 6, 5, 5, 10, 12, 3, 3, 4, 4, 4
+    ],
+    "state.gameparts.main.multiplier": 1,
+    "state.gameparts.main.potwinsym": [
+      -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1
+    ],
+    "state.gameparts.main.reelindices": [312, 117, 572, 606, 156],
+    "state.gameparts.main.totalbetmultiplier": 0,
+    "state.gameparts.main.totalwinamount": 0
+  }
+]

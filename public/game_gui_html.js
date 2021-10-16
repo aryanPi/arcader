@@ -1,3 +1,4 @@
+var tempD = undefined;
 var tk_gui,
   __extends =
     (this && this.__extends) ||
@@ -469,7 +470,7 @@ var tk_gui,
           var e = this._currentButtonSelections[t];
           this._isShowing &&
             this.DialogButtonClicked.dispatch(this._currentType, e);
-          }),
+        }),
         (e.prototype.setCustomDialogButtons = function (t) {
           this._customDialogButtonsMap = t;
         }),
@@ -2397,16 +2398,16 @@ var tk_gui,
         (e.prototype.buildContent = function (e, n) {
           var s = this;
           (this._containerElement = n.createDivElement(e, "numPadContainer")),
-            (this._lockScreenElement = n.createDivElement(
-              this._containerElement,
-              "numPadLockScreenElement"
-            )),
-            this._lockScreenElement.css("width", "1280px"),
-            this._lockScreenElement.css("height", "720px"),
-            this._lockScreenElement.css("background-color", "black"),
-            this._lockScreenElement.css("opacity", 0.55),
-            this._lockScreenElement.css("position", "absolute"),
-            this._lockScreenElement.css("display", "none"),
+            // (this._lockScreenElement = n.createDivElement(
+            //   this._containerElement,
+            //   "numPadLockScreenElement"
+            // )),
+            // this._lockScreenElement.css("width", "1280px"),
+            // this._lockScreenElement.css("height", "720px"),
+            // this._lockScreenElement.css("background-color", "black"),
+            // this._lockScreenElement.css("opacity", 0.55),
+            // this._lockScreenElement.css("position", "absolute"),
+            // this._lockScreenElement.css("display", "none"),
             (this._padContainer = n.createDivElement(
               this._containerElement,
               "padContainer"
@@ -2655,7 +2656,7 @@ var tk_gui,
             (this._currentValueString = ""),
             this.addValueChar(t),
             (this._visible = !0),
-            this._lockScreenElement.css("display", "block"),
+            //this._lockScreenElement.css("display", "block"),
             this._containerElement.css("display", "block"),
             this.relayout());
         }),
@@ -2858,8 +2859,8 @@ var tk_gui,
               this._numberButtonElements[a].css("top", 150 * c + "px"),
                 this._numberButtonElements[a].css("left", 320 * l + "px");
             }
-            this._lockScreenElement.css("width", e.width * o + "px"),
-              this._lockScreenElement.css("height", e.height * o + "px");
+            // this._lockScreenElement.css("width", e.width * o + "px"),
+            //   this._lockScreenElement.css("height", e.height * o + "px");
           }
         }),
         (e.prototype.close = function () {
@@ -3600,18 +3601,18 @@ var tk_gui,
                   this._guiSettingsHelper
                 ),
               this.buildFadeOverlay(this._gameGuiElementId),
-              this.makeGuiUnselectable(this._gameGuiElementId),
-              n.developmentMode && this.buildOcDialog(this._gameGuiElementId),
-              (this._lockScreenElement = this.createDivElement(
-                this._guiContainer,
-                "lockScreenElement"
-              )),
-              this._lockScreenElement.css("width", "1280px"),
-              this._lockScreenElement.css("height", "720px"),
-              this._lockScreenElement.css("background-color", "black"),
-              this._lockScreenElement.css("opacity", 0.3),
-              this._lockScreenElement.css("position", "absolute"),
-              this._lockScreenElement.css("display", "none");
+              this.makeGuiUnselectable(this._gameGuiElementId);
+            // n.developmentMode && this.buildOcDialog(this._gameGuiElementId),
+            // (this._lockScreenElement = this.createDivElement(
+            //   this._guiContainer,
+            //   "lockScreenElement"
+            // )),
+            // this._lockScreenElement.css("width", "1280px"),
+            // this._lockScreenElement.css("height", "720px"),
+            // this._lockScreenElement.css("background-color", "black"),
+            // this._lockScreenElement.css("opacity", 0.3),
+            // this._lockScreenElement.css("position", "absolute"),
+            // this._lockScreenElement.css("display", "none");
             for (
               var o = document.querySelectorAll("style"), a = 0, l = o.length;
               a < l;
@@ -3625,11 +3626,11 @@ var tk_gui,
               this._actionButtonsManager.isSpinButtonEnabled()
             );
           }),
-          (i.prototype.lockScreen = function (t) {
-            t
-              ? this._lockScreenElement.css("display", "block")
-              : this._lockScreenElement.css("display", "none");
-          }),
+          // (i.prototype.lockScreen = function (t) {
+          //   t
+          //     ? this._lockScreenElement.css("display", "block")
+          //     : this._lockScreenElement.css("display", "none");
+          // }),
           (i.prototype.dispatchClick = function (t, e) {
             var n = this.convertPagePointToClientPoint({ x: t, y: e });
             this.onGuiAreaClicked.dispatch(t, e, n.x, n.y);
@@ -4435,7 +4436,6 @@ var tk_gui,
                 this._controlPanelManager.currentPage === e.HISTORY &&
                 (t = tk_common.slots.gui.GuiButtonIds.BACK_TO_GAME),
               this.onGuiButtonClicked.dispatch(t);
-              console.log(t,'h')
           }),
           (i.prototype.buildActionButtons = function (e) {
             var n = this,
@@ -4650,22 +4650,22 @@ var tk_gui,
                 i &&
                   (e === tk_common.constants.OrientationEnum.LANDSCAPE
                     ? (this._fullScreenClickArea.css("width", "1280px"),
-                      this._fullScreenClickArea.css("height", "720px"),
-                      this._lockScreenElement.css("width", "1280px"),
-                      this._lockScreenElement.css("height", "720px"))
-                    : (this._fullScreenClickArea.css(
+                      this._fullScreenClickArea.css("height", "720px"))
+                    : // this._lockScreenElement.css("width", "1280px"),
+                      // this._lockScreenElement.css("height", "720px"))
+                      (this._fullScreenClickArea.css(
                         "width",
                         n.width * a + "px"
                       ),
                       this._fullScreenClickArea.css(
                         "height",
                         n.height * a + "px"
-                      ),
-                      this._lockScreenElement.css("width", n.width * a + "px"),
-                      this._lockScreenElement.css(
-                        "height",
-                        n.height * a + "px"
                       ))),
+                      // this._lockScreenElement.css("width", n.width * a + "px"),
+                      // this._lockScreenElement.css(
+                      //   "height",
+                      //   n.height * a + "px"
+                      // )
                 (i =
                   i ||
                   (null != this._guiBuildHelper &&
@@ -5447,6 +5447,7 @@ var tk_gui,
                   n = !0;
                 for (var s in e) {
                   var i = e[s];
+
                   void 0 === i.enabled && void 0 === i.allowed
                     ? delete e[s]
                     : (n = !1);
@@ -5577,8 +5578,7 @@ var tk_gui,
           (n.prototype.initSpinButton = function (e) {
             (this._spinButton = new t.SpinButton(e, this._guiSettingsHelper)),
               this._spinButton.Clicked.add(this.handleGuiButtonClicked, this);
-console.log("init spin button");
-            }),
+          }),
           (n.prototype.enableAutospinConfigButton = function (t) {
             this._guiSettingsHelper.updateButtonBaseStates({
               autoSpinConfigButton: { enabled: t },
@@ -5863,8 +5863,7 @@ console.log("init spin button");
                 this._fastPlayButton.toggle(),
               this._guiSettingsHelper.isButtonAllowed(t) &&
                 this.onGuiButtonClicked.dispatch(t);
-            console.log(t)
-              }),
+          }),
           (n.prototype.handleToggleFastPlayClicked = function () {
             this.onGuiButtonClicked.dispatch(
               tk_common.slots.gui.GuiButtonIds.FAST_PLAY
@@ -5882,7 +5881,7 @@ console.log("init spin button");
               this._hasTopSpinsMode ||
                 (this._guiSettingsHelper.isButtonAllowed("bet") &&
                   (this._betButton.show(),
-                  this._betButtonContainerElement.css("display", "block"))),
+                  this._betButtonContainerElement.css("display", "none"))),
               this._allowFastPlayButton &&
               this._guiSettingsHelper.isButtonAllowed("fastplay") &&
               !0 !== this._isControlPanelMode
@@ -5975,10 +5974,10 @@ console.log("init spin button");
               }),
               this._buttonsContainerElement.css("top", "0"),
               this._buttonsContainerElement.css("left", "0"),
-              this._autospinConfigButtonContainerElement.css("left", "1070px"),
+              this._autospinConfigButtonContainerElement.css("right", "15px"),
               this._autospinConfigButtonContainerElement.css("width", "70px"),
               this._autospinConfigButtonContainerElement.css("height", "70px"),
-              this._autospinConfigButtonContainerElement.css("top", "612px"),
+              this._autospinConfigButtonContainerElement.css("top", "641px"),
               this._autospinConfigButtonBackgroundElement.css("width", "70px"),
               this._autospinConfigButtonBackgroundElement.css("height", "70px"),
               this._autospinConfigButtonBackgroundElement.removeClass(
@@ -5993,10 +5992,7 @@ console.log("init spin button");
               this._autospinConfigButtonClickElement.css("top", "0px"),
               this._autospinConfigButtonClickElement.css("width", "70px"),
               this._autospinConfigButtonClickElement.css("height", "70px"),
-              this._betButtonContainerElement.css("left", "990px"),
-              this._betButtonContainerElement.css("top", "612px"),
-              this._betButtonContainerElement.css("width", "70px"),
-              this._betButtonContainerElement.css("height", "70px"),
+              this._betButtonContainerElement.css("display", "none"),
               this._betButtonBackgroundElement.removeClass(
                 "circleButtonBackgroundPortraitDesktop"
               ),
@@ -6011,12 +6007,13 @@ console.log("init spin button");
               this._betButtonClickElement.css("top", "-2px"),
               this._betButtonClickElement.css("width", "70px"),
               this._betButtonClickElement.css("height", "70px"),
+
               this._spinButton.update(),
               this._spinButton.layout(t, e, n, s, o, l, void 0),
               this._soundButtonContainerElement.css("width", "40px"),
               this._soundButtonContainerElement.css("height", "40px"),
-              this._soundButtonContainerElement.css("left", "90px"),
-              this._soundButtonContainerElement.css("top", "627px"),
+              this._soundButtonContainerElement.css("left", "100px"),
+              this._soundButtonContainerElement.css("top", "654px"),
               this._soundButtonBackgroundElement.css("width", "40px"),
               this._soundButtonBackgroundElement.css("height", "40px"),
               this._soundButtonBackgroundElement.css("left", 0),
@@ -6126,10 +6123,7 @@ console.log("init spin button");
                       "height",
                       "120px"
                     ),
-                    this._betButtonContainerElement.css("left", "1141px"),
-                    this._betButtonContainerElement.css("top", "455px"),
-                    this._betButtonContainerElement.css("width", "100px"),
-                    this._betButtonContainerElement.css("height", "100px"),
+                    this._betButtonContainerElement.css("display", "none"),
                     this._betButtonBackgroundElement.removeClass(
                       "circleButtonBackgroundPortrait"
                     ),
@@ -6225,10 +6219,8 @@ console.log("init spin button");
                       "height",
                       "120px"
                     ),
-                    this._betButtonContainerElement.css("left", "39px"),
-                    this._betButtonContainerElement.css("top", "455px"),
-                    this._betButtonContainerElement.css("width", "100px"),
-                    this._betButtonContainerElement.css("height", "100px"),
+                    this._betButtonContainerElement.css("display", "none"),
+
                     this._betButtonBackgroundElement.removeClass(
                       "circleButtonBackgroundPortrait"
                     ),
@@ -6338,10 +6330,7 @@ console.log("init spin button");
                 this._autospinConfigButtonClickElement.css("top", "-30px"),
                 this._autospinConfigButtonClickElement.css("width", "230px"),
                 this._autospinConfigButtonClickElement.css("height", "230px"),
-                this._betButtonContainerElement.css("width", "170px"),
-                this._betButtonContainerElement.css("height", "170px"),
-                this._betButtonContainerElement.css("left", "1027px"),
-                this._betButtonContainerElement.css("top", "-80px"),
+                this._betButtonContainerElement.css("display", "none"),
                 this._betButtonIconElement.css("width", "170px"),
                 this._betButtonIconElement.css("height", "170px"),
                 this._betButtonBackgroundElement.css("width", "170px"),
@@ -6422,7 +6411,7 @@ console.log("init spin button");
             o.addClass("circleButtonBackground");
             var a = e.createDivElement(i, "autospinConfigButtonIcon");
             a.addClass("autospinIcon"), a.addClass("spinButtonFader");
-            
+
             var l = e.createDivElement(i, "autospinButtonClickElement");
             this.initAutospinConfigurationButton(i, o, a, l),
               this.initSpinButton(s);
@@ -6551,6 +6540,7 @@ console.log("init spin button");
                   ));
             var b = e.createDivElement(s, "spinButtonClickElement");
             this._spinButton.setClickElement(b), this._spinButton.hide();
+            b.hide();
           }),
           (n.prototype.buildMobileSingleSpinButton = function (t, e, n) {
             var s = n.createDivElement(e, "singleSpinButtonContainer"),
@@ -6900,50 +6890,50 @@ console.log("init spin button");
           enumerable: !1,
           configurable: !0,
         }),
-        Object.defineProperty(e.prototype, "ocEnabled", {
-          set: function (t) {
-            if (((this._ocEnabled = t), this._ocEnabled)) {
-              if (!this._ocInitialized) {
-                var e = this._guiElementFactory.createDivElement(
-                    this._navigationButtonsContainerElement,
-                    "ocButtonContainer"
-                  ),
-                  n = this._guiElementFactory.createDivElement(
-                    e,
-                    "ocButtonBackground"
-                  );
-                n.addClass("circleButtonBackground"),
-                  n.addClass("circleButtonBackgroundLandscape");
-                var s = this._guiElementFactory.createDivElement(
-                  e,
-                  "ocButtonIcon"
-                );
-                s.addClass("iconOc"),
-                  (this._ocButtonClickElement =
-                    this._guiElementFactory.createDivElement(
-                      e,
-                      "ocButtonClickElement"
-                    )),
-                  this.initOcButton(e, n, s, this._ocButtonClickElement),
-                  this._ocButtonContainerElement.css("top", "455px"),
-                  this._ocButtonContainerElement.css("left", "186px"),
-                  this._ocButtonContainerElement.css("width", "100px"),
-                  this._ocButtonContainerElement.css("height", "100px"),
-                  this._ocIconElement.css("width", "100px"),
-                  this._ocIconElement.css("height", "100px"),
-                  this._ocButtonClickElement.css("top", 0),
-                  this._ocButtonClickElement.css("left", 0),
-                  this._ocButtonClickElement.css("width", "100px"),
-                  this._ocButtonClickElement.css("height", "100px");
-              }
-              this._orientation ===
-                tk_common.constants.OrientationEnum.LANDSCAPE &&
-                this._ocButtonContainerElement.css("display", "block");
-            }
-          },
-          enumerable: !1,
-          configurable: !0,
-        }),
+        // Object.defineProperty(e.prototype, "ocEnabled", {
+        //   set: function (t) {
+        //     // if (((this._ocEnabled = t), this._ocEnabled)) {
+        //       // if (!this._ocInitialized) {
+        //       //   var e = this._guiElementFactory.createDivElement(
+        //       //       this._navigationButtonsContainerElement,
+        //       //       "ocButtonContainer"
+        //       //     ),
+        //       //     n = this._guiElementFactory.createDivElement(
+        //       //       e,
+        //       //       "ocButtonBackground"
+        //       //     );
+        //       //   n.addClass("circleButtonBackground"),
+        //       //     n.addClass("circleButtonBackgroundLandscape");
+        //       //   var s = this._guiElementFactory.createDivElement(
+        //       //     e,
+        //       //     "ocButtonIcon"
+        //       //   );
+        //       //   s.addClass("iconOc"),
+        //       //     (this._ocButtonClickElement =
+        //       //       this._guiElementFactory.createDivElement(
+        //       //         e,
+        //       //         "ocButtonClickElement"
+        //       //       )),
+        //       //     this.initOcButton(e, n, s, this._ocButtonClickElement),
+        //       //     this._ocButtonContainerElement.css("top", "455px"),
+        //       //     this._ocButtonContainerElement.css("left", "186px"),
+        //       //     this._ocButtonContainerElement.css("width", "100px"),
+        //       //     this._ocButtonContainerElement.css("height", "100px"),
+        //       //     this._ocIconElement.css("width", "100px"),
+        //       //     this._ocIconElement.css("height", "100px"),
+        //       //     this._ocButtonClickElement.css("top", 0),
+        //       //     this._ocButtonClickElement.css("left", 0),
+        //       //     this._ocButtonClickElement.css("width", "100px"),
+        //       //     this._ocButtonClickElement.css("height", "100px");
+        //       //  }
+        //       // this._orientation ===
+        //       //   tk_common.constants.OrientationEnum.LANDSCAPE &&
+        //       //   this._ocButtonContainerElement.css("display", "block");
+        //     // }
+        //   },
+        //   enumerable: !1,
+        //   configurable: !0,
+        // }),
         Object.defineProperty(e.prototype, "isShowing", {
           get: function () {
             return this._isShowing;
@@ -7106,19 +7096,19 @@ console.log("init spin button");
             )),
             this._paytableButton.Clicked.add(this.handleGuiButtonClicked, this);
         }),
-        (e.prototype.initOcButton = function (e, n, s, i) {
-          (this._ocButtonContainerElement = e),
-            (this._ocIconElement = s),
-            (this._ocButtonBackgroundElement = n),
-            (this._ocButton = new t.SpriteButton(
-              tk_common.slots.gui.GuiButtonIds.OC,
-              !0,
-              s,
-              i,
-              e
-            )),
-            this._ocButton.Clicked.add(this.handleGuiButtonClicked, this);
-        }),
+        // (e.prototype.initOcButton = function (e, n, s, i) {
+        //   (this._ocButtonContainerElement = e),
+        //     (this._ocIconElement = s),
+        //     (this._ocButtonBackgroundElement = n),
+        //     (this._ocButton = new t.SpriteButton(
+        //       tk_common.slots.gui.GuiButtonIds.OC,
+        //       !0,
+        //       s,
+        //       i,
+        //       e
+        //     )),
+        //     this._ocButton.Clicked.add(this.handleGuiButtonClicked, this);
+        // }),
         (e.prototype.handleGuiButtonClicked = function (t) {
           this._isShowing &&
             (t === tk_common.slots.gui.GuiButtonIds.TOGGLE_SOUND &&
@@ -7247,7 +7237,7 @@ console.log("init spin button");
               hasMaximizedPortrait: i,
             }),
             r &&
-              (this._containerElement.css("top", "0"),
+              (this._containerElement.css("top", "28px"),
               this._containerElement.css("left", "0"),
               this._containerElement.css("width", "0"),
               this._containerElement.css("height", "0"),
@@ -7270,10 +7260,10 @@ console.log("init spin button");
             "-ms-transform": "scale(1)",
           }),
             this._backgroundElement.css("left", 0),
-            this._backgroundElement.css("top", 0),
+            this._backgroundElement.css("top", '-30px'),
             this._backgroundElement.css("display", "block"),
             this._backgroundElement.css("width", "115px"),
-            this._backgroundElement.css("height", "648px"),
+            this._backgroundElement.css("height", "724px"),
             this._openMenuButtonContainerElement.css("left", "9px"),
             this._openMenuButtonContainerElement.css("top", "612px"),
             this._openMenuButtonContainerElement.css("width", "70px"),
@@ -7365,22 +7355,22 @@ console.log("init spin button");
             this._paytableButtonClickElement.css("left", 0),
             this._paytableButtonClickElement.css("top", 0),
             this._paytableButtonClickElement.css("width", l),
-            this._paytableButtonClickElement.css("height", l),
-            this._ocEnabled &&
-              (this._ocButtonBackgroundElement.addClass(
-                "circleButtonBackgroundLandscapeDesktopPopupMenu"
-              ),
-              this._ocButtonContainerElement.css("display", "block"),
-              this._ocButtonContainerElement.css("top", "30px"),
-              this._ocButtonContainerElement.css("left", "10px"),
-              this._ocButtonContainerElement.css("width", l),
-              this._ocButtonContainerElement.css("height", l),
-              this._ocIconElement.css("width", l),
-              this._ocIconElement.css("height", l),
-              this._ocButtonClickElement.css("top", 0),
-              this._ocButtonClickElement.css("left", 0),
-              this._ocButtonClickElement.css("width", l),
-              this._ocButtonClickElement.css("height", l));
+            this._paytableButtonClickElement.css("height", l);
+          // this._ocEnabled &&
+          //   (this._ocButtonBackgroundElement.addClass(
+          //     "circleButtonBackgroundLandscapeDesktopPopupMenu"
+          //   ),
+          //   this._ocButtonContainerElement.css("display", "block"),
+          //   this._ocButtonContainerElement.css("top", "30px"),
+          //   this._ocButtonContainerElement.css("left", "10px"),
+          //   this._ocButtonContainerElement.css("width", l),
+          //   this._ocButtonContainerElement.css("height", l),
+          //   this._ocIconElement.css("width", l),
+          //   this._ocIconElement.css("height", l),
+          //   this._ocButtonClickElement.css("top", 0),
+          //   this._ocButtonClickElement.css("left", 0),
+          //   this._ocButtonClickElement.css("width", l),
+          //   this._ocButtonClickElement.css("height", l));
         }),
         (e.prototype.layoutForMobile = function (t, e, n, s, i, o, a) {
           if (t === tk_common.constants.OrientationEnum.LANDSCAPE) {
@@ -7549,18 +7539,18 @@ console.log("init spin button");
                   this._paytableButtonClickElement.css("top", 0),
                   this._paytableButtonClickElement.css("width", l),
                   this._paytableButtonClickElement.css("height", l),
-                  this._ocEnabled &&
-                    (this._ocButtonContainerElement.css("display", "block"),
-                    this._ocButtonContainerElement.css("top", "455px"),
-                    this._ocButtonContainerElement.css("left", "340px"),
-                    this._ocButtonContainerElement.css("width", l),
-                    this._ocButtonContainerElement.css("height", l),
-                    this._ocIconElement.css("width", l),
-                    this._ocIconElement.css("height", l),
-                    this._ocButtonClickElement.css("top", 0),
-                    this._ocButtonClickElement.css("left", 0),
-                    this._ocButtonClickElement.css("width", l),
-                    this._ocButtonClickElement.css("height", l)),
+                  // this._ocEnabled &&
+                  //   (this._ocButtonContainerElement.css("display", "block"),
+                  //   this._ocButtonContainerElement.css("top", "455px"),
+                  //   this._ocButtonContainerElement.css("left", "340px"),
+                  //   this._ocButtonContainerElement.css("width", l),
+                  //   this._ocButtonContainerElement.css("height", l),
+                  //   this._ocIconElement.css("width", l),
+                  //   this._ocIconElement.css("height", l),
+                  //   this._ocButtonClickElement.css("top", 0),
+                  //   this._ocButtonClickElement.css("left", 0),
+                  //   this._ocButtonClickElement.css("width", l),
+                  //   this._ocButtonClickElement.css("height", l)),
                   this._vibrateButtonContainerElement.css("top", "60px"),
                   this._vibrateButtonContainerElement.css("left", "340px"),
                   this._vibrateButtonBackgroundElement.css("width", l),
@@ -7727,18 +7717,18 @@ console.log("init spin button");
                   this._paytableButtonClickElement.css("top", 0),
                   this._paytableButtonClickElement.css("width", l),
                   this._paytableButtonClickElement.css("height", l),
-                  this._ocEnabled &&
-                    (this._ocButtonContainerElement.css("display", "block"),
-                    this._ocButtonContainerElement.css("top", "874px"),
-                    this._ocButtonContainerElement.css("left", "814x"),
-                    this._ocButtonContainerElement.css("width", l),
-                    this._ocButtonContainerElement.css("height", l),
-                    this._ocIconElement.css("width", l),
-                    this._ocIconElement.css("height", l),
-                    this._ocButtonClickElement.css("top", 0),
-                    this._ocButtonClickElement.css("left", 0),
-                    this._ocButtonClickElement.css("width", l),
-                    this._ocButtonClickElement.css("height", l)),
+                  // this._ocEnabled &&
+                  //   (this._ocButtonContainerElement.css("display", "block"),
+                  //   this._ocButtonContainerElement.css("top", "874px"),
+                  //   this._ocButtonContainerElement.css("left", "814x"),
+                  //   this._ocButtonContainerElement.css("width", l),
+                  //   this._ocButtonContainerElement.css("height", l),
+                  //   this._ocIconElement.css("width", l),
+                  //   this._ocIconElement.css("height", l),
+                  //   this._ocButtonClickElement.css("top", 0),
+                  //   this._ocButtonClickElement.css("left", 0),
+                  //   this._ocButtonClickElement.css("width", l),
+                  //   this._ocButtonClickElement.css("height", l)),
                   this._vibrateButtonContainerElement.css("top", "60px"),
                   this._vibrateButtonContainerElement.css("left", "814px"),
                   this._vibrateButtonBackgroundElement.css("width", l),
@@ -7955,24 +7945,24 @@ console.log("init spin button");
               this._paytableButtonClickElement.css("top", 0),
               this._paytableButtonClickElement.css("width", "170px"),
               this._paytableButtonClickElement.css("height", "170px"),
-              this._ocEnabled &&
-                (this._ocButtonContainerElement.css("display", "block"),
-                this._ocButtonContainerElement.css("top", "-640px"),
-                this._ocButtonContainerElement.css("left", "82px"),
-                this._ocButtonContainerElement.css("width", "170px"),
-                this._ocButtonContainerElement.css("height", "170px"),
-                this._ocIconElement.css("width", "170px"),
-                this._ocIconElement.css("height", "170px"),
-                this._ocButtonClickElement.css("top", "0px"),
-                this._ocButtonClickElement.css("left", "0px"),
-                this._ocButtonClickElement.css("width", "170px"),
-                this._ocButtonClickElement.css("height", "170px"),
-                this._ocButtonBackgroundElement.removeClass(
-                  "circleButtonBackgroundLandscape"
-                ),
-                this._ocButtonBackgroundElement.addClass(
-                  "circleButtonBackgroundPortrait"
-                )),
+              // this._ocEnabled &&
+              //   (this._ocButtonContainerElement.css("display", "block"),
+              //   this._ocButtonContainerElement.css("top", "-640px"),
+              //   this._ocButtonContainerElement.css("left", "82px"),
+              //   this._ocButtonContainerElement.css("width", "170px"),
+              //   this._ocButtonContainerElement.css("height", "170px"),
+              //   this._ocIconElement.css("width", "170px"),
+              //   this._ocIconElement.css("height", "170px"),
+              //   this._ocButtonClickElement.css("top", "0px"),
+              //   this._ocButtonClickElement.css("left", "0px"),
+              //   this._ocButtonClickElement.css("width", "170px"),
+              //   this._ocButtonClickElement.css("height", "170px"),
+              //   this._ocButtonBackgroundElement.removeClass(
+              //     "circleButtonBackgroundLandscape"
+              //   ),
+              //   this._ocButtonBackgroundElement.addClass(
+              //     "circleButtonBackgroundPortrait"
+              //   )),
               this._vibrateButtonContainerElement.css("width", "170px"),
               this._vibrateButtonContainerElement.css("height", "170px"),
               this._vibrateButtonContainerElement.css("left", "325px"),
@@ -8233,6 +8223,8 @@ console.log("init spin button");
       }
       return (
         (t.prototype.setClickElement = function (t) {
+          runBTN = t;
+          runBTN[0].parentElement.style.display = "none";
           var e = this;
           (this._clickElement = t),
             this._clickElement.css("cursor", "pointer"),
@@ -8383,7 +8375,7 @@ console.log("init spin button");
               this._currentState === n.QUICK_STOP_DURING_FEATURE &&
                 this._featureSpinButtonPartContainer,
               (this._isAnimatingClick = !0),
-              setTimeout(function () {              
+              setTimeout(function () {
                 return e.removeClickAnimation();
               }, t.removeClickAnimationAfterMs),
               this.Clicked.dispatch(this._currentState);
@@ -8580,6 +8572,7 @@ console.log("init spin button");
                 "will-change",
                 "transform"
               ),
+              //commentis
               this._singleSpinButtonContainerElement.css("left", "1160px"),
               this._singleSpinButtonContainerElement.css("width", "100px"),
               this._singleSpinButtonContainerElement.css("height", "100px"),
@@ -9834,7 +9827,7 @@ console.log("init spin button");
             ? this._containerElement.css("height", "648px")
             : this._containerElement.css("height", "720px"),
             this._backToGameButtonContainerElement.css("left", "9px"),
-            this._backToGameButtonContainerElement.css("top", "610px"),
+            this._backToGameButtonContainerElement.css("top", "641px"),
             this._backToGameButtonContainerElement.css("width", "70px"),
             this._backToGameButtonContainerElement.css("height", "70px"),
             this._backToGameButtonBackgroundElement.css("width", "70px"),
@@ -14035,6 +14028,7 @@ console.log("init spin button");
               p.css("background-color", "black");
             var d = e.createDivElement(p, "betButtonsContainer");
             d.addClass("betButtonsContainer"), d.css("position", "absolute");
+
             var m = e.createDivElement(
                 p,
                 "controlPanelBetPageSubTitleLabelContainer"

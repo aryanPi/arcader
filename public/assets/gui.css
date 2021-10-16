@@ -255,8 +255,7 @@ background: rgba(0, 0, 0, 1);
 }
 
 .actionBarDivider {
-    border-right: 2px solid black;
-    height: 100%;
+    display: none;
 }
 
 .infoBarBackground {
@@ -556,6 +555,7 @@ background: rgba(0, 0, 0, 1);
 
 .controlPanel {
     background-color: #000000;
+    height: 100%!important;
 }
 
 .controlPanelInstantFader.fadedOut {
@@ -697,26 +697,31 @@ background: rgba(0, 0, 0, 1);
      display: block;
 }
 
-.cashTitle{color: white; font-family: 'Verlag';}
-.cashValue{color: white; font-family: 'Verlag';}
+.cashTitle{color: white; font-family: 'Verlag';display: none!important;}
+.cashValue{color: white; font-family: 'Verlag';display: none!important;}
 
-.winTitle{color: white; font-family: 'Verlag';}
-.winValue{color: white; font-family: 'Verlag';}
+.winTitle{color: white; font-family: 'Verlag';    left: 50%!important;
+    transform: translateX(-100%)!important;}
+.winValue{color: white; font-family: 'Verlag';    left: 50%!important;
+    transform: translateX(-100%);
+    font-size: 30px!important;
+    top: 18px!important;}
 
-.betTitle{color: white; font-family: 'Verlag';}
-.betValue{color: white; font-family: 'Verlag';}
+.betTitle{color: white; font-family: 'Verlag';display: none!important;}
+.betValue{color: white; font-family: 'Verlag';display: none!important;}
 
 .actionBar {
-    background-color: #222222;
+    background-color: transparent!important;
+
 }
 
 .actionBarDesktop {
-    background-color: #000000;
+    background-color: transparent!important;
     opacity: .8;
 }
 
 .actionBarDesktopControlPanel {
-    background-color: #333333;
+    background-color: transparent!important;
     opacity: 1;
 }
 

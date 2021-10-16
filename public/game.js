@@ -88,6 +88,7 @@ var tk_astronaut,
         }),
         i
       );
+
     })(tk_common.slots.phaser.AbstractPhaserBootState);
     e.BootState = t;
   })(tk_astronaut || (tk_astronaut = {})),

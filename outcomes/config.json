@@ -1,0 +1,1326 @@
+{
+  "classname": "tk.ServerResponse",
+  "requestid": "1",
+  "serviceresponses": [
+    {
+      "classname": "tk.gs.rs.GetConfigResponse",
+      "requesttype": "gs.getconfig",
+      "serviceid": "gameservice",
+      "games": {
+        "EUR": {
+          "classname": "java.util.HashMap",
+          "winLevels": [
+            {
+              "classname": "tk.d.config.WinLevel",
+              "id": 1,
+              "minMultiplier": 0,
+              "maxMultiplier": 1
+            },
+            {
+              "classname": "tk.d.config.WinLevel",
+              "id": 2,
+              "minMultiplier": 1,
+              "maxMultiplier": 5
+            },
+            {
+              "classname": "tk.d.config.WinLevel",
+              "id": 4,
+              "minMultiplier": 5,
+              "maxMultiplier": 15
+            },
+            {
+              "classname": "tk.d.config.WinLevel",
+              "id": 8,
+              "minMultiplier": 15,
+              "maxMultiplier": 50
+            },
+            {
+              "classname": "tk.d.config.WinLevel",
+              "id": 16,
+              "minMultiplier": 50,
+              "maxMultiplier": 100
+            },
+            {
+              "classname": "tk.d.config.WinLevel",
+              "id": 32,
+              "minMultiplier": 100,
+              "maxMultiplier": -1
+            }
+          ],
+          "meta": {
+            "sysprops": {
+              "rtp": { "low": 96.1, "high": 96.1 },
+              "maxWinOdds": 2.9027576e-10
+            }
+          },
+          "betconfig": {
+            "defaultbet": 1,
+            "allowedbets": [
+              0.1, 0.2, 0.5, 1, 1.5, 2, 3, 5, 7.5, 10, 20, 50, 75, 100
+            ]
+          },
+          "gamepartconfigs": {
+            "bonus1": {
+              "classname": "tk.d.slots.vanilla.config.GamePartConfig",
+              "paylines": [
+                {
+                  "classname": "tk.d.slots.vanilla.payline.Payline",
+                  "id": 0,
+                  "positions": [1, 4, 7, 10, 13],
+                  "cost": 1,
+                  "multiplier": 1
+                },
+                {
+                  "classname": "tk.d.slots.vanilla.payline.Payline",
+                  "id": 1,
+                  "positions": [0, 3, 6, 9, 12],
+                  "cost": 1,
+                  "multiplier": 1
+                },
+                {
+                  "classname": "tk.d.slots.vanilla.payline.Payline",
+                  "id": 2,
+                  "positions": [2, 5, 8, 11, 14],
+                  "cost": 1,
+                  "multiplier": 1
+                },
+                {
+                  "classname": "tk.d.slots.vanilla.payline.Payline",
+                  "id": 3,
+                  "positions": [1, 4, 6, 10, 13],
+                  "cost": 1,
+                  "multiplier": 1
+                },
+                {
+                  "classname": "tk.d.slots.vanilla.payline.Payline",
+                  "id": 4,
+                  "positions": [1, 4, 8, 10, 13],
+                  "cost": 1,
+                  "multiplier": 1
+                },
+                {
+                  "classname": "tk.d.slots.vanilla.payline.Payline",
+                  "id": 5,
+                  "positions": [0, 3, 7, 9, 12],
+                  "cost": 1,
+                  "multiplier": 1
+                },
+                {
+                  "classname": "tk.d.slots.vanilla.payline.Payline",
+                  "id": 6,
+                  "positions": [2, 5, 7, 11, 14],
+                  "cost": 1,
+                  "multiplier": 1
+                },
+                {
+                  "classname": "tk.d.slots.vanilla.payline.Payline",
+                  "id": 7,
+                  "positions": [0, 4, 7, 10, 12],
+                  "cost": 1,
+                  "multiplier": 1
+                },
+                {
+                  "classname": "tk.d.slots.vanilla.payline.Payline",
+                  "id": 8,
+                  "positions": [2, 4, 7, 10, 14],
+                  "cost": 1,
+                  "multiplier": 1
+                },
+                {
+                  "classname": "tk.d.slots.vanilla.payline.Payline",
+                  "id": 9,
+                  "positions": [1, 5, 8, 11, 13],
+                  "cost": 1,
+                  "multiplier": 1
+                },
+                {
+                  "classname": "tk.d.slots.vanilla.payline.Payline",
+                  "id": 10,
+                  "positions": [1, 3, 6, 9, 13],
+                  "cost": 1,
+                  "multiplier": 1
+                },
+                {
+                  "classname": "tk.d.slots.vanilla.payline.Payline",
+                  "id": 11,
+                  "positions": [0, 4, 8, 10, 12],
+                  "cost": 1,
+                  "multiplier": 1
+                },
+                {
+                  "classname": "tk.d.slots.vanilla.payline.Payline",
+                  "id": 12,
+                  "positions": [2, 4, 6, 10, 14],
+                  "cost": 1,
+                  "multiplier": 1
+                },
+                {
+                  "classname": "tk.d.slots.vanilla.payline.Payline",
+                  "id": 13,
+                  "positions": [1, 3, 7, 9, 13],
+                  "cost": 1,
+                  "multiplier": 1
+                },
+                {
+                  "classname": "tk.d.slots.vanilla.payline.Payline",
+                  "id": 14,
+                  "positions": [1, 5, 7, 11, 13],
+                  "cost": 1,
+                  "multiplier": 1
+                }
+              ],
+              "paytablesymbols": [
+                {
+                  "classname": "tk.d.slots.vanilla.paytable.PaytableSymbol",
+                  "symbolid": 1,
+                  "payments": [
+                    {
+                      "classname": "tk.d.slots.vanilla.paytable.SymbolPayment",
+                      "symbolcount": 3,
+                      "freespins": 0,
+                      "betmultiplier": 2
+                    },
+                    {
+                      "classname": "tk.d.slots.vanilla.paytable.SymbolPayment",
+                      "symbolcount": 4,
+                      "freespins": 0,
+                      "betmultiplier": 4
+                    },
+                    {
+                      "classname": "tk.d.slots.vanilla.paytable.SymbolPayment",
+                      "symbolcount": 5,
+                      "freespins": 0,
+                      "betmultiplier": 20
+                    }
+                  ]
+                },
+                {
+                  "classname": "tk.d.slots.vanilla.paytable.PaytableSymbol",
+                  "symbolid": 2,
+                  "payments": [
+                    {
+                      "classname": "tk.d.slots.vanilla.paytable.SymbolPayment",
+                      "symbolcount": 3,
+                      "freespins": 0,
+                      "betmultiplier": 1
+                    },
+                    {
+                      "classname": "tk.d.slots.vanilla.paytable.SymbolPayment",
+                      "symbolcount": 4,
+                      "freespins": 0,
+                      "betmultiplier": 1.5
+                    },
+                    {
+                      "classname": "tk.d.slots.vanilla.paytable.SymbolPayment",
+                      "symbolcount": 5,
+                      "freespins": 0,
+                      "betmultiplier": 9
+                    }
+                  ]
+                },
+                {
+                  "classname": "tk.d.slots.vanilla.paytable.PaytableSymbol",
+                  "symbolid": 3,
+                  "payments": [
+                    {
+                      "classname": "tk.d.slots.vanilla.paytable.SymbolPayment",
+                      "symbolcount": 3,
+                      "freespins": 0,
+                      "betmultiplier": 0.6
+                    },
+                    {
+                      "classname": "tk.d.slots.vanilla.paytable.SymbolPayment",
+                      "symbolcount": 4,
+                      "freespins": 0,
+                      "betmultiplier": 1.2
+                    },
+                    {
+                      "classname": "tk.d.slots.vanilla.paytable.SymbolPayment",
+                      "symbolcount": 5,
+                      "freespins": 0,
+                      "betmultiplier": 3.6
+                    }
+                  ]
+                },
+                {
+                  "classname": "tk.d.slots.vanilla.paytable.PaytableSymbol",
+                  "symbolid": 4,
+                  "payments": [
+                    {
+                      "classname": "tk.d.slots.vanilla.paytable.SymbolPayment",
+                      "symbolcount": 3,
+                      "freespins": 0,
+                      "betmultiplier": 0.5
+                    },
+                    {
+                      "classname": "tk.d.slots.vanilla.paytable.SymbolPayment",
+                      "symbolcount": 4,
+                      "freespins": 0,
+                      "betmultiplier": 1
+                    },
+                    {
+                      "classname": "tk.d.slots.vanilla.paytable.SymbolPayment",
+                      "symbolcount": 5,
+                      "freespins": 0,
+                      "betmultiplier": 3
+                    }
+                  ]
+                },
+                {
+                  "classname": "tk.d.slots.vanilla.paytable.PaytableSymbol",
+                  "symbolid": 5,
+                  "payments": [
+                    {
+                      "classname": "tk.d.slots.vanilla.paytable.SymbolPayment",
+                      "symbolcount": 3,
+                      "freespins": 0,
+                      "betmultiplier": 0.4
+                    },
+                    {
+                      "classname": "tk.d.slots.vanilla.paytable.SymbolPayment",
+                      "symbolcount": 4,
+                      "freespins": 0,
+                      "betmultiplier": 0.8
+                    },
+                    {
+                      "classname": "tk.d.slots.vanilla.paytable.SymbolPayment",
+                      "symbolcount": 5,
+                      "freespins": 0,
+                      "betmultiplier": 2.4
+                    }
+                  ]
+                },
+                {
+                  "classname": "tk.d.slots.vanilla.paytable.PaytableSymbol",
+                  "symbolid": 6,
+                  "payments": [
+                    {
+                      "classname": "tk.d.slots.vanilla.paytable.SymbolPayment",
+                      "symbolcount": 3,
+                      "freespins": 0,
+                      "betmultiplier": 0.3
+                    },
+                    {
+                      "classname": "tk.d.slots.vanilla.paytable.SymbolPayment",
+                      "symbolcount": 4,
+                      "freespins": 0,
+                      "betmultiplier": 0.6
+                    },
+                    {
+                      "classname": "tk.d.slots.vanilla.paytable.SymbolPayment",
+                      "symbolcount": 5,
+                      "freespins": 0,
+                      "betmultiplier": 1.8
+                    }
+                  ]
+                },
+                {
+                  "classname": "tk.d.slots.vanilla.paytable.PaytableSymbol",
+                  "symbolid": 7,
+                  "payments": [
+                    {
+                      "classname": "tk.d.slots.vanilla.paytable.SymbolPayment",
+                      "symbolcount": 3,
+                      "freespins": 0,
+                      "betmultiplier": 0.2
+                    },
+                    {
+                      "classname": "tk.d.slots.vanilla.paytable.SymbolPayment",
+                      "symbolcount": 4,
+                      "freespins": 0,
+                      "betmultiplier": 0.5
+                    },
+                    {
+                      "classname": "tk.d.slots.vanilla.paytable.SymbolPayment",
+                      "symbolcount": 5,
+                      "freespins": 0,
+                      "betmultiplier": 1.5
+                    }
+                  ]
+                },
+                {
+                  "classname": "tk.d.slots.vanilla.paytable.PaytableSymbol",
+                  "symbolid": 8,
+                  "payments": [
+                    {
+                      "classname": "tk.d.slots.vanilla.paytable.SymbolPayment",
+                      "symbolcount": 3,
+                      "freespins": 0,
+                      "betmultiplier": 0.1
+                    },
+                    {
+                      "classname": "tk.d.slots.vanilla.paytable.SymbolPayment",
+                      "symbolcount": 4,
+                      "freespins": 0,
+                      "betmultiplier": 0.3
+                    },
+                    {
+                      "classname": "tk.d.slots.vanilla.paytable.SymbolPayment",
+                      "symbolcount": 5,
+                      "freespins": 0,
+                      "betmultiplier": 1
+                    }
+                  ]
+                }
+              ]
+            },
+            "bonus2": {
+              "classname": "tk.d.slots.vanilla.config.GamePartConfig",
+              "paylines": [
+                {
+                  "classname": "tk.d.slots.vanilla.payline.Payline",
+                  "id": 0,
+                  "positions": [1, 4, 7, 10, 13],
+                  "cost": 1,
+                  "multiplier": 1
+                },
+                {
+                  "classname": "tk.d.slots.vanilla.payline.Payline",
+                  "id": 1,
+                  "positions": [0, 3, 6, 9, 12],
+                  "cost": 1,
+                  "multiplier": 1
+                },
+                {
+                  "classname": "tk.d.slots.vanilla.payline.Payline",
+                  "id": 2,
+                  "positions": [2, 5, 8, 11, 14],
+                  "cost": 1,
+                  "multiplier": 1
+                },
+                {
+                  "classname": "tk.d.slots.vanilla.payline.Payline",
+                  "id": 3,
+                  "positions": [1, 4, 6, 10, 13],
+                  "cost": 1,
+                  "multiplier": 1
+                },
+                {
+                  "classname": "tk.d.slots.vanilla.payline.Payline",
+                  "id": 4,
+                  "positions": [1, 4, 8, 10, 13],
+                  "cost": 1,
+                  "multiplier": 1
+                },
+                {
+                  "classname": "tk.d.slots.vanilla.payline.Payline",
+                  "id": 5,
+                  "positions": [0, 3, 7, 9, 12],
+                  "cost": 1,
+                  "multiplier": 1
+                },
+                {
+                  "classname": "tk.d.slots.vanilla.payline.Payline",
+                  "id": 6,
+                  "positions": [2, 5, 7, 11, 14],
+                  "cost": 1,
+                  "multiplier": 1
+                },
+                {
+                  "classname": "tk.d.slots.vanilla.payline.Payline",
+                  "id": 7,
+                  "positions": [0, 4, 7, 10, 12],
+                  "cost": 1,
+                  "multiplier": 1
+                },
+                {
+                  "classname": "tk.d.slots.vanilla.payline.Payline",
+                  "id": 8,
+                  "positions": [2, 4, 7, 10, 14],
+                  "cost": 1,
+                  "multiplier": 1
+                },
+                {
+                  "classname": "tk.d.slots.vanilla.payline.Payline",
+                  "id": 9,
+                  "positions": [1, 5, 8, 11, 13],
+                  "cost": 1,
+                  "multiplier": 1
+                },
+                {
+                  "classname": "tk.d.slots.vanilla.payline.Payline",
+                  "id": 10,
+                  "positions": [1, 3, 6, 9, 13],
+                  "cost": 1,
+                  "multiplier": 1
+                },
+                {
+                  "classname": "tk.d.slots.vanilla.payline.Payline",
+                  "id": 11,
+                  "positions": [0, 4, 8, 10, 12],
+                  "cost": 1,
+                  "multiplier": 1
+                },
+                {
+                  "classname": "tk.d.slots.vanilla.payline.Payline",
+                  "id": 12,
+                  "positions": [2, 4, 6, 10, 14],
+                  "cost": 1,
+                  "multiplier": 1
+                },
+                {
+                  "classname": "tk.d.slots.vanilla.payline.Payline",
+                  "id": 13,
+                  "positions": [1, 3, 7, 9, 13],
+                  "cost": 1,
+                  "multiplier": 1
+                },
+                {
+                  "classname": "tk.d.slots.vanilla.payline.Payline",
+                  "id": 14,
+                  "positions": [1, 5, 7, 11, 13],
+                  "cost": 1,
+                  "multiplier": 1
+                }
+              ],
+              "paytablesymbols": [
+                {
+                  "classname": "tk.d.slots.vanilla.paytable.PaytableSymbol",
+                  "symbolid": 1,
+                  "payments": [
+                    {
+                      "classname": "tk.d.slots.vanilla.paytable.SymbolPayment",
+                      "symbolcount": 3,
+                      "freespins": 0,
+                      "betmultiplier": 6
+                    },
+                    {
+                      "classname": "tk.d.slots.vanilla.paytable.SymbolPayment",
+                      "symbolcount": 4,
+                      "freespins": 0,
+                      "betmultiplier": 12
+                    },
+                    {
+                      "classname": "tk.d.slots.vanilla.paytable.SymbolPayment",
+                      "symbolcount": 5,
+                      "freespins": 0,
+                      "betmultiplier": 60
+                    }
+                  ]
+                },
+                {
+                  "classname": "tk.d.slots.vanilla.paytable.PaytableSymbol",
+                  "symbolid": 2,
+                  "payments": [
+                    {
+                      "classname": "tk.d.slots.vanilla.paytable.SymbolPayment",
+                      "symbolcount": 3,
+                      "freespins": 0,
+                      "betmultiplier": 3
+                    },
+                    {
+                      "classname": "tk.d.slots.vanilla.paytable.SymbolPayment",
+                      "symbolcount": 4,
+                      "freespins": 0,
+                      "betmultiplier": 4.5
+                    },
+                    {
+                      "classname": "tk.d.slots.vanilla.paytable.SymbolPayment",
+                      "symbolcount": 5,
+                      "freespins": 0,
+                      "betmultiplier": 27
+                    }
+                  ]
+                },
+                {
+                  "classname": "tk.d.slots.vanilla.paytable.PaytableSymbol",
+                  "symbolid": 3,
+                  "payments": [
+                    {
+                      "classname": "tk.d.slots.vanilla.paytable.SymbolPayment",
+                      "symbolcount": 3,
+                      "freespins": 0,
+                      "betmultiplier": 1.8
+                    },
+                    {
+                      "classname": "tk.d.slots.vanilla.paytable.SymbolPayment",
+                      "symbolcount": 4,
+                      "freespins": 0,
+                      "betmultiplier": 3.6
+                    },
+                    {
+                      "classname": "tk.d.slots.vanilla.paytable.SymbolPayment",
+                      "symbolcount": 5,
+                      "freespins": 0,
+                      "betmultiplier": 10.8
+                    }
+                  ]
+                },
+                {
+                  "classname": "tk.d.slots.vanilla.paytable.PaytableSymbol",
+                  "symbolid": 4,
+                  "payments": [
+                    {
+                      "classname": "tk.d.slots.vanilla.paytable.SymbolPayment",
+                      "symbolcount": 3,
+                      "freespins": 0,
+                      "betmultiplier": 1.5
+                    },
+                    {
+                      "classname": "tk.d.slots.vanilla.paytable.SymbolPayment",
+                      "symbolcount": 4,
+                      "freespins": 0,
+                      "betmultiplier": 3
+                    },
+                    {
+                      "classname": "tk.d.slots.vanilla.paytable.SymbolPayment",
+                      "symbolcount": 5,
+                      "freespins": 0,
+                      "betmultiplier": 9
+                    }
+                  ]
+                },
+                {
+                  "classname": "tk.d.slots.vanilla.paytable.PaytableSymbol",
+                  "symbolid": 5,
+                  "payments": [
+                    {
+                      "classname": "tk.d.slots.vanilla.paytable.SymbolPayment",
+                      "symbolcount": 3,
+                      "freespins": 0,
+                      "betmultiplier": 1.2
+                    },
+                    {
+                      "classname": "tk.d.slots.vanilla.paytable.SymbolPayment",
+                      "symbolcount": 4,
+                      "freespins": 0,
+                      "betmultiplier": 2.4
+                    },
+                    {
+                      "classname": "tk.d.slots.vanilla.paytable.SymbolPayment",
+                      "symbolcount": 5,
+                      "freespins": 0,
+                      "betmultiplier": 7.2
+                    }
+                  ]
+                },
+                {
+                  "classname": "tk.d.slots.vanilla.paytable.PaytableSymbol",
+                  "symbolid": 6,
+                  "payments": [
+                    {
+                      "classname": "tk.d.slots.vanilla.paytable.SymbolPayment",
+                      "symbolcount": 3,
+                      "freespins": 0,
+                      "betmultiplier": 0.9
+                    },
+                    {
+                      "classname": "tk.d.slots.vanilla.paytable.SymbolPayment",
+                      "symbolcount": 4,
+                      "freespins": 0,
+                      "betmultiplier": 1.8
+                    },
+                    {
+                      "classname": "tk.d.slots.vanilla.paytable.SymbolPayment",
+                      "symbolcount": 5,
+                      "freespins": 0,
+                      "betmultiplier": 5.4
+                    }
+                  ]
+                },
+                {
+                  "classname": "tk.d.slots.vanilla.paytable.PaytableSymbol",
+                  "symbolid": 7,
+                  "payments": [
+                    {
+                      "classname": "tk.d.slots.vanilla.paytable.SymbolPayment",
+                      "symbolcount": 3,
+                      "freespins": 0,
+                      "betmultiplier": 0.6
+                    },
+                    {
+                      "classname": "tk.d.slots.vanilla.paytable.SymbolPayment",
+                      "symbolcount": 4,
+                      "freespins": 0,
+                      "betmultiplier": 1.5
+                    },
+                    {
+                      "classname": "tk.d.slots.vanilla.paytable.SymbolPayment",
+                      "symbolcount": 5,
+                      "freespins": 0,
+                      "betmultiplier": 4.5
+                    }
+                  ]
+                },
+                {
+                  "classname": "tk.d.slots.vanilla.paytable.PaytableSymbol",
+                  "symbolid": 8,
+                  "payments": [
+                    {
+                      "classname": "tk.d.slots.vanilla.paytable.SymbolPayment",
+                      "symbolcount": 3,
+                      "freespins": 0,
+                      "betmultiplier": 0.3
+                    },
+                    {
+                      "classname": "tk.d.slots.vanilla.paytable.SymbolPayment",
+                      "symbolcount": 4,
+                      "freespins": 0,
+                      "betmultiplier": 0.9
+                    },
+                    {
+                      "classname": "tk.d.slots.vanilla.paytable.SymbolPayment",
+                      "symbolcount": 5,
+                      "freespins": 0,
+                      "betmultiplier": 3
+                    }
+                  ]
+                }
+              ]
+            },
+            "main": {
+              "classname": "tk.d.slots.vanilla.config.GamePartConfig",
+              "paylines": [
+                {
+                  "classname": "tk.d.slots.vanilla.payline.Payline",
+                  "id": 0,
+                  "positions": [1, 4, 7, 10, 13],
+                  "cost": 1,
+                  "multiplier": 1
+                },
+                {
+                  "classname": "tk.d.slots.vanilla.payline.Payline",
+                  "id": 1,
+                  "positions": [0, 3, 6, 9, 12],
+                  "cost": 1,
+                  "multiplier": 1
+                },
+                {
+                  "classname": "tk.d.slots.vanilla.payline.Payline",
+                  "id": 2,
+                  "positions": [2, 5, 8, 11, 14],
+                  "cost": 1,
+                  "multiplier": 1
+                },
+                {
+                  "classname": "tk.d.slots.vanilla.payline.Payline",
+                  "id": 3,
+                  "positions": [1, 4, 6, 10, 13],
+                  "cost": 1,
+                  "multiplier": 1
+                },
+                {
+                  "classname": "tk.d.slots.vanilla.payline.Payline",
+                  "id": 4,
+                  "positions": [1, 4, 8, 10, 13],
+                  "cost": 1,
+                  "multiplier": 1
+                },
+                {
+                  "classname": "tk.d.slots.vanilla.payline.Payline",
+                  "id": 5,
+                  "positions": [0, 3, 7, 9, 12],
+                  "cost": 1,
+                  "multiplier": 1
+                },
+                {
+                  "classname": "tk.d.slots.vanilla.payline.Payline",
+                  "id": 6,
+                  "positions": [2, 5, 7, 11, 14],
+                  "cost": 1,
+                  "multiplier": 1
+                },
+                {
+                  "classname": "tk.d.slots.vanilla.payline.Payline",
+                  "id": 7,
+                  "positions": [0, 4, 7, 10, 12],
+                  "cost": 1,
+                  "multiplier": 1
+                },
+                {
+                  "classname": "tk.d.slots.vanilla.payline.Payline",
+                  "id": 8,
+                  "positions": [2, 4, 7, 10, 14],
+                  "cost": 1,
+                  "multiplier": 1
+                },
+                {
+                  "classname": "tk.d.slots.vanilla.payline.Payline",
+                  "id": 9,
+                  "positions": [1, 5, 8, 11, 13],
+                  "cost": 1,
+                  "multiplier": 1
+                },
+                {
+                  "classname": "tk.d.slots.vanilla.payline.Payline",
+                  "id": 10,
+                  "positions": [1, 3, 6, 9, 13],
+                  "cost": 1,
+                  "multiplier": 1
+                },
+                {
+                  "classname": "tk.d.slots.vanilla.payline.Payline",
+                  "id": 11,
+                  "positions": [0, 4, 8, 10, 12],
+                  "cost": 1,
+                  "multiplier": 1
+                },
+                {
+                  "classname": "tk.d.slots.vanilla.payline.Payline",
+                  "id": 12,
+                  "positions": [2, 4, 6, 10, 14],
+                  "cost": 1,
+                  "multiplier": 1
+                },
+                {
+                  "classname": "tk.d.slots.vanilla.payline.Payline",
+                  "id": 13,
+                  "positions": [1, 3, 7, 9, 13],
+                  "cost": 1,
+                  "multiplier": 1
+                },
+                {
+                  "classname": "tk.d.slots.vanilla.payline.Payline",
+                  "id": 14,
+                  "positions": [1, 5, 7, 11, 13],
+                  "cost": 1,
+                  "multiplier": 1
+                }
+              ],
+              "paytablesymbols": [
+                {
+                  "classname": "tk.d.slots.vanilla.paytable.PaytableSymbol",
+                  "symbolid": 1,
+                  "payments": [
+                    {
+                      "classname": "tk.d.slots.vanilla.paytable.SymbolPayment",
+                      "symbolcount": 3,
+                      "freespins": 0,
+                      "betmultiplier": 2
+                    },
+                    {
+                      "classname": "tk.d.slots.vanilla.paytable.SymbolPayment",
+                      "symbolcount": 4,
+                      "freespins": 0,
+                      "betmultiplier": 4
+                    },
+                    {
+                      "classname": "tk.d.slots.vanilla.paytable.SymbolPayment",
+                      "symbolcount": 5,
+                      "freespins": 0,
+                      "betmultiplier": 20
+                    }
+                  ]
+                },
+                {
+                  "classname": "tk.d.slots.vanilla.paytable.PaytableSymbol",
+                  "symbolid": 2,
+                  "payments": [
+                    {
+                      "classname": "tk.d.slots.vanilla.paytable.SymbolPayment",
+                      "symbolcount": 3,
+                      "freespins": 0,
+                      "betmultiplier": 1
+                    },
+                    {
+                      "classname": "tk.d.slots.vanilla.paytable.SymbolPayment",
+                      "symbolcount": 4,
+                      "freespins": 0,
+                      "betmultiplier": 1.5
+                    },
+                    {
+                      "classname": "tk.d.slots.vanilla.paytable.SymbolPayment",
+                      "symbolcount": 5,
+                      "freespins": 0,
+                      "betmultiplier": 9
+                    }
+                  ]
+                },
+                {
+                  "classname": "tk.d.slots.vanilla.paytable.PaytableSymbol",
+                  "symbolid": 3,
+                  "payments": [
+                    {
+                      "classname": "tk.d.slots.vanilla.paytable.SymbolPayment",
+                      "symbolcount": 3,
+                      "freespins": 0,
+                      "betmultiplier": 0.6
+                    },
+                    {
+                      "classname": "tk.d.slots.vanilla.paytable.SymbolPayment",
+                      "symbolcount": 4,
+                      "freespins": 0,
+                      "betmultiplier": 1.2
+                    },
+                    {
+                      "classname": "tk.d.slots.vanilla.paytable.SymbolPayment",
+                      "symbolcount": 5,
+                      "freespins": 0,
+                      "betmultiplier": 3.6
+                    }
+                  ]
+                },
+                {
+                  "classname": "tk.d.slots.vanilla.paytable.PaytableSymbol",
+                  "symbolid": 4,
+                  "payments": [
+                    {
+                      "classname": "tk.d.slots.vanilla.paytable.SymbolPayment",
+                      "symbolcount": 3,
+                      "freespins": 0,
+                      "betmultiplier": 0.5
+                    },
+                    {
+                      "classname": "tk.d.slots.vanilla.paytable.SymbolPayment",
+                      "symbolcount": 4,
+                      "freespins": 0,
+                      "betmultiplier": 1
+                    },
+                    {
+                      "classname": "tk.d.slots.vanilla.paytable.SymbolPayment",
+                      "symbolcount": 5,
+                      "freespins": 0,
+                      "betmultiplier": 3
+                    }
+                  ]
+                },
+                {
+                  "classname": "tk.d.slots.vanilla.paytable.PaytableSymbol",
+                  "symbolid": 5,
+                  "payments": [
+                    {
+                      "classname": "tk.d.slots.vanilla.paytable.SymbolPayment",
+                      "symbolcount": 3,
+                      "freespins": 0,
+                      "betmultiplier": 0.4
+                    },
+                    {
+                      "classname": "tk.d.slots.vanilla.paytable.SymbolPayment",
+                      "symbolcount": 4,
+                      "freespins": 0,
+                      "betmultiplier": 0.8
+                    },
+                    {
+                      "classname": "tk.d.slots.vanilla.paytable.SymbolPayment",
+                      "symbolcount": 5,
+                      "freespins": 0,
+                      "betmultiplier": 2.4
+                    }
+                  ]
+                },
+                {
+                  "classname": "tk.d.slots.vanilla.paytable.PaytableSymbol",
+                  "symbolid": 6,
+                  "payments": [
+                    {
+                      "classname": "tk.d.slots.vanilla.paytable.SymbolPayment",
+                      "symbolcount": 3,
+                      "freespins": 0,
+                      "betmultiplier": 0.3
+                    },
+                    {
+                      "classname": "tk.d.slots.vanilla.paytable.SymbolPayment",
+                      "symbolcount": 4,
+                      "freespins": 0,
+                      "betmultiplier": 0.6
+                    },
+                    {
+                      "classname": "tk.d.slots.vanilla.paytable.SymbolPayment",
+                      "symbolcount": 5,
+                      "freespins": 0,
+                      "betmultiplier": 1.8
+                    }
+                  ]
+                },
+                {
+                  "classname": "tk.d.slots.vanilla.paytable.PaytableSymbol",
+                  "symbolid": 7,
+                  "payments": [
+                    {
+                      "classname": "tk.d.slots.vanilla.paytable.SymbolPayment",
+                      "symbolcount": 3,
+                      "freespins": 0,
+                      "betmultiplier": 0.2
+                    },
+                    {
+                      "classname": "tk.d.slots.vanilla.paytable.SymbolPayment",
+                      "symbolcount": 4,
+                      "freespins": 0,
+                      "betmultiplier": 0.5
+                    },
+                    {
+                      "classname": "tk.d.slots.vanilla.paytable.SymbolPayment",
+                      "symbolcount": 5,
+                      "freespins": 0,
+                      "betmultiplier": 1.5
+                    }
+                  ]
+                },
+                {
+                  "classname": "tk.d.slots.vanilla.paytable.PaytableSymbol",
+                  "symbolid": 8,
+                  "payments": [
+                    {
+                      "classname": "tk.d.slots.vanilla.paytable.SymbolPayment",
+                      "symbolcount": 3,
+                      "freespins": 0,
+                      "betmultiplier": 0.1
+                    },
+                    {
+                      "classname": "tk.d.slots.vanilla.paytable.SymbolPayment",
+                      "symbolcount": 4,
+                      "freespins": 0,
+                      "betmultiplier": 0.3
+                    },
+                    {
+                      "classname": "tk.d.slots.vanilla.paytable.SymbolPayment",
+                      "symbolcount": 5,
+                      "freespins": 0,
+                      "betmultiplier": 1
+                    }
+                  ]
+                },
+                {
+                  "classname": "tk.d.slots.vanilla.paytable.PaytableSymbol",
+                  "symbolid": 10,
+                  "payments": [
+                    {
+                      "classname": "tk.d.slots.vanilla.paytable.SymbolPayment",
+                      "symbolcount": 3,
+                      "freespins": 0
+                    },
+                    {
+                      "classname": "tk.d.slots.vanilla.paytable.SymbolPayment",
+                      "symbolcount": 4,
+                      "freespins": 0
+                    },
+                    {
+                      "classname": "tk.d.slots.vanilla.paytable.SymbolPayment",
+                      "symbolcount": 5,
+                      "freespins": 0
+                    }
+                  ]
+                },
+                {
+                  "classname": "tk.d.slots.vanilla.paytable.PaytableSymbol",
+                  "symbolid": 12,
+                  "payments": [
+                    {
+                      "classname": "tk.d.slots.vanilla.paytable.SymbolPayment",
+                      "symbolcount": 3,
+                      "freespins": 0
+                    },
+                    {
+                      "classname": "tk.d.slots.vanilla.paytable.SymbolPayment",
+                      "symbolcount": 4,
+                      "freespins": 0
+                    },
+                    {
+                      "classname": "tk.d.slots.vanilla.paytable.SymbolPayment",
+                      "symbolcount": 5,
+                      "freespins": 0
+                    }
+                  ]
+                }
+              ]
+            },
+            "bonus3": {
+              "classname": "tk.d.slots.vanilla.config.GamePartConfig",
+              "paylines": [
+                {
+                  "classname": "tk.d.slots.vanilla.payline.Payline",
+                  "id": 0,
+                  "positions": [1, 4, 7, 10, 13],
+                  "cost": 1,
+                  "multiplier": 1
+                },
+                {
+                  "classname": "tk.d.slots.vanilla.payline.Payline",
+                  "id": 1,
+                  "positions": [0, 3, 6, 9, 12],
+                  "cost": 1,
+                  "multiplier": 1
+                },
+                {
+                  "classname": "tk.d.slots.vanilla.payline.Payline",
+                  "id": 2,
+                  "positions": [2, 5, 8, 11, 14],
+                  "cost": 1,
+                  "multiplier": 1
+                },
+                {
+                  "classname": "tk.d.slots.vanilla.payline.Payline",
+                  "id": 3,
+                  "positions": [1, 4, 6, 10, 13],
+                  "cost": 1,
+                  "multiplier": 1
+                },
+                {
+                  "classname": "tk.d.slots.vanilla.payline.Payline",
+                  "id": 4,
+                  "positions": [1, 4, 8, 10, 13],
+                  "cost": 1,
+                  "multiplier": 1
+                },
+                {
+                  "classname": "tk.d.slots.vanilla.payline.Payline",
+                  "id": 5,
+                  "positions": [0, 3, 7, 9, 12],
+                  "cost": 1,
+                  "multiplier": 1
+                },
+                {
+                  "classname": "tk.d.slots.vanilla.payline.Payline",
+                  "id": 6,
+                  "positions": [2, 5, 7, 11, 14],
+                  "cost": 1,
+                  "multiplier": 1
+                },
+                {
+                  "classname": "tk.d.slots.vanilla.payline.Payline",
+                  "id": 7,
+                  "positions": [0, 4, 7, 10, 12],
+                  "cost": 1,
+                  "multiplier": 1
+                },
+                {
+                  "classname": "tk.d.slots.vanilla.payline.Payline",
+                  "id": 8,
+                  "positions": [2, 4, 7, 10, 14],
+                  "cost": 1,
+                  "multiplier": 1
+                },
+                {
+                  "classname": "tk.d.slots.vanilla.payline.Payline",
+                  "id": 9,
+                  "positions": [1, 5, 8, 11, 13],
+                  "cost": 1,
+                  "multiplier": 1
+                },
+                {
+                  "classname": "tk.d.slots.vanilla.payline.Payline",
+                  "id": 10,
+                  "positions": [1, 3, 6, 9, 13],
+                  "cost": 1,
+                  "multiplier": 1
+                },
+                {
+                  "classname": "tk.d.slots.vanilla.payline.Payline",
+                  "id": 11,
+                  "positions": [0, 4, 8, 10, 12],
+                  "cost": 1,
+                  "multiplier": 1
+                },
+                {
+                  "classname": "tk.d.slots.vanilla.payline.Payline",
+                  "id": 12,
+                  "positions": [2, 4, 6, 10, 14],
+                  "cost": 1,
+                  "multiplier": 1
+                },
+                {
+                  "classname": "tk.d.slots.vanilla.payline.Payline",
+                  "id": 13,
+                  "positions": [1, 3, 7, 9, 13],
+                  "cost": 1,
+                  "multiplier": 1
+                },
+                {
+                  "classname": "tk.d.slots.vanilla.payline.Payline",
+                  "id": 14,
+                  "positions": [1, 5, 7, 11, 13],
+                  "cost": 1,
+                  "multiplier": 1
+                }
+              ],
+              "paytablesymbols": [
+                {
+                  "classname": "tk.d.slots.vanilla.paytable.PaytableSymbol",
+                  "symbolid": 1,
+                  "payments": [
+                    {
+                      "classname": "tk.d.slots.vanilla.paytable.SymbolPayment",
+                      "symbolcount": 3,
+                      "freespins": 0,
+                      "betmultiplier": 18
+                    },
+                    {
+                      "classname": "tk.d.slots.vanilla.paytable.SymbolPayment",
+                      "symbolcount": 4,
+                      "freespins": 0,
+                      "betmultiplier": 36
+                    },
+                    {
+                      "classname": "tk.d.slots.vanilla.paytable.SymbolPayment",
+                      "symbolcount": 5,
+                      "freespins": 0,
+                      "betmultiplier": 180
+                    }
+                  ]
+                },
+                {
+                  "classname": "tk.d.slots.vanilla.paytable.PaytableSymbol",
+                  "symbolid": 2,
+                  "payments": [
+                    {
+                      "classname": "tk.d.slots.vanilla.paytable.SymbolPayment",
+                      "symbolcount": 3,
+                      "freespins": 0,
+                      "betmultiplier": 9
+                    },
+                    {
+                      "classname": "tk.d.slots.vanilla.paytable.SymbolPayment",
+                      "symbolcount": 4,
+                      "freespins": 0,
+                      "betmultiplier": 13.5
+                    },
+                    {
+                      "classname": "tk.d.slots.vanilla.paytable.SymbolPayment",
+                      "symbolcount": 5,
+                      "freespins": 0,
+                      "betmultiplier": 81
+                    }
+                  ]
+                },
+                {
+                  "classname": "tk.d.slots.vanilla.paytable.PaytableSymbol",
+                  "symbolid": 3,
+                  "payments": [
+                    {
+                      "classname": "tk.d.slots.vanilla.paytable.SymbolPayment",
+                      "symbolcount": 3,
+                      "freespins": 0,
+                      "betmultiplier": 5.4
+                    },
+                    {
+                      "classname": "tk.d.slots.vanilla.paytable.SymbolPayment",
+                      "symbolcount": 4,
+                      "freespins": 0,
+                      "betmultiplier": 10.8
+                    },
+                    {
+                      "classname": "tk.d.slots.vanilla.paytable.SymbolPayment",
+                      "symbolcount": 5,
+                      "freespins": 0,
+                      "betmultiplier": 32.4
+                    }
+                  ]
+                },
+                {
+                  "classname": "tk.d.slots.vanilla.paytable.PaytableSymbol",
+                  "symbolid": 4,
+                  "payments": [
+                    {
+                      "classname": "tk.d.slots.vanilla.paytable.SymbolPayment",
+                      "symbolcount": 3,
+                      "freespins": 0,
+                      "betmultiplier": 4.5
+                    },
+                    {
+                      "classname": "tk.d.slots.vanilla.paytable.SymbolPayment",
+                      "symbolcount": 4,
+                      "freespins": 0,
+                      "betmultiplier": 9
+                    },
+                    {
+                      "classname": "tk.d.slots.vanilla.paytable.SymbolPayment",
+                      "symbolcount": 5,
+                      "freespins": 0,
+                      "betmultiplier": 27
+                    }
+                  ]
+                },
+                {
+                  "classname": "tk.d.slots.vanilla.paytable.PaytableSymbol",
+                  "symbolid": 5,
+                  "payments": [
+                    {
+                      "classname": "tk.d.slots.vanilla.paytable.SymbolPayment",
+                      "symbolcount": 3,
+                      "freespins": 0,
+                      "betmultiplier": 3.6
+                    },
+                    {
+                      "classname": "tk.d.slots.vanilla.paytable.SymbolPayment",
+                      "symbolcount": 4,
+                      "freespins": 0,
+                      "betmultiplier": 7.2
+                    },
+                    {
+                      "classname": "tk.d.slots.vanilla.paytable.SymbolPayment",
+                      "symbolcount": 5,
+                      "freespins": 0,
+                      "betmultiplier": 21.6
+                    }
+                  ]
+                },
+                {
+                  "classname": "tk.d.slots.vanilla.paytable.PaytableSymbol",
+                  "symbolid": 6,
+                  "payments": [
+                    {
+                      "classname": "tk.d.slots.vanilla.paytable.SymbolPayment",
+                      "symbolcount": 3,
+                      "freespins": 0,
+                      "betmultiplier": 2.7
+                    },
+                    {
+                      "classname": "tk.d.slots.vanilla.paytable.SymbolPayment",
+                      "symbolcount": 4,
+                      "freespins": 0,
+                      "betmultiplier": 5.4
+                    },
+                    {
+                      "classname": "tk.d.slots.vanilla.paytable.SymbolPayment",
+                      "symbolcount": 5,
+                      "freespins": 0,
+                      "betmultiplier": 16.2
+                    }
+                  ]
+                },
+                {
+                  "classname": "tk.d.slots.vanilla.paytable.PaytableSymbol",
+                  "symbolid": 7,
+                  "payments": [
+                    {
+                      "classname": "tk.d.slots.vanilla.paytable.SymbolPayment",
+                      "symbolcount": 3,
+                      "freespins": 0,
+                      "betmultiplier": 1.8
+                    },
+                    {
+                      "classname": "tk.d.slots.vanilla.paytable.SymbolPayment",
+                      "symbolcount": 4,
+                      "freespins": 0,
+                      "betmultiplier": 4.5
+                    },
+                    {
+                      "classname": "tk.d.slots.vanilla.paytable.SymbolPayment",
+                      "symbolcount": 5,
+                      "freespins": 0,
+                      "betmultiplier": 13.5
+                    }
+                  ]
+                },
+                {
+                  "classname": "tk.d.slots.vanilla.paytable.PaytableSymbol",
+                  "symbolid": 8,
+                  "payments": [
+                    {
+                      "classname": "tk.d.slots.vanilla.paytable.SymbolPayment",
+                      "symbolcount": 3,
+                      "freespins": 0,
+                      "betmultiplier": 0.9
+                    },
+                    {
+                      "classname": "tk.d.slots.vanilla.paytable.SymbolPayment",
+                      "symbolcount": 4,
+                      "freespins": 0,
+                      "betmultiplier": 2.7
+                    },
+                    {
+                      "classname": "tk.d.slots.vanilla.paytable.SymbolPayment",
+                      "symbolcount": 5,
+                      "freespins": 0,
+                      "betmultiplier": 9
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        }
+      }
+    }
+  ]
+}
